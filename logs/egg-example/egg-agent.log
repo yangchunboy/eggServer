@@ -1,0 +1,10 @@
+2019-06-26 14:49:55,311 INFO 42271 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-06-26 14:49:55,323 INFO 42271 [egg:core] dump config after load, 6ms
+2019-06-26 14:49:55,364 INFO 42271 [egg-watcher] Start watching: ["/Users/shenyangchun/Documents/github/egg-example/app","/Users/shenyangchun/Documents/github/egg-example/config","/Users/shenyangchun/Documents/github/egg-example/mocks","/Users/shenyangchun/Documents/github/egg-example/mocks_proxy","/Users/shenyangchun/Documents/github/egg-example/app.js"]
+2019-06-26 14:49:55,364 INFO 42271 [egg-watcher] Start watching: "/Users/shenyangchun/Documents/github/egg-example/app"
+2019-06-26 14:49:55,364 INFO 42271 [egg-watcher] Start watching: "/Users/shenyangchun/Documents/github/egg-example/config"
+2019-06-26 14:49:55,364 INFO 42271 [egg-watcher] Start watching: "/Users/shenyangchun/Documents/github/egg-example/mocks"
+2019-06-26 14:49:55,364 INFO 42271 [egg-watcher] Start watching: "/Users/shenyangchun/Documents/github/egg-example/mocks_proxy"
+2019-06-26 14:49:55,364 INFO 42271 [egg-watcher] Start watching: "/Users/shenyangchun/Documents/github/egg-example/app.js"
+2019-06-26 14:49:55,364 INFO 42271 [egg-watcher:agent] watcher start success
+2019-06-26 14:49:55,377 INFO 42271 [egg:core] dump config after ready, 3ms

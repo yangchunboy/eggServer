@@ -1,0 +1,29 @@
+{
+  "name": "egg-example",
+  "version": "1.0.0",
+  "description": "egg的demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangchunboy/eggServer.git"
+  },
+  "keywords": [
+    "egg"
+  ],
+  "author": "chuck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangchunboy/eggServer/issues"
+  },
+  "homepage": "https://github.com/yangchunboy/eggServer#readme",
+  "dependencies": {
+    "egg": "^2.22.2"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.13.0"
+  }
+}

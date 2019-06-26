@@ -1,0 +1,6 @@
+2019-06-26 14:49:56,070 INFO 42271 [Timer] /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49203933ms at 2019-06-27 04:30:00.003
+2019-06-26 14:49:56,070 INFO 42271 [Timer] /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 33003930ms at 2019-06-27 00:00:00.000
+2019-06-26 14:49:56,070 INFO 42271 [Timer] /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 33004930ms at 2019-06-27 00:00:01.000
+2019-06-26 14:49:55,976 INFO 42272 [egg-schedule]: register schedule /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-26 14:49:55,976 INFO 42272 [egg-schedule]: register schedule /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-06-26 14:49:55,976 INFO 42272 [egg-schedule]: register schedule /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
