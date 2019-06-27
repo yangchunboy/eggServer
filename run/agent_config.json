@@ -11,7 +11,7 @@
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
-        "enable": true,
+        "enable": false,
         "useSession": false,
         "ignoreJSON": false,
         "cookieName": "csrfToken",
@@ -146,6 +146,14 @@
       "defaultViewEngine": "",
       "mapping": {}
     },
+    "mongoose": {
+      "url": "",
+      "options": {},
+      "plugins": [],
+      "loadModel": true,
+      "app": true,
+      "agent": false
+    },
     "env": "local",
     "name": "egg-example",
     "keys": "<String len: 0>",
@@ -177,7 +185,8 @@
       },
       "homepage": "https://github.com/yangchunboy/eggServer#readme",
       "dependencies": {
-        "egg": "^2.22.2"
+        "egg": "^2.22.2",
+        "egg-mongoose": "^3.2.0"
       },
       "devDependencies": {
         "egg-bin": "^4.13.0"
@@ -428,6 +437,17 @@
       "from": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/plugin.js",
       "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-view",
       "version": "2.1.2"
+    },
+    "mongoose": {
+      "enable": true,
+      "package": "egg-mongoose",
+      "name": "mongoose",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/shenyangchun/Documents/github/egg-example/config/plugin.js",
+      "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose",
+      "version": "3.2.0"
     }
   }
 }

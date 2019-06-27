@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/yangchunboy/eggServer#readme",
   "dependencies": {
-    "egg": "^2.22.2"
+    "egg": "^2.22.2",
+    "egg-mongoose": "^3.2.0"
   },
   "devDependencies": {
     "egg-bin": "^4.13.0"

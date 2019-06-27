@@ -1,0 +1,342 @@
+2019-06-26 15:31:01,110 ERROR 42697 [-/::1/-/7ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 42697
+hostname: yangchunboy.local
+
+2019-06-26 15:42:18,955 ERROR 42778 [-/::1/-/4ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 42778
+hostname: yangchunboy.local
+
+2019-06-26 15:42:20,324 ERROR 42778 [-/::1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 42778
+hostname: yangchunboy.local
+
+2019-06-26 15:42:20,942 ERROR 42778 [-/::1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 42778
+hostname: yangchunboy.local
+
+2019-06-26 15:49:25,543 ERROR 42837 [-/::1/-/5ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 42837
+hostname: yangchunboy.local
+
+2019-06-26 15:49:57,161 ERROR 42845 [-/::1/-/5ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 42845
+hostname: yangchunboy.local
+
+2019-06-26 15:49:59,279 ERROR 42845 [-/::1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 42845
+hostname: yangchunboy.local
+
+2019-06-26 15:49:59,555 ERROR 42845 [-/::1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 42845
+hostname: yangchunboy.local
+
+2019-06-26 15:49:59,798 ERROR 42845 [-/::1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 42845
+hostname: yangchunboy.local
+
+2019-06-26 16:46:26,831 ERROR 43310 [-/::1/-/5ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 43310
+hostname: yangchunboy.local
+
+2019-06-26 16:48:10,120 ERROR 43310 [-/::1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 43310
+hostname: yangchunboy.local
+
+2019-06-26 16:48:11,851 ERROR 43310 [-/::1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 43310
+hostname: yangchunboy.local
+
+2019-06-26 16:48:12,038 ERROR 43310 [-/::1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 43310
+hostname: yangchunboy.local
+
+2019-06-26 16:48:12,263 ERROR 43310 [-/::1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 43310
+hostname: yangchunboy.local
+
+2019-06-26 18:41:52,090 ERROR 43380 nodejs.ClusterClientNoResponseError: client no response in 2978892ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 43380
+hostname: yangchunboy.local
+
+2019-06-26 19:30:38,361 ERROR 43380 nodejs.ClusterClientNoResponseError: client no response in 985932ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 43380
+hostname: yangchunboy.local
+
+2019-06-27 13:33:50,870 ERROR 3700 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'model' of undefined
+    at module.exports.app (/Users/shenyangchun/Documents/github/egg-example/app/model/user.js:11:15)
+    at getExports (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at app.beforeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:50:7)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 3700
+hostname: yangchunboy.local
+
+2019-06-27 13:33:51,796 ERROR 3701 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'model' of undefined
+    at module.exports.app (/Users/shenyangchun/Documents/github/egg-example/app/model/user.js:11:15)
+    at getExports (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at app.beforeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:50:7)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 3701
+hostname: yangchunboy.local
+
+2019-06-27 13:33:51,854 ERROR 3702 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'model' of undefined
+    at module.exports.app (/Users/shenyangchun/Documents/github/egg-example/app/model/user.js:11:15)
+    at getExports (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at app.beforeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:50:7)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 3702
+hostname: yangchunboy.local
+
+2019-06-27 13:34:06,834 ERROR 3716 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'model' of undefined
+    at module.exports.app (/Users/shenyangchun/Documents/github/egg-example/app/model/user.js:11:15)
+    at getExports (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at app.beforeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:50:7)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 3716
+hostname: yangchunboy.local
+
+2019-06-27 13:38:16,646 ERROR 3796 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'model' of undefined
+    at module.exports.app (/Users/shenyangchun/Documents/github/egg-example/app/model/user.js:11:15)
+    at getExports (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at app.beforeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:50:7)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 3796
+hostname: yangchunboy.local
+
+2019-06-27 13:38:51,110 ERROR 3816 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'model' of undefined
+    at module.exports.app (/Users/shenyangchun/Documents/github/egg-example/app/model/user.js:11:15)
+    at getExports (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at app.beforeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:50:7)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 3816
+hostname: yangchunboy.local
+
