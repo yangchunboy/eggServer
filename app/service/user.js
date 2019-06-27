@@ -5,7 +5,7 @@ class HomeService extends Service {
     const { User } = this.ctx.model
     const data = {
       username: `${new Date().getTime()}`,
-      password: '123'
+      password: '123' 
     }
     const res = await User.create(data)
     return res
