@@ -340,3 +340,277 @@ hostname: yangchunboy.local
 pid: 3816
 hostname: yangchunboy.local
 
+2019-06-27 19:19:24,917 ERROR 4639 nodejs.ClusterClientNoResponseError: client no response in 495819ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 4639
+hostname: yangchunboy.local
+
+2019-06-27 23:10:37,275 ERROR 7790 nodejs.ClusterClientNoResponseError: client no response in 1100479ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7790
+hostname: yangchunboy.lan
+
+2019-06-27 23:51:42,935 ERROR 7790 nodejs.ClusterClientNoResponseError: client no response in 2305631ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7790
+hostname: yangchunboy.lan
+
+2019-06-28 00:22:51,945 ERROR 7790 nodejs.ClusterClientNoResponseError: client no response in 1828996ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7790
+hostname: yangchunboy.lan
+
+2019-06-28 02:23:28,839 ERROR 7790 nodejs.ClusterClientNoResponseError: client no response in 7216879ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7790
+hostname: yangchunboy.lan
+
+2019-06-28 04:24:49,785 ERROR 7790 nodejs.ClusterClientNoResponseError: client no response in 7218644ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7790
+hostname: yangchunboy.lan
+
+2019-06-28 06:25:27,168 ERROR 7790 nodejs.ClusterClientNoResponseError: client no response in 7217352ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7790
+hostname: yangchunboy.lan
+
+2019-06-28 08:26:27,055 ERROR 7790 nodejs.ClusterClientNoResponseError: client no response in 7218535ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7790
+hostname: yangchunboy.lan
+
+2019-06-28 08:36:35,190 ERROR 7790 nodejs.ClusterClientNoResponseError: client no response in 568120ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7790
+hostname: yangchunboy.lan
+
+2019-06-28 09:06:54,714 ERROR 7790 nodejs.ClusterClientNoResponseError: client no response in 1777428ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7790
+hostname: yangchunboy.lan
+
+2019-06-28 09:10:14,511 ERROR 7790 nodejs.ClusterClientNoResponseError: client no response in 179781ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 7790
+hostname: yangchunboy.lan
+
+2019-07-01 13:48:43,252 ERROR 26069 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'model' of undefined
+    at module.exports.app (/Users/shenyangchun/Documents/github/egg-example/app/model/user.js:11:15)
+    at getExports (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at app.beforeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:50:7)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 26069
+hostname: yangchunboy.local
+
+2019-07-01 13:48:44,261 ERROR 26070 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'model' of undefined
+    at module.exports.app (/Users/shenyangchun/Documents/github/egg-example/app/model/user.js:11:15)
+    at getExports (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at app.beforeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:50:7)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 26070
+hostname: yangchunboy.local
+
+2019-07-01 13:48:44,756 ERROR 26071 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'model' of undefined
+    at module.exports.app (/Users/shenyangchun/Documents/github/egg-example/app/model/user.js:11:15)
+    at getExports (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at app.beforeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:50:7)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 26071
+hostname: yangchunboy.local
+
+2019-07-01 13:49:00,059 ERROR 26088 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'model' of undefined
+    at module.exports.app (/Users/shenyangchun/Documents/github/egg-example/app/model/user.js:11:15)
+    at getExports (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at app.beforeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:50:7)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 26088
+hostname: yangchunboy.local
+
+2019-07-01 13:50:30,170 ERROR 26134 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'model' of undefined
+    at module.exports.app (/Users/shenyangchun/Documents/github/egg-example/app/model/user.js:11:15)
+    at getExports (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at app.beforeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:50:7)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 26134
+hostname: yangchunboy.local
+
+2019-07-01 13:53:50,941 ERROR 26209 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'model' of undefined
+    at module.exports.app (/Users/shenyangchun/Documents/github/egg-example/app/model/user.js:11:15)
+    at getExports (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at app.beforeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:50:7)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 26209
+hostname: yangchunboy.local
+
+2019-07-01 14:57:36,378 ERROR 26733 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'model' of undefined
+    at module.exports.app (/Users/shenyangchun/Documents/github/egg-example/app/model/user.js:11:15)
+    at getExports (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at app.beforeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:50:7)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 26733
+hostname: yangchunboy.local
+
+2019-07-01 15:09:39,079 ERROR 26960 [-/127.0.0.1/-/6ms POST /api/user/insert] nodejs.TypeError: Cannot read property 'model' of undefined
+    at UserService.insert (/Users/shenyangchun/Documents/github/egg-example/app/service/user.js:5:27)
+    at UserController.insert (/Users/shenyangchun/Documents/github/egg-example/app/controller/user.js:6:40)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+
+pid: 26960
+hostname: yangchunboy.local
+
+2019-07-01 15:11:02,813 ERROR 26987 [-/127.0.0.1/-/6ms POST /api/user/insert] nodejs.TypeError: Cannot read property 'model' of undefined
+    at UserService.insert (/Users/shenyangchun/Documents/github/egg-example/app/service/user.js:5:27)
+    at UserController.insert (/Users/shenyangchun/Documents/github/egg-example/app/controller/user.js:7:40)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+
+pid: 26987
+hostname: yangchunboy.local
+

@@ -11,7 +11,7 @@ class Order extends Subscription {
 
   // subscribe 是真正定时任务执行时被运行的函数
   async subscribe() {
-    
+    console.log('在这里执行定时任务')
   }
 }
 
