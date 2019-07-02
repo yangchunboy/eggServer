@@ -11,7 +11,7 @@ class UserService extends Service {
     // console.log(User)
     // console.log('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@2')
     const res = await User.create(data)
-    return this.app.config.keys
+    return res
   }
 
   async getAll() {

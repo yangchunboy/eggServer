@@ -8,10 +8,11 @@ module.exports = {
       plugins: [],
     },
   },
-  // security: {
-  //   csrf: {
-  //     enable: false,
-  //   },
-  // }
+  security: {
+    csrf: {
+      enable: true,
+      headerName: 'x-csrf-token'
+    },
+  }
 }
 
