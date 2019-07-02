@@ -152,11 +152,16 @@
       "plugins": [],
       "loadModel": true,
       "app": true,
-      "agent": false
+      "agent": false,
+      "client": {
+        "url": "mongodb://127.0.0.1:27017/chuck",
+        "options": {},
+        "plugins": []
+      }
     },
     "env": "local",
     "name": "egg-example",
-    "keys": "<String len: 0>",
+    "keys": "<String len: 8>",
     "proxy": false,
     "maxProxyCount": 0,
     "protocolHeaders": "x-forwarded-proto",

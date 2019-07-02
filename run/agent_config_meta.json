@@ -1,4 +1,18 @@
 {
+  "keys": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+  "mongoose": {
+    "client": {
+      "url": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+      "options": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+      "plugins": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js"
+    },
+    "url": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/config/config.default.js",
+    "options": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/config/config.default.js",
+    "plugins": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/config/config.default.js",
+    "loadModel": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/config/config.default.js",
+    "app": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/config/config.default.js",
+    "agent": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/config/config.default.js"
+  },
   "security": {
     "csrf": {
       "enable": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
@@ -141,17 +155,8 @@
     "defaultViewEngine": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-view/config/config.default.js",
     "mapping": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-view/config/config.default.js"
   },
-  "mongoose": {
-    "url": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/config/config.default.js",
-    "options": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/config/config.default.js",
-    "plugins": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/config/config.default.js",
-    "loadModel": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/config/config.default.js",
-    "app": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/config/config.default.js",
-    "agent": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/config/config.default.js"
-  },
   "env": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
   "name": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
-  "keys": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
   "proxy": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
   "maxProxyCount": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
   "protocolHeaders": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
