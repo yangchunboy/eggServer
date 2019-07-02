@@ -21,6 +21,14 @@ class UserService extends Service {
     // console.log(userList, '$$$$$$$$$$$$$$$$$$$$')
     return userList
   }
+
+  async update({ _id }) {
+    const { User } = this.ctx.model
+    // console.log(User)
+    const res = await User.updateOne({ _id }, { $set: { password: `${new Date().getTime()}`, removed: 1 } })
+    // console.log(userList, '$$$$$$$$$$$$$$$$$$$$')
+    return res
+  }
 }
 
 module.exports = UserService;

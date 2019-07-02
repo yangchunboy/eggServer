@@ -630,3 +630,141 @@ message: "invalid csrf token"
 pid: 32958
 hostname: yangchunboy.local
 
+2019-07-02 16:30:16,607 ERROR 36638 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Invalid schema configuration: `5d1b1618aa153a8f1e92fd70` is not a valid type at path `_id`. See http://bit.ly/mongoose-schematypes for a list of valid schema types.
+    at Schema.interpretAsType (/Users/shenyangchun/Documents/github/egg-example/node_modules/mongoose/lib/schema.js:831:11)
+    at Schema.path (/Users/shenyangchun/Documents/github/egg-example/node_modules/mongoose/lib/schema.js:600:27)
+    at Schema.add (/Users/shenyangchun/Documents/github/egg-example/node_modules/mongoose/lib/schema.js:441:12)
+    at new Schema (/Users/shenyangchun/Documents/github/egg-example/node_modules/mongoose/lib/schema.js:121:10)
+    at module.exports.app (/Users/shenyangchun/Documents/github/egg-example/app/model/user.js:5:22)
+    at getExports (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at app.beforeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:50:7)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+
+pid: 36638
+hostname: yangchunboy.local
+
+2019-07-02 16:30:17,608 ERROR 36639 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Invalid schema configuration: `5d1b1619de57b38f1f0f2ad8` is not a valid type at path `_id`. See http://bit.ly/mongoose-schematypes for a list of valid schema types.
+    at Schema.interpretAsType (/Users/shenyangchun/Documents/github/egg-example/node_modules/mongoose/lib/schema.js:831:11)
+    at Schema.path (/Users/shenyangchun/Documents/github/egg-example/node_modules/mongoose/lib/schema.js:600:27)
+    at Schema.add (/Users/shenyangchun/Documents/github/egg-example/node_modules/mongoose/lib/schema.js:441:12)
+    at new Schema (/Users/shenyangchun/Documents/github/egg-example/node_modules/mongoose/lib/schema.js:121:10)
+    at module.exports.app (/Users/shenyangchun/Documents/github/egg-example/app/model/user.js:5:22)
+    at getExports (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at app.beforeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:50:7)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+
+pid: 36639
+hostname: yangchunboy.local
+
+2019-07-02 16:30:18,553 ERROR 36640 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Invalid schema configuration: `5d1b161a9622c68f2028242f` is not a valid type at path `_id`. See http://bit.ly/mongoose-schematypes for a list of valid schema types.
+    at Schema.interpretAsType (/Users/shenyangchun/Documents/github/egg-example/node_modules/mongoose/lib/schema.js:831:11)
+    at Schema.path (/Users/shenyangchun/Documents/github/egg-example/node_modules/mongoose/lib/schema.js:600:27)
+    at Schema.add (/Users/shenyangchun/Documents/github/egg-example/node_modules/mongoose/lib/schema.js:441:12)
+    at new Schema (/Users/shenyangchun/Documents/github/egg-example/node_modules/mongoose/lib/schema.js:121:10)
+    at module.exports.app (/Users/shenyangchun/Documents/github/egg-example/app/model/user.js:5:22)
+    at getExports (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at app.beforeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:50:7)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+
+pid: 36640
+hostname: yangchunboy.local
+
+2019-07-02 16:31:11,037 ERROR 36653 [-/127.0.0.1/-/1ms GET /] nodejs.SyntaxError: [egg-core] load file: /Users/shenyangchun/Documents/github/egg-example/app/model/user.js, error: Unexpected identifier
+    username: { type: String  },
+    ^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.loadFile (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at app.beforeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:50:7)
+
+pid: 36653
+hostname: yangchunboy.local
+
+2019-07-02 16:31:12,218 ERROR 36654 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: [egg-core] load file: /Users/shenyangchun/Documents/github/egg-example/app/model/user.js, error: Unexpected identifier
+    username: { type: String  },
+    ^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.loadFile (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at app.beforeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:50:7)
+
+pid: 36654
+hostname: yangchunboy.local
+
+2019-07-02 16:31:20,533 ERROR 36668 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: [egg-core] load file: /Users/shenyangchun/Documents/github/egg-example/app/model/user.js, error: Unexpected identifier
+    username: { type: String  },
+    ^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.loadFile (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at app.beforeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/lib/mongoose.js:50:7)
+
+pid: 36668
+hostname: yangchunboy.local
+

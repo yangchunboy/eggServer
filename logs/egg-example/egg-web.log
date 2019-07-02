@@ -3981,3 +3981,1212 @@
 2019-07-02 10:16:22,937 INFO 33592 [egg-mongoose] instance[0] start successfully
 2019-07-02 10:16:22,940 INFO 33592 [egg-watcher:application] watcher start success
 2019-07-02 10:16:22,947 INFO 33592 [egg:core] dump config after ready, 4ms
+2019-07-02 15:57:52,622 INFO 36314 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 15:57:52,653 INFO 36314 [egg-multipart] stream mode enable
+2019-07-02 15:57:52,986 INFO 36314 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 15:57:53,046 INFO 36314 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 15:57:53,049 INFO 36314 [egg-security] use csrf middleware
+2019-07-02 15:57:53,050 INFO 36314 [egg-security] use methodnoallow middleware
+2019-07-02 15:57:53,051 INFO 36314 [egg-security] use noopen middleware
+2019-07-02 15:57:53,051 INFO 36314 [egg-security] use nosniff middleware
+2019-07-02 15:57:53,052 INFO 36314 [egg-security] use xssProtection middleware
+2019-07-02 15:57:53,053 INFO 36314 [egg-security] use xframe middleware
+2019-07-02 15:57:53,053 INFO 36314 [egg-security] use dta middleware
+2019-07-02 15:57:53,053 INFO 36314 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 15:57:53,063 INFO 36314 [egg:core] dump config after load, 5ms
+2019-07-02 15:57:53,065 INFO 36314 [egg-mongoose] starting...
+2019-07-02 15:57:53,090 INFO 36314 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 15:57:53,091 INFO 36314 [egg-mongoose] instance[0] start successfully
+2019-07-02 15:57:53,094 INFO 36314 [egg-watcher:application] watcher start success
+2019-07-02 15:57:53,100 INFO 36314 [egg:core] dump config after ready, 4ms
+2019-07-02 16:30:16,112 INFO 36638 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:30:16,146 INFO 36638 [egg-multipart] stream mode enable
+2019-07-02 16:30:16,505 INFO 36638 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:30:16,570 INFO 36638 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:30:16,573 INFO 36638 [egg-security] use csrf middleware
+2019-07-02 16:30:16,574 INFO 36638 [egg-security] use methodnoallow middleware
+2019-07-02 16:30:16,575 INFO 36638 [egg-security] use noopen middleware
+2019-07-02 16:30:16,575 INFO 36638 [egg-security] use nosniff middleware
+2019-07-02 16:30:16,576 INFO 36638 [egg-security] use xssProtection middleware
+2019-07-02 16:30:16,576 INFO 36638 [egg-security] use xframe middleware
+2019-07-02 16:30:16,577 INFO 36638 [egg-security] use dta middleware
+2019-07-02 16:30:16,577 INFO 36638 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:30:16,590 INFO 36638 [egg:core] dump config after load, 8ms
+2019-07-02 16:30:16,592 INFO 36638 [egg-mongoose] starting...
+2019-07-02 16:30:16,614 INFO 36638 [egg:core] dump config after ready, 4ms
+2019-07-02 16:30:16,621 INFO 36638 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:30:16,621 INFO 36638 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:30:16,624 INFO 36638 [egg-watcher:application] watcher start success
+2019-07-02 16:30:17,245 INFO 36639 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:30:17,279 INFO 36639 [egg-multipart] stream mode enable
+2019-07-02 16:30:17,521 INFO 36639 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:30:17,576 INFO 36639 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:30:17,579 INFO 36639 [egg-security] use csrf middleware
+2019-07-02 16:30:17,579 INFO 36639 [egg-security] use methodnoallow middleware
+2019-07-02 16:30:17,580 INFO 36639 [egg-security] use noopen middleware
+2019-07-02 16:30:17,580 INFO 36639 [egg-security] use nosniff middleware
+2019-07-02 16:30:17,580 INFO 36639 [egg-security] use xssProtection middleware
+2019-07-02 16:30:17,581 INFO 36639 [egg-security] use xframe middleware
+2019-07-02 16:30:17,581 INFO 36639 [egg-security] use dta middleware
+2019-07-02 16:30:17,581 INFO 36639 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:30:17,591 INFO 36639 [egg:core] dump config after load, 6ms
+2019-07-02 16:30:17,593 INFO 36639 [egg-mongoose] starting...
+2019-07-02 16:30:17,614 INFO 36639 [egg:core] dump config after ready, 4ms
+2019-07-02 16:30:17,620 INFO 36639 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:30:17,620 INFO 36639 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:30:17,624 INFO 36639 [egg-watcher:application] watcher start success
+2019-07-02 16:30:18,229 INFO 36640 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:30:18,257 INFO 36640 [egg-multipart] stream mode enable
+2019-07-02 16:30:18,478 INFO 36640 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:30:18,525 INFO 36640 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:30:18,527 INFO 36640 [egg-security] use csrf middleware
+2019-07-02 16:30:18,528 INFO 36640 [egg-security] use methodnoallow middleware
+2019-07-02 16:30:18,528 INFO 36640 [egg-security] use noopen middleware
+2019-07-02 16:30:18,529 INFO 36640 [egg-security] use nosniff middleware
+2019-07-02 16:30:18,529 INFO 36640 [egg-security] use xssProtection middleware
+2019-07-02 16:30:18,529 INFO 36640 [egg-security] use xframe middleware
+2019-07-02 16:30:18,530 INFO 36640 [egg-security] use dta middleware
+2019-07-02 16:30:18,530 INFO 36640 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:30:18,539 INFO 36640 [egg:core] dump config after load, 5ms
+2019-07-02 16:30:18,541 INFO 36640 [egg-mongoose] starting...
+2019-07-02 16:30:18,559 INFO 36640 [egg:core] dump config after ready, 4ms
+2019-07-02 16:30:18,565 INFO 36640 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:30:18,565 INFO 36640 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:30:18,568 INFO 36640 [egg-watcher:application] watcher start success
+2019-07-02 16:31:10,677 INFO 36653 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:31:10,709 INFO 36653 [egg-multipart] stream mode enable
+2019-07-02 16:31:10,951 INFO 36653 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:31:11,004 INFO 36653 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:31:11,006 INFO 36653 [egg-security] use csrf middleware
+2019-07-02 16:31:11,006 INFO 36653 [egg-security] use methodnoallow middleware
+2019-07-02 16:31:11,007 INFO 36653 [egg-security] use noopen middleware
+2019-07-02 16:31:11,007 INFO 36653 [egg-security] use nosniff middleware
+2019-07-02 16:31:11,007 INFO 36653 [egg-security] use xssProtection middleware
+2019-07-02 16:31:11,008 INFO 36653 [egg-security] use xframe middleware
+2019-07-02 16:31:11,008 INFO 36653 [egg-security] use dta middleware
+2019-07-02 16:31:11,008 INFO 36653 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:31:11,022 INFO 36653 [egg:core] dump config after load, 9ms
+2019-07-02 16:31:11,025 INFO 36653 [egg-mongoose] starting...
+2019-07-02 16:31:11,043 INFO 36653 [egg:core] dump config after ready, 4ms
+2019-07-02 16:31:11,050 INFO 36653 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:31:11,050 INFO 36653 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:31:11,053 INFO 36653 [egg-watcher:application] watcher start success
+2019-07-02 16:31:11,865 INFO 36654 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:31:11,894 INFO 36654 [egg-multipart] stream mode enable
+2019-07-02 16:31:12,136 INFO 36654 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:31:12,189 INFO 36654 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:31:12,191 INFO 36654 [egg-security] use csrf middleware
+2019-07-02 16:31:12,192 INFO 36654 [egg-security] use methodnoallow middleware
+2019-07-02 16:31:12,192 INFO 36654 [egg-security] use noopen middleware
+2019-07-02 16:31:12,193 INFO 36654 [egg-security] use nosniff middleware
+2019-07-02 16:31:12,193 INFO 36654 [egg-security] use xssProtection middleware
+2019-07-02 16:31:12,194 INFO 36654 [egg-security] use xframe middleware
+2019-07-02 16:31:12,194 INFO 36654 [egg-security] use dta middleware
+2019-07-02 16:31:12,194 INFO 36654 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:31:12,203 INFO 36654 [egg:core] dump config after load, 5ms
+2019-07-02 16:31:12,205 INFO 36654 [egg-mongoose] starting...
+2019-07-02 16:31:12,224 INFO 36654 [egg:core] dump config after ready, 4ms
+2019-07-02 16:31:12,230 INFO 36654 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:31:12,230 INFO 36654 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:31:12,233 INFO 36654 [egg-watcher:application] watcher start success
+2019-07-02 16:31:20,213 INFO 36668 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:31:20,240 INFO 36668 [egg-multipart] stream mode enable
+2019-07-02 16:31:20,458 INFO 36668 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:31:20,506 INFO 36668 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:31:20,509 INFO 36668 [egg-security] use csrf middleware
+2019-07-02 16:31:20,509 INFO 36668 [egg-security] use methodnoallow middleware
+2019-07-02 16:31:20,510 INFO 36668 [egg-security] use noopen middleware
+2019-07-02 16:31:20,510 INFO 36668 [egg-security] use nosniff middleware
+2019-07-02 16:31:20,510 INFO 36668 [egg-security] use xssProtection middleware
+2019-07-02 16:31:20,511 INFO 36668 [egg-security] use xframe middleware
+2019-07-02 16:31:20,511 INFO 36668 [egg-security] use dta middleware
+2019-07-02 16:31:20,511 INFO 36668 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:31:20,519 INFO 36668 [egg:core] dump config after load, 4ms
+2019-07-02 16:31:20,522 INFO 36668 [egg-mongoose] starting...
+2019-07-02 16:31:20,538 INFO 36668 [egg:core] dump config after ready, 3ms
+2019-07-02 16:31:20,544 INFO 36668 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:31:20,544 INFO 36668 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:31:20,547 INFO 36668 [egg-watcher:application] watcher start success
+2019-07-02 16:31:36,484 INFO 36682 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:31:36,513 INFO 36682 [egg-multipart] stream mode enable
+2019-07-02 16:31:36,734 INFO 36682 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:31:36,781 INFO 36682 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:31:36,783 INFO 36682 [egg-security] use csrf middleware
+2019-07-02 16:31:36,783 INFO 36682 [egg-security] use methodnoallow middleware
+2019-07-02 16:31:36,784 INFO 36682 [egg-security] use noopen middleware
+2019-07-02 16:31:36,784 INFO 36682 [egg-security] use nosniff middleware
+2019-07-02 16:31:36,784 INFO 36682 [egg-security] use xssProtection middleware
+2019-07-02 16:31:36,785 INFO 36682 [egg-security] use xframe middleware
+2019-07-02 16:31:36,785 INFO 36682 [egg-security] use dta middleware
+2019-07-02 16:31:36,785 INFO 36682 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:31:36,793 INFO 36682 [egg:core] dump config after load, 5ms
+2019-07-02 16:31:36,795 INFO 36682 [egg-mongoose] starting...
+2019-07-02 16:31:36,819 INFO 36682 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:31:36,820 INFO 36682 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:31:36,822 INFO 36682 [egg-watcher:application] watcher start success
+2019-07-02 16:31:36,828 INFO 36682 [egg:core] dump config after ready, 4ms
+2019-07-02 16:43:44,530 INFO 36829 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:43:44,561 INFO 36829 [egg-multipart] stream mode enable
+2019-07-02 16:43:44,796 INFO 36829 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:43:44,845 INFO 36829 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:43:44,848 INFO 36829 [egg-security] use csrf middleware
+2019-07-02 16:43:44,848 INFO 36829 [egg-security] use methodnoallow middleware
+2019-07-02 16:43:44,849 INFO 36829 [egg-security] use noopen middleware
+2019-07-02 16:43:44,849 INFO 36829 [egg-security] use nosniff middleware
+2019-07-02 16:43:44,849 INFO 36829 [egg-security] use xssProtection middleware
+2019-07-02 16:43:44,850 INFO 36829 [egg-security] use xframe middleware
+2019-07-02 16:43:44,850 INFO 36829 [egg-security] use dta middleware
+2019-07-02 16:43:44,850 INFO 36829 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:43:44,864 INFO 36829 [egg:core] dump config after load, 10ms
+2019-07-02 16:43:44,867 INFO 36829 [egg-mongoose] starting...
+2019-07-02 16:43:44,891 INFO 36829 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:43:44,893 INFO 36829 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:43:44,895 INFO 36829 [egg-watcher:application] watcher start success
+2019-07-02 16:43:44,907 INFO 36829 [egg:core] dump config after ready, 10ms
+2019-07-02 16:43:45,458 INFO 36830 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:43:45,486 INFO 36830 [egg-multipart] stream mode enable
+2019-07-02 16:43:45,709 INFO 36830 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:43:45,756 INFO 36830 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:43:45,758 INFO 36830 [egg-security] use csrf middleware
+2019-07-02 16:43:45,759 INFO 36830 [egg-security] use methodnoallow middleware
+2019-07-02 16:43:45,759 INFO 36830 [egg-security] use noopen middleware
+2019-07-02 16:43:45,759 INFO 36830 [egg-security] use nosniff middleware
+2019-07-02 16:43:45,760 INFO 36830 [egg-security] use xssProtection middleware
+2019-07-02 16:43:45,760 INFO 36830 [egg-security] use xframe middleware
+2019-07-02 16:43:45,760 INFO 36830 [egg-security] use dta middleware
+2019-07-02 16:43:45,760 INFO 36830 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:43:45,769 INFO 36830 [egg:core] dump config after load, 5ms
+2019-07-02 16:43:45,771 INFO 36830 [egg-mongoose] starting...
+2019-07-02 16:43:45,796 INFO 36830 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:43:45,798 INFO 36830 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:43:45,800 INFO 36830 [egg-watcher:application] watcher start success
+2019-07-02 16:43:45,806 INFO 36830 [egg:core] dump config after ready, 4ms
+2019-07-02 16:43:46,357 INFO 36831 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:43:46,388 INFO 36831 [egg-multipart] stream mode enable
+2019-07-02 16:43:46,625 INFO 36831 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:43:46,680 INFO 36831 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:43:46,683 INFO 36831 [egg-security] use csrf middleware
+2019-07-02 16:43:46,683 INFO 36831 [egg-security] use methodnoallow middleware
+2019-07-02 16:43:46,684 INFO 36831 [egg-security] use noopen middleware
+2019-07-02 16:43:46,684 INFO 36831 [egg-security] use nosniff middleware
+2019-07-02 16:43:46,684 INFO 36831 [egg-security] use xssProtection middleware
+2019-07-02 16:43:46,685 INFO 36831 [egg-security] use xframe middleware
+2019-07-02 16:43:46,685 INFO 36831 [egg-security] use dta middleware
+2019-07-02 16:43:46,685 INFO 36831 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:43:46,694 INFO 36831 [egg:core] dump config after load, 5ms
+2019-07-02 16:43:46,696 INFO 36831 [egg-mongoose] starting...
+2019-07-02 16:43:46,722 INFO 36831 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:43:46,723 INFO 36831 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:43:46,725 INFO 36831 [egg-watcher:application] watcher start success
+2019-07-02 16:43:46,731 INFO 36831 [egg:core] dump config after ready, 4ms
+2019-07-02 16:45:21,319 INFO 36848 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:45:21,349 INFO 36848 [egg-multipart] stream mode enable
+2019-07-02 16:45:21,578 INFO 36848 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:45:21,629 INFO 36848 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:45:21,631 INFO 36848 [egg-security] use csrf middleware
+2019-07-02 16:45:21,631 INFO 36848 [egg-security] use methodnoallow middleware
+2019-07-02 16:45:21,632 INFO 36848 [egg-security] use noopen middleware
+2019-07-02 16:45:21,632 INFO 36848 [egg-security] use nosniff middleware
+2019-07-02 16:45:21,633 INFO 36848 [egg-security] use xssProtection middleware
+2019-07-02 16:45:21,633 INFO 36848 [egg-security] use xframe middleware
+2019-07-02 16:45:21,633 INFO 36848 [egg-security] use dta middleware
+2019-07-02 16:45:21,633 INFO 36848 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:45:21,645 INFO 36848 [egg:core] dump config after load, 8ms
+2019-07-02 16:45:21,647 INFO 36848 [egg-mongoose] starting...
+2019-07-02 16:45:21,670 INFO 36848 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:45:21,671 INFO 36848 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:45:21,674 INFO 36848 [egg-watcher:application] watcher start success
+2019-07-02 16:45:21,679 INFO 36848 [egg:core] dump config after ready, 3ms
+2019-07-02 16:45:22,258 INFO 36849 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:45:22,288 INFO 36849 [egg-multipart] stream mode enable
+2019-07-02 16:45:22,531 INFO 36849 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:45:22,582 INFO 36849 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:45:22,584 INFO 36849 [egg-security] use csrf middleware
+2019-07-02 16:45:22,585 INFO 36849 [egg-security] use methodnoallow middleware
+2019-07-02 16:45:22,585 INFO 36849 [egg-security] use noopen middleware
+2019-07-02 16:45:22,585 INFO 36849 [egg-security] use nosniff middleware
+2019-07-02 16:45:22,585 INFO 36849 [egg-security] use xssProtection middleware
+2019-07-02 16:45:22,586 INFO 36849 [egg-security] use xframe middleware
+2019-07-02 16:45:22,586 INFO 36849 [egg-security] use dta middleware
+2019-07-02 16:45:22,586 INFO 36849 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:45:22,597 INFO 36849 [egg:core] dump config after load, 6ms
+2019-07-02 16:45:22,600 INFO 36849 [egg-mongoose] starting...
+2019-07-02 16:45:22,627 INFO 36849 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:45:22,628 INFO 36849 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:45:22,631 INFO 36849 [egg-watcher:application] watcher start success
+2019-07-02 16:45:22,326 INFO 36850 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:45:22,360 INFO 36850 [egg-multipart] stream mode enable
+2019-07-02 16:45:22,600 INFO 36850 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:45:22,655 INFO 36850 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:45:22,658 INFO 36850 [egg-security] use csrf middleware
+2019-07-02 16:45:22,658 INFO 36850 [egg-security] use methodnoallow middleware
+2019-07-02 16:45:22,658 INFO 36850 [egg-security] use noopen middleware
+2019-07-02 16:45:22,659 INFO 36850 [egg-security] use nosniff middleware
+2019-07-02 16:45:22,659 INFO 36850 [egg-security] use xssProtection middleware
+2019-07-02 16:45:22,659 INFO 36850 [egg-security] use xframe middleware
+2019-07-02 16:45:22,660 INFO 36850 [egg-security] use dta middleware
+2019-07-02 16:45:22,660 INFO 36850 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:45:22,669 INFO 36850 [egg:core] dump config after load, 5ms
+2019-07-02 16:45:22,671 INFO 36850 [egg-mongoose] starting...
+2019-07-02 16:45:22,696 INFO 36850 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:45:22,697 INFO 36850 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:45:22,699 INFO 36850 [egg-watcher:application] watcher start success
+2019-07-02 16:45:22,705 INFO 36850 [egg:core] dump config after ready, 4ms
+2019-07-02 16:45:23,217 INFO 36851 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:45:23,247 INFO 36851 [egg-multipart] stream mode enable
+2019-07-02 16:45:23,478 INFO 36851 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:45:23,527 INFO 36851 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:45:23,529 INFO 36851 [egg-security] use csrf middleware
+2019-07-02 16:45:23,529 INFO 36851 [egg-security] use methodnoallow middleware
+2019-07-02 16:45:23,530 INFO 36851 [egg-security] use noopen middleware
+2019-07-02 16:45:23,530 INFO 36851 [egg-security] use nosniff middleware
+2019-07-02 16:45:23,530 INFO 36851 [egg-security] use xssProtection middleware
+2019-07-02 16:45:23,531 INFO 36851 [egg-security] use xframe middleware
+2019-07-02 16:45:23,531 INFO 36851 [egg-security] use dta middleware
+2019-07-02 16:45:23,531 INFO 36851 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:45:23,539 INFO 36851 [egg:core] dump config after load, 5ms
+2019-07-02 16:45:23,541 INFO 36851 [egg-mongoose] starting...
+2019-07-02 16:45:23,564 INFO 36851 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:45:23,565 INFO 36851 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:45:23,568 INFO 36851 [egg-watcher:application] watcher start success
+2019-07-02 16:45:23,573 INFO 36851 [egg:core] dump config after ready, 3ms
+2019-07-02 16:50:07,622 INFO 36914 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:50:07,653 INFO 36914 [egg-multipart] stream mode enable
+2019-07-02 16:50:07,879 INFO 36914 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:50:07,929 INFO 36914 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:50:07,931 INFO 36914 [egg-security] use csrf middleware
+2019-07-02 16:50:07,932 INFO 36914 [egg-security] use methodnoallow middleware
+2019-07-02 16:50:07,932 INFO 36914 [egg-security] use noopen middleware
+2019-07-02 16:50:07,933 INFO 36914 [egg-security] use nosniff middleware
+2019-07-02 16:50:07,933 INFO 36914 [egg-security] use xssProtection middleware
+2019-07-02 16:50:07,934 INFO 36914 [egg-security] use xframe middleware
+2019-07-02 16:50:07,934 INFO 36914 [egg-security] use dta middleware
+2019-07-02 16:50:07,934 INFO 36914 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:50:07,946 INFO 36914 [egg:core] dump config after load, 8ms
+2019-07-02 16:50:07,949 INFO 36914 [egg-mongoose] starting...
+2019-07-02 16:50:07,972 INFO 36914 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:50:07,974 INFO 36914 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:50:07,976 INFO 36914 [egg-watcher:application] watcher start success
+2019-07-02 16:50:07,982 INFO 36914 [egg:core] dump config after ready, 3ms
+2019-07-02 16:50:08,537 INFO 36915 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:50:08,564 INFO 36915 [egg-multipart] stream mode enable
+2019-07-02 16:50:08,783 INFO 36915 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:50:08,836 INFO 36915 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:50:08,838 INFO 36915 [egg-security] use csrf middleware
+2019-07-02 16:50:08,838 INFO 36915 [egg-security] use methodnoallow middleware
+2019-07-02 16:50:08,839 INFO 36915 [egg-security] use noopen middleware
+2019-07-02 16:50:08,839 INFO 36915 [egg-security] use nosniff middleware
+2019-07-02 16:50:08,839 INFO 36915 [egg-security] use xssProtection middleware
+2019-07-02 16:50:08,840 INFO 36915 [egg-security] use xframe middleware
+2019-07-02 16:50:08,840 INFO 36915 [egg-security] use dta middleware
+2019-07-02 16:50:08,840 INFO 36915 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:50:08,851 INFO 36915 [egg:core] dump config after load, 8ms
+2019-07-02 16:50:08,853 INFO 36915 [egg-mongoose] starting...
+2019-07-02 16:50:08,876 INFO 36915 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:50:08,877 INFO 36915 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:50:08,880 INFO 36915 [egg-watcher:application] watcher start success
+2019-07-02 16:50:08,886 INFO 36915 [egg:core] dump config after ready, 4ms
+2019-07-02 16:50:09,435 INFO 36916 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:50:09,466 INFO 36916 [egg-multipart] stream mode enable
+2019-07-02 16:50:09,700 INFO 36916 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:50:09,748 INFO 36916 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:50:09,751 INFO 36916 [egg-security] use csrf middleware
+2019-07-02 16:50:09,751 INFO 36916 [egg-security] use methodnoallow middleware
+2019-07-02 16:50:09,752 INFO 36916 [egg-security] use noopen middleware
+2019-07-02 16:50:09,752 INFO 36916 [egg-security] use nosniff middleware
+2019-07-02 16:50:09,752 INFO 36916 [egg-security] use xssProtection middleware
+2019-07-02 16:50:09,753 INFO 36916 [egg-security] use xframe middleware
+2019-07-02 16:50:09,753 INFO 36916 [egg-security] use dta middleware
+2019-07-02 16:50:09,753 INFO 36916 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:50:09,764 INFO 36916 [egg:core] dump config after load, 7ms
+2019-07-02 16:50:09,767 INFO 36916 [egg-mongoose] starting...
+2019-07-02 16:50:09,792 INFO 36916 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:50:09,793 INFO 36916 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:50:09,797 INFO 36916 [egg-watcher:application] watcher start success
+2019-07-02 16:50:09,552 INFO 36917 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:50:09,581 INFO 36917 [egg-multipart] stream mode enable
+2019-07-02 16:50:09,813 INFO 36917 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:50:09,860 INFO 36917 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:50:09,862 INFO 36917 [egg-security] use csrf middleware
+2019-07-02 16:50:09,863 INFO 36917 [egg-security] use methodnoallow middleware
+2019-07-02 16:50:09,863 INFO 36917 [egg-security] use noopen middleware
+2019-07-02 16:50:09,864 INFO 36917 [egg-security] use nosniff middleware
+2019-07-02 16:50:09,864 INFO 36917 [egg-security] use xssProtection middleware
+2019-07-02 16:50:09,864 INFO 36917 [egg-security] use xframe middleware
+2019-07-02 16:50:09,865 INFO 36917 [egg-security] use dta middleware
+2019-07-02 16:50:09,865 INFO 36917 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:50:09,873 INFO 36917 [egg:core] dump config after load, 5ms
+2019-07-02 16:50:09,875 INFO 36917 [egg-mongoose] starting...
+2019-07-02 16:50:09,901 INFO 36917 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:50:09,903 INFO 36917 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:50:09,906 INFO 36917 [egg-watcher:application] watcher start success
+2019-07-02 16:50:09,911 INFO 36917 [egg:core] dump config after ready, 3ms
+2019-07-02 16:50:10,378 INFO 36918 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:50:10,411 INFO 36918 [egg-multipart] stream mode enable
+2019-07-02 16:50:10,657 INFO 36918 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:50:10,709 INFO 36918 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:50:10,711 INFO 36918 [egg-security] use csrf middleware
+2019-07-02 16:50:10,712 INFO 36918 [egg-security] use methodnoallow middleware
+2019-07-02 16:50:10,712 INFO 36918 [egg-security] use noopen middleware
+2019-07-02 16:50:10,712 INFO 36918 [egg-security] use nosniff middleware
+2019-07-02 16:50:10,713 INFO 36918 [egg-security] use xssProtection middleware
+2019-07-02 16:50:10,713 INFO 36918 [egg-security] use xframe middleware
+2019-07-02 16:50:10,713 INFO 36918 [egg-security] use dta middleware
+2019-07-02 16:50:10,713 INFO 36918 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:50:10,723 INFO 36918 [egg:core] dump config after load, 5ms
+2019-07-02 16:50:10,725 INFO 36918 [egg-mongoose] starting...
+2019-07-02 16:50:10,753 INFO 36918 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:50:10,754 INFO 36918 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:50:10,757 INFO 36918 [egg-watcher:application] watcher start success
+2019-07-02 16:50:10,486 INFO 36919 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:50:10,516 INFO 36919 [egg-multipart] stream mode enable
+2019-07-02 16:50:10,762 INFO 36919 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:50:10,809 INFO 36919 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:50:10,811 INFO 36919 [egg-security] use csrf middleware
+2019-07-02 16:50:10,812 INFO 36919 [egg-security] use methodnoallow middleware
+2019-07-02 16:50:10,812 INFO 36919 [egg-security] use noopen middleware
+2019-07-02 16:50:10,812 INFO 36919 [egg-security] use nosniff middleware
+2019-07-02 16:50:10,813 INFO 36919 [egg-security] use xssProtection middleware
+2019-07-02 16:50:10,813 INFO 36919 [egg-security] use xframe middleware
+2019-07-02 16:50:10,813 INFO 36919 [egg-security] use dta middleware
+2019-07-02 16:50:10,813 INFO 36919 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:50:10,822 INFO 36919 [egg:core] dump config after load, 5ms
+2019-07-02 16:50:10,825 INFO 36919 [egg-mongoose] starting...
+2019-07-02 16:50:10,849 INFO 36919 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:50:10,850 INFO 36919 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:50:10,853 INFO 36919 [egg-watcher:application] watcher start success
+2019-07-02 16:50:10,859 INFO 36919 [egg:core] dump config after ready, 4ms
+2019-07-02 16:50:23,615 INFO 36931 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:50:23,644 INFO 36931 [egg-multipart] stream mode enable
+2019-07-02 16:50:23,889 INFO 36931 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:50:23,938 INFO 36931 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:50:23,940 INFO 36931 [egg-security] use csrf middleware
+2019-07-02 16:50:23,941 INFO 36931 [egg-security] use methodnoallow middleware
+2019-07-02 16:50:23,941 INFO 36931 [egg-security] use noopen middleware
+2019-07-02 16:50:23,942 INFO 36931 [egg-security] use nosniff middleware
+2019-07-02 16:50:23,942 INFO 36931 [egg-security] use xssProtection middleware
+2019-07-02 16:50:23,942 INFO 36931 [egg-security] use xframe middleware
+2019-07-02 16:50:23,943 INFO 36931 [egg-security] use dta middleware
+2019-07-02 16:50:23,943 INFO 36931 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:50:23,951 INFO 36931 [egg:core] dump config after load, 5ms
+2019-07-02 16:50:23,953 INFO 36931 [egg-mongoose] starting...
+2019-07-02 16:50:23,977 INFO 36931 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:50:23,979 INFO 36931 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:50:23,981 INFO 36931 [egg-watcher:application] watcher start success
+2019-07-02 16:50:23,987 INFO 36931 [egg:core] dump config after ready, 4ms
+2019-07-02 16:50:24,565 INFO 36932 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:50:24,597 INFO 36932 [egg-multipart] stream mode enable
+2019-07-02 16:50:24,836 INFO 36932 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:50:24,880 INFO 36932 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:50:24,883 INFO 36932 [egg-security] use csrf middleware
+2019-07-02 16:50:24,883 INFO 36932 [egg-security] use methodnoallow middleware
+2019-07-02 16:50:24,883 INFO 36932 [egg-security] use noopen middleware
+2019-07-02 16:50:24,884 INFO 36932 [egg-security] use nosniff middleware
+2019-07-02 16:50:24,884 INFO 36932 [egg-security] use xssProtection middleware
+2019-07-02 16:50:24,885 INFO 36932 [egg-security] use xframe middleware
+2019-07-02 16:50:24,885 INFO 36932 [egg-security] use dta middleware
+2019-07-02 16:50:24,885 INFO 36932 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:50:24,895 INFO 36932 [egg:core] dump config after load, 6ms
+2019-07-02 16:50:24,897 INFO 36932 [egg-mongoose] starting...
+2019-07-02 16:50:24,922 INFO 36932 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:50:24,923 INFO 36932 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:50:24,926 INFO 36932 [egg-watcher:application] watcher start success
+2019-07-02 16:50:24,849 INFO 36933 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:50:24,879 INFO 36933 [egg-multipart] stream mode enable
+2019-07-02 16:50:25,112 INFO 36933 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:50:25,163 INFO 36933 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:50:25,165 INFO 36933 [egg-security] use csrf middleware
+2019-07-02 16:50:25,166 INFO 36933 [egg-security] use methodnoallow middleware
+2019-07-02 16:50:25,166 INFO 36933 [egg-security] use noopen middleware
+2019-07-02 16:50:25,167 INFO 36933 [egg-security] use nosniff middleware
+2019-07-02 16:50:25,167 INFO 36933 [egg-security] use xssProtection middleware
+2019-07-02 16:50:25,167 INFO 36933 [egg-security] use xframe middleware
+2019-07-02 16:50:25,167 INFO 36933 [egg-security] use dta middleware
+2019-07-02 16:50:25,167 INFO 36933 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:50:25,176 INFO 36933 [egg:core] dump config after load, 4ms
+2019-07-02 16:50:25,178 INFO 36933 [egg-mongoose] starting...
+2019-07-02 16:50:25,201 INFO 36933 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:50:25,202 INFO 36933 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:50:25,204 INFO 36933 [egg-watcher:application] watcher start success
+2019-07-02 16:50:25,211 INFO 36933 [egg:core] dump config after ready, 5ms
+2019-07-02 16:50:25,475 INFO 36935 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:50:25,501 INFO 36935 [egg-multipart] stream mode enable
+2019-07-02 16:50:25,718 INFO 36935 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:50:25,769 INFO 36935 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:50:25,771 INFO 36935 [egg-security] use csrf middleware
+2019-07-02 16:50:25,772 INFO 36935 [egg-security] use methodnoallow middleware
+2019-07-02 16:50:25,772 INFO 36935 [egg-security] use noopen middleware
+2019-07-02 16:50:25,772 INFO 36935 [egg-security] use nosniff middleware
+2019-07-02 16:50:25,773 INFO 36935 [egg-security] use xssProtection middleware
+2019-07-02 16:50:25,773 INFO 36935 [egg-security] use xframe middleware
+2019-07-02 16:50:25,773 INFO 36935 [egg-security] use dta middleware
+2019-07-02 16:50:25,773 INFO 36935 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:50:25,782 INFO 36935 [egg:core] dump config after load, 4ms
+2019-07-02 16:50:25,784 INFO 36935 [egg-mongoose] starting...
+2019-07-02 16:50:25,808 INFO 36935 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:50:25,809 INFO 36935 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:50:25,812 INFO 36935 [egg-watcher:application] watcher start success
+2019-07-02 16:50:25,817 INFO 36935 [egg:core] dump config after ready, 3ms
+2019-07-02 16:51:01,935 INFO 36947 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:51:01,964 INFO 36947 [egg-multipart] stream mode enable
+2019-07-02 16:51:02,197 INFO 36947 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:51:02,247 INFO 36947 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:51:02,249 INFO 36947 [egg-security] use csrf middleware
+2019-07-02 16:51:02,250 INFO 36947 [egg-security] use methodnoallow middleware
+2019-07-02 16:51:02,250 INFO 36947 [egg-security] use noopen middleware
+2019-07-02 16:51:02,251 INFO 36947 [egg-security] use nosniff middleware
+2019-07-02 16:51:02,251 INFO 36947 [egg-security] use xssProtection middleware
+2019-07-02 16:51:02,251 INFO 36947 [egg-security] use xframe middleware
+2019-07-02 16:51:02,252 INFO 36947 [egg-security] use dta middleware
+2019-07-02 16:51:02,252 INFO 36947 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:51:02,277 INFO 36947 [egg:core] dump config after load, 21ms
+2019-07-02 16:51:02,280 INFO 36947 [egg-mongoose] starting...
+2019-07-02 16:51:02,305 INFO 36947 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:51:02,306 INFO 36947 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:51:02,309 INFO 36947 [egg-watcher:application] watcher start success
+2019-07-02 16:51:02,314 INFO 36947 [egg:core] dump config after ready, 3ms
+2019-07-02 16:51:02,886 INFO 36948 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:51:02,920 INFO 36948 [egg-multipart] stream mode enable
+2019-07-02 16:51:03,144 INFO 36948 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:51:03,190 INFO 36948 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:51:03,192 INFO 36948 [egg-security] use csrf middleware
+2019-07-02 16:51:03,193 INFO 36948 [egg-security] use methodnoallow middleware
+2019-07-02 16:51:03,193 INFO 36948 [egg-security] use noopen middleware
+2019-07-02 16:51:03,194 INFO 36948 [egg-security] use nosniff middleware
+2019-07-02 16:51:03,194 INFO 36948 [egg-security] use xssProtection middleware
+2019-07-02 16:51:03,194 INFO 36948 [egg-security] use xframe middleware
+2019-07-02 16:51:03,194 INFO 36948 [egg-security] use dta middleware
+2019-07-02 16:51:03,194 INFO 36948 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:51:03,203 INFO 36948 [egg:core] dump config after load, 4ms
+2019-07-02 16:51:03,205 INFO 36948 [egg-mongoose] starting...
+2019-07-02 16:51:03,229 INFO 36948 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:51:03,231 INFO 36948 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:51:03,234 INFO 36948 [egg-watcher:application] watcher start success
+2019-07-02 16:51:03,088 INFO 36949 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:51:03,116 INFO 36949 [egg-multipart] stream mode enable
+2019-07-02 16:51:03,337 INFO 36949 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:51:03,391 INFO 36949 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:51:03,393 INFO 36949 [egg-security] use csrf middleware
+2019-07-02 16:51:03,394 INFO 36949 [egg-security] use methodnoallow middleware
+2019-07-02 16:51:03,394 INFO 36949 [egg-security] use noopen middleware
+2019-07-02 16:51:03,394 INFO 36949 [egg-security] use nosniff middleware
+2019-07-02 16:51:03,395 INFO 36949 [egg-security] use xssProtection middleware
+2019-07-02 16:51:03,395 INFO 36949 [egg-security] use xframe middleware
+2019-07-02 16:51:03,395 INFO 36949 [egg-security] use dta middleware
+2019-07-02 16:51:03,395 INFO 36949 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:51:03,403 INFO 36949 [egg:core] dump config after load, 4ms
+2019-07-02 16:51:03,406 INFO 36949 [egg-mongoose] starting...
+2019-07-02 16:51:03,430 INFO 36949 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:51:03,431 INFO 36949 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:51:03,434 INFO 36949 [egg-watcher:application] watcher start success
+2019-07-02 16:51:03,439 INFO 36949 [egg:core] dump config after ready, 3ms
+2019-07-02 16:51:09,295 INFO 36958 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:51:09,324 INFO 36958 [egg-multipart] stream mode enable
+2019-07-02 16:51:09,552 INFO 36958 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:51:09,601 INFO 36958 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:51:09,603 INFO 36958 [egg-security] use csrf middleware
+2019-07-02 16:51:09,604 INFO 36958 [egg-security] use methodnoallow middleware
+2019-07-02 16:51:09,604 INFO 36958 [egg-security] use noopen middleware
+2019-07-02 16:51:09,604 INFO 36958 [egg-security] use nosniff middleware
+2019-07-02 16:51:09,605 INFO 36958 [egg-security] use xssProtection middleware
+2019-07-02 16:51:09,605 INFO 36958 [egg-security] use xframe middleware
+2019-07-02 16:51:09,605 INFO 36958 [egg-security] use dta middleware
+2019-07-02 16:51:09,605 INFO 36958 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:51:09,617 INFO 36958 [egg:core] dump config after load, 8ms
+2019-07-02 16:51:09,619 INFO 36958 [egg-mongoose] starting...
+2019-07-02 16:51:09,642 INFO 36958 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:51:09,643 INFO 36958 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:51:09,646 INFO 36958 [egg-watcher:application] watcher start success
+2019-07-02 16:51:09,651 INFO 36958 [egg:core] dump config after ready, 3ms
+2019-07-02 16:51:10,176 INFO 36959 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:51:10,202 INFO 36959 [egg-multipart] stream mode enable
+2019-07-02 16:51:10,416 INFO 36959 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:51:10,464 INFO 36959 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:51:10,466 INFO 36959 [egg-security] use csrf middleware
+2019-07-02 16:51:10,467 INFO 36959 [egg-security] use methodnoallow middleware
+2019-07-02 16:51:10,467 INFO 36959 [egg-security] use noopen middleware
+2019-07-02 16:51:10,468 INFO 36959 [egg-security] use nosniff middleware
+2019-07-02 16:51:10,468 INFO 36959 [egg-security] use xssProtection middleware
+2019-07-02 16:51:10,468 INFO 36959 [egg-security] use xframe middleware
+2019-07-02 16:51:10,468 INFO 36959 [egg-security] use dta middleware
+2019-07-02 16:51:10,468 INFO 36959 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:51:10,476 INFO 36959 [egg:core] dump config after load, 4ms
+2019-07-02 16:51:10,478 INFO 36959 [egg-mongoose] starting...
+2019-07-02 16:51:10,501 INFO 36959 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:51:10,503 INFO 36959 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:51:10,505 INFO 36959 [egg-watcher:application] watcher start success
+2019-07-02 16:51:10,510 INFO 36959 [egg:core] dump config after ready, 3ms
+2019-07-02 16:54:32,629 INFO 36990 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:54:32,659 INFO 36990 [egg-multipart] stream mode enable
+2019-07-02 16:54:32,884 INFO 36990 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:54:32,934 INFO 36990 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:54:32,936 INFO 36990 [egg-security] use csrf middleware
+2019-07-02 16:54:32,937 INFO 36990 [egg-security] use methodnoallow middleware
+2019-07-02 16:54:32,937 INFO 36990 [egg-security] use noopen middleware
+2019-07-02 16:54:32,938 INFO 36990 [egg-security] use nosniff middleware
+2019-07-02 16:54:32,938 INFO 36990 [egg-security] use xssProtection middleware
+2019-07-02 16:54:32,938 INFO 36990 [egg-security] use xframe middleware
+2019-07-02 16:54:32,939 INFO 36990 [egg-security] use dta middleware
+2019-07-02 16:54:32,939 INFO 36990 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:54:32,951 INFO 36990 [egg:core] dump config after load, 8ms
+2019-07-02 16:54:32,953 INFO 36990 [egg-mongoose] starting...
+2019-07-02 16:54:32,977 INFO 36990 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:54:32,978 INFO 36990 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:54:32,980 INFO 36990 [egg-watcher:application] watcher start success
+2019-07-02 16:54:32,987 INFO 36990 [egg:core] dump config after ready, 4ms
+2019-07-02 16:54:33,544 INFO 36991 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:54:33,577 INFO 36991 [egg-multipart] stream mode enable
+2019-07-02 16:54:33,806 INFO 36991 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:54:33,858 INFO 36991 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:54:33,862 INFO 36991 [egg-security] use csrf middleware
+2019-07-02 16:54:33,863 INFO 36991 [egg-security] use methodnoallow middleware
+2019-07-02 16:54:33,863 INFO 36991 [egg-security] use noopen middleware
+2019-07-02 16:54:33,864 INFO 36991 [egg-security] use nosniff middleware
+2019-07-02 16:54:33,864 INFO 36991 [egg-security] use xssProtection middleware
+2019-07-02 16:54:33,865 INFO 36991 [egg-security] use xframe middleware
+2019-07-02 16:54:33,865 INFO 36991 [egg-security] use dta middleware
+2019-07-02 16:54:33,865 INFO 36991 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:54:33,874 INFO 36991 [egg:core] dump config after load, 5ms
+2019-07-02 16:54:33,877 INFO 36991 [egg-mongoose] starting...
+2019-07-02 16:54:33,905 INFO 36991 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:54:33,906 INFO 36991 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:54:33,909 INFO 36991 [egg-watcher:application] watcher start success
+2019-07-02 16:54:33,677 INFO 36992 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:54:33,706 INFO 36992 [egg-multipart] stream mode enable
+2019-07-02 16:54:33,946 INFO 36992 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:54:33,993 INFO 36992 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:54:33,996 INFO 36992 [egg-security] use csrf middleware
+2019-07-02 16:54:33,996 INFO 36992 [egg-security] use methodnoallow middleware
+2019-07-02 16:54:33,996 INFO 36992 [egg-security] use noopen middleware
+2019-07-02 16:54:33,997 INFO 36992 [egg-security] use nosniff middleware
+2019-07-02 16:54:33,997 INFO 36992 [egg-security] use xssProtection middleware
+2019-07-02 16:54:33,997 INFO 36992 [egg-security] use xframe middleware
+2019-07-02 16:54:33,998 INFO 36992 [egg-security] use dta middleware
+2019-07-02 16:54:33,998 INFO 36992 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:54:34,006 INFO 36992 [egg:core] dump config after load, 5ms
+2019-07-02 16:54:34,008 INFO 36992 [egg-mongoose] starting...
+2019-07-02 16:54:34,033 INFO 36992 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:54:34,034 INFO 36992 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:54:34,037 INFO 36992 [egg-watcher:application] watcher start success
+2019-07-02 16:54:34,044 INFO 36992 [egg:core] dump config after ready, 5ms
+2019-07-02 16:54:44,549 INFO 37001 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:54:44,577 INFO 37001 [egg-multipart] stream mode enable
+2019-07-02 16:54:44,800 INFO 37001 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:54:44,848 INFO 37001 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:54:44,851 INFO 37001 [egg-security] use csrf middleware
+2019-07-02 16:54:44,851 INFO 37001 [egg-security] use methodnoallow middleware
+2019-07-02 16:54:44,852 INFO 37001 [egg-security] use noopen middleware
+2019-07-02 16:54:44,852 INFO 37001 [egg-security] use nosniff middleware
+2019-07-02 16:54:44,852 INFO 37001 [egg-security] use xssProtection middleware
+2019-07-02 16:54:44,853 INFO 37001 [egg-security] use xframe middleware
+2019-07-02 16:54:44,853 INFO 37001 [egg-security] use dta middleware
+2019-07-02 16:54:44,853 INFO 37001 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:54:44,863 INFO 37001 [egg:core] dump config after load, 5ms
+2019-07-02 16:54:44,865 INFO 37001 [egg-mongoose] starting...
+2019-07-02 16:54:44,892 INFO 37001 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:54:44,893 INFO 37001 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:54:44,896 INFO 37001 [egg-watcher:application] watcher start success
+2019-07-02 16:54:44,902 INFO 37001 [egg:core] dump config after ready, 4ms
+2019-07-02 16:54:45,454 INFO 37002 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:54:45,487 INFO 37002 [egg-multipart] stream mode enable
+2019-07-02 16:54:45,715 INFO 37002 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:54:45,764 INFO 37002 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:54:45,767 INFO 37002 [egg-security] use csrf middleware
+2019-07-02 16:54:45,767 INFO 37002 [egg-security] use methodnoallow middleware
+2019-07-02 16:54:45,767 INFO 37002 [egg-security] use noopen middleware
+2019-07-02 16:54:45,768 INFO 37002 [egg-security] use nosniff middleware
+2019-07-02 16:54:45,768 INFO 37002 [egg-security] use xssProtection middleware
+2019-07-02 16:54:45,768 INFO 37002 [egg-security] use xframe middleware
+2019-07-02 16:54:45,769 INFO 37002 [egg-security] use dta middleware
+2019-07-02 16:54:45,769 INFO 37002 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:54:45,777 INFO 37002 [egg:core] dump config after load, 4ms
+2019-07-02 16:54:45,780 INFO 37002 [egg-mongoose] starting...
+2019-07-02 16:54:45,806 INFO 37002 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:54:45,807 INFO 37002 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:54:45,809 INFO 37002 [egg-watcher:application] watcher start success
+2019-07-02 16:54:45,815 INFO 37002 [egg:core] dump config after ready, 3ms
+2019-07-02 16:56:25,642 INFO 37021 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:56:25,671 INFO 37021 [egg-multipart] stream mode enable
+2019-07-02 16:56:25,904 INFO 37021 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:56:25,953 INFO 37021 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:56:25,955 INFO 37021 [egg-security] use csrf middleware
+2019-07-02 16:56:25,956 INFO 37021 [egg-security] use methodnoallow middleware
+2019-07-02 16:56:25,956 INFO 37021 [egg-security] use noopen middleware
+2019-07-02 16:56:25,956 INFO 37021 [egg-security] use nosniff middleware
+2019-07-02 16:56:25,957 INFO 37021 [egg-security] use xssProtection middleware
+2019-07-02 16:56:25,957 INFO 37021 [egg-security] use xframe middleware
+2019-07-02 16:56:25,957 INFO 37021 [egg-security] use dta middleware
+2019-07-02 16:56:25,957 INFO 37021 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:56:25,970 INFO 37021 [egg:core] dump config after load, 9ms
+2019-07-02 16:56:25,972 INFO 37021 [egg-mongoose] starting...
+2019-07-02 16:56:25,997 INFO 37021 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:56:25,998 INFO 37021 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:56:26,001 INFO 37021 [egg-watcher:application] watcher start success
+2019-07-02 16:56:26,008 INFO 37021 [egg:core] dump config after ready, 5ms
+2019-07-02 16:56:26,600 INFO 37023 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:56:26,633 INFO 37023 [egg-multipart] stream mode enable
+2019-07-02 16:56:26,933 INFO 37023 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:56:26,983 INFO 37023 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:56:26,986 INFO 37023 [egg-security] use csrf middleware
+2019-07-02 16:56:26,987 INFO 37023 [egg-security] use methodnoallow middleware
+2019-07-02 16:56:26,987 INFO 37023 [egg-security] use noopen middleware
+2019-07-02 16:56:26,987 INFO 37023 [egg-security] use nosniff middleware
+2019-07-02 16:56:26,988 INFO 37023 [egg-security] use xssProtection middleware
+2019-07-02 16:56:26,988 INFO 37023 [egg-security] use xframe middleware
+2019-07-02 16:56:26,988 INFO 37023 [egg-security] use dta middleware
+2019-07-02 16:56:26,988 INFO 37023 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:56:26,999 INFO 37023 [egg:core] dump config after load, 7ms
+2019-07-02 16:56:27,001 INFO 37023 [egg-mongoose] starting...
+2019-07-02 16:56:27,028 INFO 37023 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:56:27,029 INFO 37023 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:56:27,032 INFO 37023 [egg-watcher:application] watcher start success
+2019-07-02 16:56:26,885 INFO 37024 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:56:26,916 INFO 37024 [egg-multipart] stream mode enable
+2019-07-02 16:56:27,167 INFO 37024 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:56:27,214 INFO 37024 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:56:27,216 INFO 37024 [egg-security] use csrf middleware
+2019-07-02 16:56:27,216 INFO 37024 [egg-security] use methodnoallow middleware
+2019-07-02 16:56:27,217 INFO 37024 [egg-security] use noopen middleware
+2019-07-02 16:56:27,217 INFO 37024 [egg-security] use nosniff middleware
+2019-07-02 16:56:27,218 INFO 37024 [egg-security] use xssProtection middleware
+2019-07-02 16:56:27,218 INFO 37024 [egg-security] use xframe middleware
+2019-07-02 16:56:27,218 INFO 37024 [egg-security] use dta middleware
+2019-07-02 16:56:27,218 INFO 37024 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:56:27,229 INFO 37024 [egg:core] dump config after load, 7ms
+2019-07-02 16:56:27,231 INFO 37024 [egg-mongoose] starting...
+2019-07-02 16:56:27,256 INFO 37024 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:56:27,257 INFO 37024 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:56:27,259 INFO 37024 [egg-watcher:application] watcher start success
+2019-07-02 16:56:27,265 INFO 37024 [egg:core] dump config after ready, 4ms
+2019-07-02 16:57:00,816 INFO 37043 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:57:00,844 INFO 37043 [egg-multipart] stream mode enable
+2019-07-02 16:57:01,081 INFO 37043 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:57:01,134 INFO 37043 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:57:01,137 INFO 37043 [egg-security] use csrf middleware
+2019-07-02 16:57:01,137 INFO 37043 [egg-security] use methodnoallow middleware
+2019-07-02 16:57:01,138 INFO 37043 [egg-security] use noopen middleware
+2019-07-02 16:57:01,138 INFO 37043 [egg-security] use nosniff middleware
+2019-07-02 16:57:01,139 INFO 37043 [egg-security] use xssProtection middleware
+2019-07-02 16:57:01,139 INFO 37043 [egg-security] use xframe middleware
+2019-07-02 16:57:01,139 INFO 37043 [egg-security] use dta middleware
+2019-07-02 16:57:01,139 INFO 37043 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:57:01,148 INFO 37043 [egg:core] dump config after load, 5ms
+2019-07-02 16:57:01,150 INFO 37043 [egg-mongoose] starting...
+2019-07-02 16:57:01,174 INFO 37043 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:57:01,175 INFO 37043 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:57:01,177 INFO 37043 [egg-watcher:application] watcher start success
+2019-07-02 16:57:01,183 INFO 37043 [egg:core] dump config after ready, 4ms
+2019-07-02 16:57:01,778 INFO 37044 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:57:01,814 INFO 37044 [egg-multipart] stream mode enable
+2019-07-02 16:57:02,066 INFO 37044 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:57:02,114 INFO 37044 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:57:02,117 INFO 37044 [egg-security] use csrf middleware
+2019-07-02 16:57:02,117 INFO 37044 [egg-security] use methodnoallow middleware
+2019-07-02 16:57:02,118 INFO 37044 [egg-security] use noopen middleware
+2019-07-02 16:57:02,118 INFO 37044 [egg-security] use nosniff middleware
+2019-07-02 16:57:02,118 INFO 37044 [egg-security] use xssProtection middleware
+2019-07-02 16:57:02,119 INFO 37044 [egg-security] use xframe middleware
+2019-07-02 16:57:02,119 INFO 37044 [egg-security] use dta middleware
+2019-07-02 16:57:02,119 INFO 37044 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:57:02,129 INFO 37044 [egg:core] dump config after load, 6ms
+2019-07-02 16:57:02,131 INFO 37044 [egg-mongoose] starting...
+2019-07-02 16:57:02,159 INFO 37044 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:57:02,160 INFO 37044 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:57:02,163 INFO 37044 [egg-watcher:application] watcher start success
+2019-07-02 16:57:02,103 INFO 37045 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:57:02,134 INFO 37045 [egg-multipart] stream mode enable
+2019-07-02 16:57:02,381 INFO 37045 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:57:02,428 INFO 37045 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:57:02,430 INFO 37045 [egg-security] use csrf middleware
+2019-07-02 16:57:02,431 INFO 37045 [egg-security] use methodnoallow middleware
+2019-07-02 16:57:02,431 INFO 37045 [egg-security] use noopen middleware
+2019-07-02 16:57:02,432 INFO 37045 [egg-security] use nosniff middleware
+2019-07-02 16:57:02,432 INFO 37045 [egg-security] use xssProtection middleware
+2019-07-02 16:57:02,432 INFO 37045 [egg-security] use xframe middleware
+2019-07-02 16:57:02,433 INFO 37045 [egg-security] use dta middleware
+2019-07-02 16:57:02,433 INFO 37045 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:57:02,443 INFO 37045 [egg:core] dump config after load, 6ms
+2019-07-02 16:57:02,445 INFO 37045 [egg-mongoose] starting...
+2019-07-02 16:57:02,470 INFO 37045 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:57:02,471 INFO 37045 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:57:02,474 INFO 37045 [egg-watcher:application] watcher start success
+2019-07-02 16:57:02,480 INFO 37045 [egg:core] dump config after ready, 4ms
+2019-07-02 16:57:02,798 INFO 37046 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:57:02,835 INFO 37046 [egg-multipart] stream mode enable
+2019-07-02 16:57:03,065 INFO 37046 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:57:03,112 INFO 37046 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:57:03,115 INFO 37046 [egg-security] use csrf middleware
+2019-07-02 16:57:03,115 INFO 37046 [egg-security] use methodnoallow middleware
+2019-07-02 16:57:03,116 INFO 37046 [egg-security] use noopen middleware
+2019-07-02 16:57:03,116 INFO 37046 [egg-security] use nosniff middleware
+2019-07-02 16:57:03,117 INFO 37046 [egg-security] use xssProtection middleware
+2019-07-02 16:57:03,117 INFO 37046 [egg-security] use xframe middleware
+2019-07-02 16:57:03,117 INFO 37046 [egg-security] use dta middleware
+2019-07-02 16:57:03,117 INFO 37046 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:57:03,126 INFO 37046 [egg:core] dump config after load, 5ms
+2019-07-02 16:57:03,128 INFO 37046 [egg-mongoose] starting...
+2019-07-02 16:57:03,179 INFO 37046 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:57:03,180 INFO 37046 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:57:03,182 INFO 37046 [egg-watcher:application] watcher start success
+2019-07-02 16:57:03,188 INFO 37046 [egg:core] dump config after ready, 4ms
+2019-07-02 16:59:11,955 INFO 37068 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:59:11,987 INFO 37068 [egg-multipart] stream mode enable
+2019-07-02 16:59:12,236 INFO 37068 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:59:12,289 INFO 37068 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:59:12,292 INFO 37068 [egg-security] use csrf middleware
+2019-07-02 16:59:12,292 INFO 37068 [egg-security] use methodnoallow middleware
+2019-07-02 16:59:12,293 INFO 37068 [egg-security] use noopen middleware
+2019-07-02 16:59:12,293 INFO 37068 [egg-security] use nosniff middleware
+2019-07-02 16:59:12,293 INFO 37068 [egg-security] use xssProtection middleware
+2019-07-02 16:59:12,294 INFO 37068 [egg-security] use xframe middleware
+2019-07-02 16:59:12,294 INFO 37068 [egg-security] use dta middleware
+2019-07-02 16:59:12,294 INFO 37068 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:59:12,308 INFO 37068 [egg:core] dump config after load, 10ms
+2019-07-02 16:59:12,311 INFO 37068 [egg-mongoose] starting...
+2019-07-02 16:59:12,338 INFO 37068 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:59:12,339 INFO 37068 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:59:12,342 INFO 37068 [egg-watcher:application] watcher start success
+2019-07-02 16:59:12,348 INFO 37068 [egg:core] dump config after ready, 4ms
+2019-07-02 16:59:13,012 INFO 37069 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:59:13,043 INFO 37069 [egg-multipart] stream mode enable
+2019-07-02 16:59:13,297 INFO 37069 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:59:13,348 INFO 37069 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:59:13,350 INFO 37069 [egg-security] use csrf middleware
+2019-07-02 16:59:13,351 INFO 37069 [egg-security] use methodnoallow middleware
+2019-07-02 16:59:13,351 INFO 37069 [egg-security] use noopen middleware
+2019-07-02 16:59:13,352 INFO 37069 [egg-security] use nosniff middleware
+2019-07-02 16:59:13,352 INFO 37069 [egg-security] use xssProtection middleware
+2019-07-02 16:59:13,353 INFO 37069 [egg-security] use xframe middleware
+2019-07-02 16:59:13,353 INFO 37069 [egg-security] use dta middleware
+2019-07-02 16:59:13,353 INFO 37069 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:59:13,362 INFO 37069 [egg:core] dump config after load, 5ms
+2019-07-02 16:59:13,364 INFO 37069 [egg-mongoose] starting...
+2019-07-02 16:59:13,392 INFO 37069 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:59:13,393 INFO 37069 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:59:13,396 INFO 37069 [egg-watcher:application] watcher start success
+2019-07-02 16:59:13,091 INFO 37070 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 16:59:13,127 INFO 37070 [egg-multipart] stream mode enable
+2019-07-02 16:59:13,372 INFO 37070 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 16:59:13,421 INFO 37070 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 16:59:13,424 INFO 37070 [egg-security] use csrf middleware
+2019-07-02 16:59:13,424 INFO 37070 [egg-security] use methodnoallow middleware
+2019-07-02 16:59:13,425 INFO 37070 [egg-security] use noopen middleware
+2019-07-02 16:59:13,425 INFO 37070 [egg-security] use nosniff middleware
+2019-07-02 16:59:13,425 INFO 37070 [egg-security] use xssProtection middleware
+2019-07-02 16:59:13,426 INFO 37070 [egg-security] use xframe middleware
+2019-07-02 16:59:13,426 INFO 37070 [egg-security] use dta middleware
+2019-07-02 16:59:13,426 INFO 37070 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 16:59:13,435 INFO 37070 [egg:core] dump config after load, 5ms
+2019-07-02 16:59:13,437 INFO 37070 [egg-mongoose] starting...
+2019-07-02 16:59:13,462 INFO 37070 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 16:59:13,463 INFO 37070 [egg-mongoose] instance[0] start successfully
+2019-07-02 16:59:13,466 INFO 37070 [egg-watcher:application] watcher start success
+2019-07-02 16:59:13,471 INFO 37070 [egg:core] dump config after ready, 3ms
+2019-07-02 17:02:32,408 INFO 37106 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:02:32,440 INFO 37106 [egg-multipart] stream mode enable
+2019-07-02 17:02:32,666 INFO 37106 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:02:32,714 INFO 37106 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:02:32,716 INFO 37106 [egg-security] use csrf middleware
+2019-07-02 17:02:32,717 INFO 37106 [egg-security] use methodnoallow middleware
+2019-07-02 17:02:32,717 INFO 37106 [egg-security] use noopen middleware
+2019-07-02 17:02:32,718 INFO 37106 [egg-security] use nosniff middleware
+2019-07-02 17:02:32,718 INFO 37106 [egg-security] use xssProtection middleware
+2019-07-02 17:02:32,718 INFO 37106 [egg-security] use xframe middleware
+2019-07-02 17:02:32,719 INFO 37106 [egg-security] use dta middleware
+2019-07-02 17:02:32,719 INFO 37106 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:02:32,728 INFO 37106 [egg:core] dump config after load, 5ms
+2019-07-02 17:02:32,730 INFO 37106 [egg-mongoose] starting...
+2019-07-02 17:02:32,753 INFO 37106 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:02:32,754 INFO 37106 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:02:32,756 INFO 37106 [egg-watcher:application] watcher start success
+2019-07-02 17:02:32,763 INFO 37106 [egg:core] dump config after ready, 5ms
+2019-07-02 17:02:33,318 INFO 37107 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:02:33,348 INFO 37107 [egg-multipart] stream mode enable
+2019-07-02 17:02:33,567 INFO 37107 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:02:33,617 INFO 37107 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:02:33,620 INFO 37107 [egg-security] use csrf middleware
+2019-07-02 17:02:33,620 INFO 37107 [egg-security] use methodnoallow middleware
+2019-07-02 17:02:33,621 INFO 37107 [egg-security] use noopen middleware
+2019-07-02 17:02:33,621 INFO 37107 [egg-security] use nosniff middleware
+2019-07-02 17:02:33,621 INFO 37107 [egg-security] use xssProtection middleware
+2019-07-02 17:02:33,622 INFO 37107 [egg-security] use xframe middleware
+2019-07-02 17:02:33,622 INFO 37107 [egg-security] use dta middleware
+2019-07-02 17:02:33,622 INFO 37107 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:02:33,631 INFO 37107 [egg:core] dump config after load, 5ms
+2019-07-02 17:02:33,633 INFO 37107 [egg-mongoose] starting...
+2019-07-02 17:02:33,663 INFO 37107 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:02:33,664 INFO 37107 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:02:33,667 INFO 37107 [egg-watcher:application] watcher start success
+2019-07-02 17:02:33,673 INFO 37107 [egg:core] dump config after ready, 4ms
+2019-07-02 17:03:56,068 INFO 37124 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:03:56,101 INFO 37124 [egg-multipart] stream mode enable
+2019-07-02 17:03:56,343 INFO 37124 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:03:56,395 INFO 37124 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:03:56,398 INFO 37124 [egg-security] use csrf middleware
+2019-07-02 17:03:56,398 INFO 37124 [egg-security] use methodnoallow middleware
+2019-07-02 17:03:56,399 INFO 37124 [egg-security] use noopen middleware
+2019-07-02 17:03:56,400 INFO 37124 [egg-security] use nosniff middleware
+2019-07-02 17:03:56,400 INFO 37124 [egg-security] use xssProtection middleware
+2019-07-02 17:03:56,400 INFO 37124 [egg-security] use xframe middleware
+2019-07-02 17:03:56,401 INFO 37124 [egg-security] use dta middleware
+2019-07-02 17:03:56,401 INFO 37124 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:03:56,414 INFO 37124 [egg:core] dump config after load, 9ms
+2019-07-02 17:03:56,416 INFO 37124 [egg-mongoose] starting...
+2019-07-02 17:03:56,444 INFO 37124 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:03:56,445 INFO 37124 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:03:56,448 INFO 37124 [egg-watcher:application] watcher start success
+2019-07-02 17:03:56,455 INFO 37124 [egg:core] dump config after ready, 4ms
+2019-07-02 17:03:57,032 INFO 37126 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:03:57,062 INFO 37126 [egg-multipart] stream mode enable
+2019-07-02 17:03:57,295 INFO 37126 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:03:57,345 INFO 37126 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:03:57,347 INFO 37126 [egg-security] use csrf middleware
+2019-07-02 17:03:57,348 INFO 37126 [egg-security] use methodnoallow middleware
+2019-07-02 17:03:57,348 INFO 37126 [egg-security] use noopen middleware
+2019-07-02 17:03:57,348 INFO 37126 [egg-security] use nosniff middleware
+2019-07-02 17:03:57,349 INFO 37126 [egg-security] use xssProtection middleware
+2019-07-02 17:03:57,349 INFO 37126 [egg-security] use xframe middleware
+2019-07-02 17:03:57,349 INFO 37126 [egg-security] use dta middleware
+2019-07-02 17:03:57,349 INFO 37126 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:03:57,358 INFO 37126 [egg:core] dump config after load, 5ms
+2019-07-02 17:03:57,360 INFO 37126 [egg-mongoose] starting...
+2019-07-02 17:03:57,389 INFO 37126 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:03:57,390 INFO 37126 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:03:57,394 INFO 37126 [egg-watcher:application] watcher start success
+2019-07-02 17:03:57,174 INFO 37127 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:03:57,203 INFO 37127 [egg-multipart] stream mode enable
+2019-07-02 17:03:57,440 INFO 37127 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:03:57,490 INFO 37127 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:03:57,493 INFO 37127 [egg-security] use csrf middleware
+2019-07-02 17:03:57,493 INFO 37127 [egg-security] use methodnoallow middleware
+2019-07-02 17:03:57,493 INFO 37127 [egg-security] use noopen middleware
+2019-07-02 17:03:57,494 INFO 37127 [egg-security] use nosniff middleware
+2019-07-02 17:03:57,494 INFO 37127 [egg-security] use xssProtection middleware
+2019-07-02 17:03:57,494 INFO 37127 [egg-security] use xframe middleware
+2019-07-02 17:03:57,495 INFO 37127 [egg-security] use dta middleware
+2019-07-02 17:03:57,495 INFO 37127 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:03:57,504 INFO 37127 [egg:core] dump config after load, 5ms
+2019-07-02 17:03:57,507 INFO 37127 [egg-mongoose] starting...
+2019-07-02 17:03:57,531 INFO 37127 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:03:57,533 INFO 37127 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:03:57,535 INFO 37127 [egg-watcher:application] watcher start success
+2019-07-02 17:03:57,541 INFO 37127 [egg:core] dump config after ready, 3ms
+2019-07-02 17:03:57,973 INFO 37128 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:03:58,003 INFO 37128 [egg-multipart] stream mode enable
+2019-07-02 17:03:58,230 INFO 37128 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:03:58,280 INFO 37128 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:03:58,282 INFO 37128 [egg-security] use csrf middleware
+2019-07-02 17:03:58,283 INFO 37128 [egg-security] use methodnoallow middleware
+2019-07-02 17:03:58,283 INFO 37128 [egg-security] use noopen middleware
+2019-07-02 17:03:58,284 INFO 37128 [egg-security] use nosniff middleware
+2019-07-02 17:03:58,284 INFO 37128 [egg-security] use xssProtection middleware
+2019-07-02 17:03:58,284 INFO 37128 [egg-security] use xframe middleware
+2019-07-02 17:03:58,285 INFO 37128 [egg-security] use dta middleware
+2019-07-02 17:03:58,285 INFO 37128 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:03:58,294 INFO 37128 [egg:core] dump config after load, 5ms
+2019-07-02 17:03:58,296 INFO 37128 [egg-mongoose] starting...
+2019-07-02 17:03:58,322 INFO 37128 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:03:58,323 INFO 37128 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:03:58,326 INFO 37128 [egg-watcher:application] watcher start success
+2019-07-02 17:03:58,331 INFO 37128 [egg:core] dump config after ready, 4ms
+2019-07-02 17:04:05,817 INFO 37136 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:04:05,848 INFO 37136 [egg-multipart] stream mode enable
+2019-07-02 17:04:06,085 INFO 37136 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:04:06,136 INFO 37136 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:04:06,138 INFO 37136 [egg-security] use csrf middleware
+2019-07-02 17:04:06,139 INFO 37136 [egg-security] use methodnoallow middleware
+2019-07-02 17:04:06,139 INFO 37136 [egg-security] use noopen middleware
+2019-07-02 17:04:06,140 INFO 37136 [egg-security] use nosniff middleware
+2019-07-02 17:04:06,140 INFO 37136 [egg-security] use xssProtection middleware
+2019-07-02 17:04:06,140 INFO 37136 [egg-security] use xframe middleware
+2019-07-02 17:04:06,141 INFO 37136 [egg-security] use dta middleware
+2019-07-02 17:04:06,141 INFO 37136 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:04:06,152 INFO 37136 [egg:core] dump config after load, 7ms
+2019-07-02 17:04:06,154 INFO 37136 [egg-mongoose] starting...
+2019-07-02 17:04:06,176 INFO 37136 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:04:06,177 INFO 37136 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:04:06,180 INFO 37136 [egg-watcher:application] watcher start success
+2019-07-02 17:04:06,185 INFO 37136 [egg:core] dump config after ready, 3ms
+2019-07-02 17:04:06,726 INFO 37137 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:04:06,754 INFO 37137 [egg-multipart] stream mode enable
+2019-07-02 17:04:06,970 INFO 37137 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:04:07,015 INFO 37137 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:04:07,018 INFO 37137 [egg-security] use csrf middleware
+2019-07-02 17:04:07,018 INFO 37137 [egg-security] use methodnoallow middleware
+2019-07-02 17:04:07,018 INFO 37137 [egg-security] use noopen middleware
+2019-07-02 17:04:07,019 INFO 37137 [egg-security] use nosniff middleware
+2019-07-02 17:04:07,019 INFO 37137 [egg-security] use xssProtection middleware
+2019-07-02 17:04:07,019 INFO 37137 [egg-security] use xframe middleware
+2019-07-02 17:04:07,020 INFO 37137 [egg-security] use dta middleware
+2019-07-02 17:04:07,020 INFO 37137 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:04:07,029 INFO 37137 [egg:core] dump config after load, 5ms
+2019-07-02 17:04:07,031 INFO 37137 [egg-mongoose] starting...
+2019-07-02 17:04:07,055 INFO 37137 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:04:07,056 INFO 37137 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:04:07,058 INFO 37137 [egg-watcher:application] watcher start success
+2019-07-02 17:04:07,064 INFO 37137 [egg:core] dump config after ready, 3ms
+2019-07-02 17:05:52,833 INFO 37159 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:05:52,864 INFO 37159 [egg-multipart] stream mode enable
+2019-07-02 17:05:53,086 INFO 37159 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:05:53,138 INFO 37159 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:05:53,141 INFO 37159 [egg-security] use csrf middleware
+2019-07-02 17:05:53,141 INFO 37159 [egg-security] use methodnoallow middleware
+2019-07-02 17:05:53,141 INFO 37159 [egg-security] use noopen middleware
+2019-07-02 17:05:53,142 INFO 37159 [egg-security] use nosniff middleware
+2019-07-02 17:05:53,142 INFO 37159 [egg-security] use xssProtection middleware
+2019-07-02 17:05:53,142 INFO 37159 [egg-security] use xframe middleware
+2019-07-02 17:05:53,143 INFO 37159 [egg-security] use dta middleware
+2019-07-02 17:05:53,143 INFO 37159 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:05:53,154 INFO 37159 [egg:core] dump config after load, 8ms
+2019-07-02 17:05:53,156 INFO 37159 [egg-mongoose] starting...
+2019-07-02 17:05:53,178 INFO 37159 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:05:53,179 INFO 37159 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:05:53,181 INFO 37159 [egg-watcher:application] watcher start success
+2019-07-02 17:05:53,188 INFO 37159 [egg:core] dump config after ready, 5ms
+2019-07-02 17:05:53,731 INFO 37160 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:05:53,760 INFO 37160 [egg-multipart] stream mode enable
+2019-07-02 17:05:53,979 INFO 37160 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:05:54,026 INFO 37160 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:05:54,028 INFO 37160 [egg-security] use csrf middleware
+2019-07-02 17:05:54,028 INFO 37160 [egg-security] use methodnoallow middleware
+2019-07-02 17:05:54,029 INFO 37160 [egg-security] use noopen middleware
+2019-07-02 17:05:54,029 INFO 37160 [egg-security] use nosniff middleware
+2019-07-02 17:05:54,029 INFO 37160 [egg-security] use xssProtection middleware
+2019-07-02 17:05:54,030 INFO 37160 [egg-security] use xframe middleware
+2019-07-02 17:05:54,030 INFO 37160 [egg-security] use dta middleware
+2019-07-02 17:05:54,030 INFO 37160 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:05:54,039 INFO 37160 [egg:core] dump config after load, 5ms
+2019-07-02 17:05:54,041 INFO 37160 [egg-mongoose] starting...
+2019-07-02 17:05:54,066 INFO 37160 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:05:54,067 INFO 37160 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:05:54,070 INFO 37160 [egg-watcher:application] watcher start success
+2019-07-02 17:05:53,990 INFO 37161 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:05:54,018 INFO 37161 [egg-multipart] stream mode enable
+2019-07-02 17:05:54,240 INFO 37161 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:05:54,285 INFO 37161 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:05:54,287 INFO 37161 [egg-security] use csrf middleware
+2019-07-02 17:05:54,288 INFO 37161 [egg-security] use methodnoallow middleware
+2019-07-02 17:05:54,288 INFO 37161 [egg-security] use noopen middleware
+2019-07-02 17:05:54,289 INFO 37161 [egg-security] use nosniff middleware
+2019-07-02 17:05:54,289 INFO 37161 [egg-security] use xssProtection middleware
+2019-07-02 17:05:54,289 INFO 37161 [egg-security] use xframe middleware
+2019-07-02 17:05:54,289 INFO 37161 [egg-security] use dta middleware
+2019-07-02 17:05:54,289 INFO 37161 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:05:54,297 INFO 37161 [egg:core] dump config after load, 4ms
+2019-07-02 17:05:54,299 INFO 37161 [egg-mongoose] starting...
+2019-07-02 17:05:54,321 INFO 37161 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:05:54,322 INFO 37161 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:05:54,325 INFO 37161 [egg-watcher:application] watcher start success
+2019-07-02 17:05:54,330 INFO 37161 [egg:core] dump config after ready, 3ms
+2019-07-02 17:06:58,100 INFO 37176 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:06:58,131 INFO 37176 [egg-multipart] stream mode enable
+2019-07-02 17:06:58,364 INFO 37176 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:06:58,415 INFO 37176 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:06:58,417 INFO 37176 [egg-security] use csrf middleware
+2019-07-02 17:06:58,418 INFO 37176 [egg-security] use methodnoallow middleware
+2019-07-02 17:06:58,418 INFO 37176 [egg-security] use noopen middleware
+2019-07-02 17:06:58,419 INFO 37176 [egg-security] use nosniff middleware
+2019-07-02 17:06:58,419 INFO 37176 [egg-security] use xssProtection middleware
+2019-07-02 17:06:58,419 INFO 37176 [egg-security] use xframe middleware
+2019-07-02 17:06:58,420 INFO 37176 [egg-security] use dta middleware
+2019-07-02 17:06:58,420 INFO 37176 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:06:58,430 INFO 37176 [egg:core] dump config after load, 6ms
+2019-07-02 17:06:58,432 INFO 37176 [egg-mongoose] starting...
+2019-07-02 17:06:58,457 INFO 37176 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:06:58,458 INFO 37176 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:06:58,461 INFO 37176 [egg-watcher:application] watcher start success
+2019-07-02 17:06:58,466 INFO 37176 [egg:core] dump config after ready, 3ms
+2019-07-02 17:06:59,057 INFO 37177 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:06:59,087 INFO 37177 [egg-multipart] stream mode enable
+2019-07-02 17:06:59,330 INFO 37177 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:06:59,407 INFO 37177 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:06:59,410 INFO 37177 [egg-security] use csrf middleware
+2019-07-02 17:06:59,411 INFO 37177 [egg-security] use methodnoallow middleware
+2019-07-02 17:06:59,411 INFO 37177 [egg-security] use noopen middleware
+2019-07-02 17:06:59,412 INFO 37177 [egg-security] use nosniff middleware
+2019-07-02 17:06:59,414 INFO 37177 [egg-security] use xssProtection middleware
+2019-07-02 17:06:59,414 INFO 37177 [egg-security] use xframe middleware
+2019-07-02 17:06:59,415 INFO 37177 [egg-security] use dta middleware
+2019-07-02 17:06:59,415 INFO 37177 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:06:59,426 INFO 37177 [egg:core] dump config after load, 6ms
+2019-07-02 17:06:59,430 INFO 37177 [egg-mongoose] starting...
+2019-07-02 17:06:59,461 INFO 37177 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:06:59,462 INFO 37177 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:06:59,465 INFO 37177 [egg-watcher:application] watcher start success
+2019-07-02 17:06:59,383 INFO 37178 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:06:59,433 INFO 37178 [egg-multipart] stream mode enable
+2019-07-02 17:06:59,672 INFO 37178 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:06:59,719 INFO 37178 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:06:59,721 INFO 37178 [egg-security] use csrf middleware
+2019-07-02 17:06:59,721 INFO 37178 [egg-security] use methodnoallow middleware
+2019-07-02 17:06:59,722 INFO 37178 [egg-security] use noopen middleware
+2019-07-02 17:06:59,722 INFO 37178 [egg-security] use nosniff middleware
+2019-07-02 17:06:59,723 INFO 37178 [egg-security] use xssProtection middleware
+2019-07-02 17:06:59,723 INFO 37178 [egg-security] use xframe middleware
+2019-07-02 17:06:59,723 INFO 37178 [egg-security] use dta middleware
+2019-07-02 17:06:59,723 INFO 37178 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:06:59,732 INFO 37178 [egg:core] dump config after load, 5ms
+2019-07-02 17:06:59,734 INFO 37178 [egg-mongoose] starting...
+2019-07-02 17:06:59,759 INFO 37178 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:06:59,760 INFO 37178 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:06:59,762 INFO 37178 [egg-watcher:application] watcher start success
+2019-07-02 17:06:59,768 INFO 37178 [egg:core] dump config after ready, 4ms
+2019-07-02 17:07:15,290 INFO 37187 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:07:15,317 INFO 37187 [egg-multipart] stream mode enable
+2019-07-02 17:07:15,545 INFO 37187 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:07:15,602 INFO 37187 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:07:15,604 INFO 37187 [egg-security] use csrf middleware
+2019-07-02 17:07:15,605 INFO 37187 [egg-security] use methodnoallow middleware
+2019-07-02 17:07:15,605 INFO 37187 [egg-security] use noopen middleware
+2019-07-02 17:07:15,606 INFO 37187 [egg-security] use nosniff middleware
+2019-07-02 17:07:15,606 INFO 37187 [egg-security] use xssProtection middleware
+2019-07-02 17:07:15,606 INFO 37187 [egg-security] use xframe middleware
+2019-07-02 17:07:15,607 INFO 37187 [egg-security] use dta middleware
+2019-07-02 17:07:15,607 INFO 37187 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:07:15,618 INFO 37187 [egg:core] dump config after load, 7ms
+2019-07-02 17:07:15,620 INFO 37187 [egg-mongoose] starting...
+2019-07-02 17:07:15,645 INFO 37187 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:07:15,646 INFO 37187 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:07:15,649 INFO 37187 [egg-watcher:application] watcher start success
+2019-07-02 17:07:15,655 INFO 37187 [egg:core] dump config after ready, 3ms
+2019-07-02 17:07:16,249 INFO 37188 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:07:16,280 INFO 37188 [egg-multipart] stream mode enable
+2019-07-02 17:07:16,525 INFO 37188 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:07:16,590 INFO 37188 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:07:16,592 INFO 37188 [egg-security] use csrf middleware
+2019-07-02 17:07:16,593 INFO 37188 [egg-security] use methodnoallow middleware
+2019-07-02 17:07:16,594 INFO 37188 [egg-security] use noopen middleware
+2019-07-02 17:07:16,594 INFO 37188 [egg-security] use nosniff middleware
+2019-07-02 17:07:16,594 INFO 37188 [egg-security] use xssProtection middleware
+2019-07-02 17:07:16,595 INFO 37188 [egg-security] use xframe middleware
+2019-07-02 17:07:16,595 INFO 37188 [egg-security] use dta middleware
+2019-07-02 17:07:16,595 INFO 37188 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:07:16,606 INFO 37188 [egg:core] dump config after load, 7ms
+2019-07-02 17:07:16,608 INFO 37188 [egg-mongoose] starting...
+2019-07-02 17:07:16,634 INFO 37188 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:07:16,635 INFO 37188 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:07:16,638 INFO 37188 [egg-watcher:application] watcher start success
+2019-07-02 17:07:16,438 INFO 37189 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:07:16,468 INFO 37189 [egg-multipart] stream mode enable
+2019-07-02 17:07:16,732 INFO 37189 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:07:16,789 INFO 37189 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:07:16,792 INFO 37189 [egg-security] use csrf middleware
+2019-07-02 17:07:16,792 INFO 37189 [egg-security] use methodnoallow middleware
+2019-07-02 17:07:16,793 INFO 37189 [egg-security] use noopen middleware
+2019-07-02 17:07:16,793 INFO 37189 [egg-security] use nosniff middleware
+2019-07-02 17:07:16,793 INFO 37189 [egg-security] use xssProtection middleware
+2019-07-02 17:07:16,794 INFO 37189 [egg-security] use xframe middleware
+2019-07-02 17:07:16,794 INFO 37189 [egg-security] use dta middleware
+2019-07-02 17:07:16,794 INFO 37189 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:07:16,803 INFO 37189 [egg:core] dump config after load, 5ms
+2019-07-02 17:07:16,805 INFO 37189 [egg-mongoose] starting...
+2019-07-02 17:07:16,831 INFO 37189 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:07:16,832 INFO 37189 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:07:16,835 INFO 37189 [egg-watcher:application] watcher start success
+2019-07-02 17:07:16,841 INFO 37189 [egg:core] dump config after ready, 4ms
+2019-07-02 17:07:17,262 INFO 37190 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:07:17,294 INFO 37190 [egg-multipart] stream mode enable
+2019-07-02 17:07:17,531 INFO 37190 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:07:17,574 INFO 37190 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:07:17,577 INFO 37190 [egg-security] use csrf middleware
+2019-07-02 17:07:17,579 INFO 37190 [egg-security] use methodnoallow middleware
+2019-07-02 17:07:17,579 INFO 37190 [egg-security] use noopen middleware
+2019-07-02 17:07:17,580 INFO 37190 [egg-security] use nosniff middleware
+2019-07-02 17:07:17,580 INFO 37190 [egg-security] use xssProtection middleware
+2019-07-02 17:07:17,581 INFO 37190 [egg-security] use xframe middleware
+2019-07-02 17:07:17,581 INFO 37190 [egg-security] use dta middleware
+2019-07-02 17:07:17,581 INFO 37190 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:07:17,594 INFO 37190 [egg:core] dump config after load, 7ms
+2019-07-02 17:07:17,596 INFO 37190 [egg-mongoose] starting...
+2019-07-02 17:07:17,622 INFO 37190 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:07:17,623 INFO 37190 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:07:17,627 INFO 37190 [egg-watcher:application] watcher start success
+2019-07-02 17:07:17,284 INFO 37191 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:07:17,316 INFO 37191 [egg-multipart] stream mode enable
+2019-07-02 17:07:17,553 INFO 37191 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:07:17,604 INFO 37191 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:07:17,607 INFO 37191 [egg-security] use csrf middleware
+2019-07-02 17:07:17,608 INFO 37191 [egg-security] use methodnoallow middleware
+2019-07-02 17:07:17,608 INFO 37191 [egg-security] use noopen middleware
+2019-07-02 17:07:17,609 INFO 37191 [egg-security] use nosniff middleware
+2019-07-02 17:07:17,609 INFO 37191 [egg-security] use xssProtection middleware
+2019-07-02 17:07:17,610 INFO 37191 [egg-security] use xframe middleware
+2019-07-02 17:07:17,610 INFO 37191 [egg-security] use dta middleware
+2019-07-02 17:07:17,610 INFO 37191 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:07:17,619 INFO 37191 [egg:core] dump config after load, 5ms
+2019-07-02 17:07:17,621 INFO 37191 [egg-mongoose] starting...
+2019-07-02 17:07:17,658 INFO 37191 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:07:17,660 INFO 37191 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:07:17,664 INFO 37191 [egg-watcher:application] watcher start success
+2019-07-02 17:07:17,535 INFO 37193 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:07:17,564 INFO 37193 [egg-multipart] stream mode enable
+2019-07-02 17:07:17,812 INFO 37193 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:07:17,859 INFO 37193 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:07:17,861 INFO 37193 [egg-security] use csrf middleware
+2019-07-02 17:07:17,862 INFO 37193 [egg-security] use methodnoallow middleware
+2019-07-02 17:07:17,862 INFO 37193 [egg-security] use noopen middleware
+2019-07-02 17:07:17,862 INFO 37193 [egg-security] use nosniff middleware
+2019-07-02 17:07:17,863 INFO 37193 [egg-security] use xssProtection middleware
+2019-07-02 17:07:17,863 INFO 37193 [egg-security] use xframe middleware
+2019-07-02 17:07:17,863 INFO 37193 [egg-security] use dta middleware
+2019-07-02 17:07:17,863 INFO 37193 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:07:17,871 INFO 37193 [egg:core] dump config after load, 4ms
+2019-07-02 17:07:17,873 INFO 37193 [egg-mongoose] starting...
+2019-07-02 17:07:17,898 INFO 37193 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:07:17,899 INFO 37193 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:07:17,901 INFO 37193 [egg-watcher:application] watcher start success
+2019-07-02 17:07:17,907 INFO 37193 [egg:core] dump config after ready, 4ms
+2019-07-02 17:09:45,611 INFO 37215 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:09:45,640 INFO 37215 [egg-multipart] stream mode enable
+2019-07-02 17:09:45,888 INFO 37215 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:09:45,944 INFO 37215 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:09:45,947 INFO 37215 [egg-security] use csrf middleware
+2019-07-02 17:09:45,947 INFO 37215 [egg-security] use methodnoallow middleware
+2019-07-02 17:09:45,947 INFO 37215 [egg-security] use noopen middleware
+2019-07-02 17:09:45,948 INFO 37215 [egg-security] use nosniff middleware
+2019-07-02 17:09:45,948 INFO 37215 [egg-security] use xssProtection middleware
+2019-07-02 17:09:45,949 INFO 37215 [egg-security] use xframe middleware
+2019-07-02 17:09:45,949 INFO 37215 [egg-security] use dta middleware
+2019-07-02 17:09:45,949 INFO 37215 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:09:45,962 INFO 37215 [egg:core] dump config after load, 9ms
+2019-07-02 17:09:45,965 INFO 37215 [egg-mongoose] starting...
+2019-07-02 17:09:45,990 INFO 37215 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:09:45,991 INFO 37215 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:09:45,993 INFO 37215 [egg-watcher:application] watcher start success
+2019-07-02 17:09:46,000 INFO 37215 [egg:core] dump config after ready, 4ms
+2019-07-02 17:09:46,613 INFO 37216 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:09:46,645 INFO 37216 [egg-multipart] stream mode enable
+2019-07-02 17:09:46,888 INFO 37216 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:09:46,940 INFO 37216 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:09:46,942 INFO 37216 [egg-security] use csrf middleware
+2019-07-02 17:09:46,943 INFO 37216 [egg-security] use methodnoallow middleware
+2019-07-02 17:09:46,943 INFO 37216 [egg-security] use noopen middleware
+2019-07-02 17:09:46,944 INFO 37216 [egg-security] use nosniff middleware
+2019-07-02 17:09:46,944 INFO 37216 [egg-security] use xssProtection middleware
+2019-07-02 17:09:46,944 INFO 37216 [egg-security] use xframe middleware
+2019-07-02 17:09:46,945 INFO 37216 [egg-security] use dta middleware
+2019-07-02 17:09:46,945 INFO 37216 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:09:46,954 INFO 37216 [egg:core] dump config after load, 5ms
+2019-07-02 17:09:46,956 INFO 37216 [egg-mongoose] starting...
+2019-07-02 17:09:46,981 INFO 37216 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:09:46,982 INFO 37216 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:09:46,985 INFO 37216 [egg-watcher:application] watcher start success
+2019-07-02 17:09:46,991 INFO 37216 [egg:core] dump config after ready, 4ms
+2019-07-02 17:09:47,600 INFO 37217 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-02 17:09:47,631 INFO 37217 [egg-multipart] stream mode enable
+2019-07-02 17:09:47,855 INFO 37217 [egg-mongoose] connecting mongodb://127.0.0.1:27017/chuck
+2019-07-02 17:09:47,898 INFO 37217 [egg-static] starting static serve /public/ -> /Users/shenyangchun/Documents/github/egg-example/app/public
+2019-07-02 17:09:47,901 INFO 37217 [egg-security] use csrf middleware
+2019-07-02 17:09:47,902 INFO 37217 [egg-security] use methodnoallow middleware
+2019-07-02 17:09:47,902 INFO 37217 [egg-security] use noopen middleware
+2019-07-02 17:09:47,903 INFO 37217 [egg-security] use nosniff middleware
+2019-07-02 17:09:47,903 INFO 37217 [egg-security] use xssProtection middleware
+2019-07-02 17:09:47,903 INFO 37217 [egg-security] use xframe middleware
+2019-07-02 17:09:47,904 INFO 37217 [egg-security] use dta middleware
+2019-07-02 17:09:47,904 INFO 37217 [egg-security] compose 7 middlewares into one security middleware
+2019-07-02 17:09:47,914 INFO 37217 [egg:core] dump config after load, 6ms
+2019-07-02 17:09:47,916 INFO 37217 [egg-mongoose] starting...
+2019-07-02 17:09:47,941 INFO 37217 [egg-mongoose] mongodb://127.0.0.1:27017/chuck connected successfully
+2019-07-02 17:09:47,943 INFO 37217 [egg-mongoose] instance[0] start successfully
+2019-07-02 17:09:47,945 INFO 37217 [egg-watcher:application] watcher start success
+2019-07-02 17:09:47,952 INFO 37217 [egg:core] dump config after ready, 5ms

@@ -16,11 +16,11 @@
   "security": {
     "csrf": {
       "enable": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+      "headerName": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
       "useSession": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
       "ignoreJSON": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
       "cookieName": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
       "sessionName": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
-      "headerName": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
       "bodyName": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
       "queryName": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js"
     },

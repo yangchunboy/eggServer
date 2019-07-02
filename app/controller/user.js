@@ -13,6 +13,14 @@ class UserController extends Controller {
     const userList = await ctx.service.user.getAll()
     this.ctx.body = userList;
   }
+
+  async update() {
+    const { ctx } = this
+    const { _id } = ctx.request.body
+    const res = await ctx.service.user.update({ _id })
+    this.ctx.body = res;
+  }
+
 }
 
 module.exports = UserController;
