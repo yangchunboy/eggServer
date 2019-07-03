@@ -18,8 +18,14 @@ class UserService extends Service {
     const { User } = this.ctx.model
     // console.log(User)
     const userList = await User.find()
+    const list = []
+    userList.forEach((item) => {
+      const obj = item.toObject()
+      obj.isObject = true
+      list.push(obj)
+    })
     // console.log(userList, '$$$$$$$$$$$$$$$$$$$$')
-    return userList
+    return list
   }
 
   async update({ _id }) {
