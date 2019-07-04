@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "egg-bin dev"
+    "dev": "egg-bin dev",
+    "start": "egg-scripts start --daemon",
+    "stop": "egg-scripts stop"
   },
   "repository": {
     "type": "git",
@@ -22,7 +24,8 @@
   "homepage": "https://github.com/yangchunboy/eggServer#readme",
   "dependencies": {
     "egg": "^2.22.2",
-    "egg-mongoose": "^3.2.0"
+    "egg-mongoose": "^3.2.0",
+    "egg-scripts": "^2.11.0"
   },
   "devDependencies": {
     "egg-bin": "^4.13.0"
