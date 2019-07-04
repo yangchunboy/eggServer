@@ -44,3 +44,173 @@
 2019-07-03 10:27:38,576 INFO 36681 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/service/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52432507,"size":1038,"blocks":8,"atimeMs":1562120858513.406,"mtimeMs":1562120858514.1265,"ctimeMs":1562120858514.1265,"birthtimeMs":1561603617950.318,"atime":"2019-07-03T02:27:38.513Z","mtime":"2019-07-03T02:27:38.514Z","ctime":"2019-07-03T02:27:38.514Z","birthtime":"2019-06-27T02:46:57.950Z"},"remove":false,"isDirectory":false,"isFile":true}
 2019-07-03 10:27:38,750 INFO 36681 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/service/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52432507,"size":1038,"blocks":8,"atimeMs":1562120858736.6753,"mtimeMs":1562120858740.8135,"ctimeMs":1562120858740.8135,"birthtimeMs":1561603617950.318,"atime":"2019-07-03T02:27:38.737Z","mtime":"2019-07-03T02:27:38.741Z","ctime":"2019-07-03T02:27:38.741Z","birthtime":"2019-06-27T02:46:57.950Z"},"remove":false,"isDirectory":false,"isFile":true}
 2019-07-03 10:27:38,802 INFO 36681 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/service/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52432507,"size":1038,"blocks":8,"atimeMs":1562120858736.6753,"mtimeMs":1562120858740.8135,"ctimeMs":1562120858740.8135,"birthtimeMs":1561603617950.318,"atime":"2019-07-03T02:27:38.737Z","mtime":"2019-07-03T02:27:38.741Z","ctime":"2019-07-03T02:27:38.741Z","birthtime":"2019-06-27T02:46:57.950Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-03 16:51:49,660 INFO 46024 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-07-03 16:51:49,672 INFO 46024 [egg:core] dump config after load, 6ms
+2019-07-03 16:51:49,721 INFO 46024 [egg-watcher] Start watching: ["/Users/shenyangchun/Documents/github/egg-example/app","/Users/shenyangchun/Documents/github/egg-example/config","/Users/shenyangchun/Documents/github/egg-example/mocks","/Users/shenyangchun/Documents/github/egg-example/mocks_proxy","/Users/shenyangchun/Documents/github/egg-example/app.js"]
+2019-07-03 16:51:49,721 INFO 46024 [egg-watcher] Start watching: "/Users/shenyangchun/Documents/github/egg-example/app"
+2019-07-03 16:51:49,722 INFO 46024 [egg-watcher] Start watching: "/Users/shenyangchun/Documents/github/egg-example/config"
+2019-07-03 16:51:49,722 INFO 46024 [egg-watcher] Start watching: "/Users/shenyangchun/Documents/github/egg-example/mocks"
+2019-07-03 16:51:49,722 INFO 46024 [egg-watcher] Start watching: "/Users/shenyangchun/Documents/github/egg-example/mocks_proxy"
+2019-07-03 16:51:49,722 INFO 46024 [egg-watcher] Start watching: "/Users/shenyangchun/Documents/github/egg-example/app.js"
+2019-07-03 16:51:49,723 INFO 46024 [egg-watcher:agent] watcher start success
+2019-07-03 16:51:49,770 INFO 46024 [egg:core] dump config after ready, 4ms
+2019-07-03 18:03:41,008 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 2889978ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 46024
+hostname: yangchunboy.local
+
+2019-07-03 19:19:48,147 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 1537658ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 46024
+hostname: yangchunboy.local
+
+2019-07-03 20:21:25,478 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 2497235ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 46024
+hostname: yangchunboy.local
+
+2019-07-03 23:23:03,066 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 1076198ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 46024
+hostname: yangchunboy.local
+
+2019-07-03 23:56:48,221 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 2005142ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 46024
+hostname: yangchunboy.local
+
+2019-07-04 00:12:59,374 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 931133ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 46024
+hostname: yangchunboy.local
+
+2019-07-04 02:13:58,061 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 7218673ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 46024
+hostname: yangchunboy.local
+
+2019-07-04 04:14:26,883 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 7208817ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 46024
+hostname: yangchunboy.local
+
+2019-07-04 06:15:34,164 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 7218477ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 46024
+hostname: yangchunboy.local
+
+2019-07-04 08:16:32,768 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 7218592ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 46024
+hostname: yangchunboy.local
+
+2019-07-04 09:01:40,845 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 2708073ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 46024
+hostname: yangchunboy.local
+
+2019-07-04 09:04:07,485 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 106733ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 46024
+hostname: yangchunboy.local
+
+2019-07-04 09:12:44,578 INFO 49763 [egg:logger] init all loggers with options: {"dir":"/Users/shenyangchun/Documents/github/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-07-04 09:12:44,590 INFO 49763 [egg:core] dump config after load, 6ms
+2019-07-04 09:12:44,638 INFO 49763 [egg-watcher] Start watching: ["/Users/shenyangchun/Documents/github/egg-example/app","/Users/shenyangchun/Documents/github/egg-example/config","/Users/shenyangchun/Documents/github/egg-example/mocks","/Users/shenyangchun/Documents/github/egg-example/mocks_proxy","/Users/shenyangchun/Documents/github/egg-example/app.js"]
+2019-07-04 09:12:44,638 INFO 49763 [egg-watcher] Start watching: "/Users/shenyangchun/Documents/github/egg-example/app"
+2019-07-04 09:12:44,639 INFO 49763 [egg-watcher] Start watching: "/Users/shenyangchun/Documents/github/egg-example/config"
+2019-07-04 09:12:44,639 INFO 49763 [egg-watcher] Start watching: "/Users/shenyangchun/Documents/github/egg-example/mocks"
+2019-07-04 09:12:44,639 INFO 49763 [egg-watcher] Start watching: "/Users/shenyangchun/Documents/github/egg-example/mocks_proxy"
+2019-07-04 09:12:44,639 INFO 49763 [egg-watcher] Start watching: "/Users/shenyangchun/Documents/github/egg-example/app.js"
+2019-07-04 09:12:44,640 INFO 49763 [egg-watcher:agent] watcher start success
+2019-07-04 09:12:44,662 INFO 49763 [egg:core] dump config after ready, 3ms
+2019-07-04 09:25:21,983 WARN 49763 [agent:development] reload worker because /Users/shenyangchun/Documents/github/egg-example/app/model/user.js change
+2019-07-04 09:25:22,516 WARN 49763 [agent:development] reload worker because /Users/shenyangchun/Documents/github/egg-example/app/model/user.js change
+2019-07-04 09:25:21,776 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":760,"blocks":8,"atimeMs":1562203521711.5151,"mtimeMs":1562203521712.2212,"ctimeMs":1562203521712.2212,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:25:21.712Z","mtime":"2019-07-04T01:25:21.712Z","ctime":"2019-07-04T01:25:21.712Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:25:22,055 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":760,"blocks":8,"atimeMs":1562203522043.58,"mtimeMs":1562203522044.1624,"ctimeMs":1562203522044.1624,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:25:22.044Z","mtime":"2019-07-04T01:25:22.044Z","ctime":"2019-07-04T01:25:22.044Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:25:22,105 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":760,"blocks":8,"atimeMs":1562203522043.58,"mtimeMs":1562203522044.1624,"ctimeMs":1562203522044.1624,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:25:22.044Z","mtime":"2019-07-04T01:25:22.044Z","ctime":"2019-07-04T01:25:22.044Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:25:22,265 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":760,"blocks":8,"atimeMs":1562203522251.2642,"mtimeMs":1562203522255.4648,"ctimeMs":1562203522255.4648,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:25:22.251Z","mtime":"2019-07-04T01:25:22.255Z","ctime":"2019-07-04T01:25:22.255Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:25:22,316 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":760,"blocks":8,"atimeMs":1562203522251.2642,"mtimeMs":1562203522255.4648,"ctimeMs":1562203522255.4648,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:25:22.251Z","mtime":"2019-07-04T01:25:22.255Z","ctime":"2019-07-04T01:25:22.255Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:41:03,976 WARN 49763 [agent:development] reload worker because /Users/shenyangchun/Documents/github/egg-example/app/model/user.js change
+2019-07-04 09:41:04,334 WARN 49763 [agent:development] reload worker because /Users/shenyangchun/Documents/github/egg-example/app/model/user.js change
+2019-07-04 09:41:03,772 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":807,"blocks":8,"atimeMs":1562204463709.5334,"mtimeMs":1562204463710.2356,"ctimeMs":1562204463710.2356,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:41:03.710Z","mtime":"2019-07-04T01:41:03.710Z","ctime":"2019-07-04T01:41:03.710Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:41:04,078 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":807,"blocks":8,"atimeMs":1562204464067.673,"mtimeMs":1562204464068.1702,"ctimeMs":1562204464068.1702,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:41:04.068Z","mtime":"2019-07-04T01:41:04.068Z","ctime":"2019-07-04T01:41:04.068Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:41:04,129 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":807,"blocks":8,"atimeMs":1562204464067.673,"mtimeMs":1562204464068.1702,"ctimeMs":1562204464068.1702,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:41:04.068Z","mtime":"2019-07-04T01:41:04.068Z","ctime":"2019-07-04T01:41:04.068Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:41:04,375 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":807,"blocks":8,"atimeMs":1562204464363.5312,"mtimeMs":1562204464364.1323,"ctimeMs":1562204464364.1323,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:41:04.364Z","mtime":"2019-07-04T01:41:04.364Z","ctime":"2019-07-04T01:41:04.364Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:41:04,425 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":807,"blocks":8,"atimeMs":1562204464363.5312,"mtimeMs":1562204464364.1323,"ctimeMs":1562204464364.1323,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:41:04.364Z","mtime":"2019-07-04T01:41:04.364Z","ctime":"2019-07-04T01:41:04.364Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:41:04,629 WARN 49763 [agent:development] reload worker because /Users/shenyangchun/Documents/github/egg-example/app/model/user.js change
+2019-07-04 09:41:05,134 WARN 49763 [agent:development] reload worker because /Users/shenyangchun/Documents/github/egg-example/app/model/user.js change
+2019-07-04 09:41:04,646 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":807,"blocks":8,"atimeMs":1562204464635.829,"mtimeMs":1562204464636.5154,"ctimeMs":1562204464636.5154,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:41:04.636Z","mtime":"2019-07-04T01:41:04.637Z","ctime":"2019-07-04T01:41:04.637Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:41:04,697 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":807,"blocks":8,"atimeMs":1562204464635.829,"mtimeMs":1562204464636.5154,"ctimeMs":1562204464636.5154,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:41:04.636Z","mtime":"2019-07-04T01:41:04.637Z","ctime":"2019-07-04T01:41:04.637Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:41:04,882 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":807,"blocks":8,"atimeMs":1562204464868.2483,"mtimeMs":1562204464871.5813,"ctimeMs":1562204464871.5813,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:41:04.868Z","mtime":"2019-07-04T01:41:04.872Z","ctime":"2019-07-04T01:41:04.872Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:41:04,933 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":807,"blocks":8,"atimeMs":1562204464932.611,"mtimeMs":1562204464871.5813,"ctimeMs":1562204464871.5813,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:41:04.933Z","mtime":"2019-07-04T01:41:04.872Z","ctime":"2019-07-04T01:41:04.872Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:41:33,378 WARN 49763 [agent:development] reload worker because /Users/shenyangchun/Documents/github/egg-example/app/model/user.js change
+2019-07-04 09:41:33,173 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":825,"blocks":8,"atimeMs":1562204493108.6187,"mtimeMs":1562204493111.8264,"ctimeMs":1562204493111.8264,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:41:33.109Z","mtime":"2019-07-04T01:41:33.112Z","ctime":"2019-07-04T01:41:33.112Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:41:33,437 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":825,"blocks":8,"atimeMs":1562204493425.7754,"mtimeMs":1562204493426.4133,"ctimeMs":1562204493426.4133,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:41:33.426Z","mtime":"2019-07-04T01:41:33.426Z","ctime":"2019-07-04T01:41:33.426Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:41:33,488 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":825,"blocks":8,"atimeMs":1562204493425.7754,"mtimeMs":1562204493426.4133,"ctimeMs":1562204493426.4133,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:41:33.426Z","mtime":"2019-07-04T01:41:33.426Z","ctime":"2019-07-04T01:41:33.426Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:41:33,672 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":825,"blocks":8,"atimeMs":1562204493660.3523,"mtimeMs":1562204493660.9392,"ctimeMs":1562204493660.9392,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:41:33.660Z","mtime":"2019-07-04T01:41:33.661Z","ctime":"2019-07-04T01:41:33.661Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:41:33,722 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":825,"blocks":8,"atimeMs":1562204493660.3523,"mtimeMs":1562204493660.9392,"ctimeMs":1562204493660.9392,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:41:33.660Z","mtime":"2019-07-04T01:41:33.661Z","ctime":"2019-07-04T01:41:33.661Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:41:33,885 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":825,"blocks":8,"atimeMs":1562204493873.7651,"mtimeMs":1562204493874.3337,"ctimeMs":1562204493874.3337,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:41:33.874Z","mtime":"2019-07-04T01:41:33.874Z","ctime":"2019-07-04T01:41:33.874Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:41:33,936 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":825,"blocks":8,"atimeMs":1562204493873.7651,"mtimeMs":1562204493874.3337,"ctimeMs":1562204493874.3337,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:41:33.874Z","mtime":"2019-07-04T01:41:33.874Z","ctime":"2019-07-04T01:41:33.874Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:41:34,119 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":825,"blocks":8,"atimeMs":1562204494106.4268,"mtimeMs":1562204494109.5625,"ctimeMs":1562204494109.5625,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:41:34.106Z","mtime":"2019-07-04T01:41:34.110Z","ctime":"2019-07-04T01:41:34.110Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:41:34,169 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":825,"blocks":8,"atimeMs":1562204494106.4268,"mtimeMs":1562204494109.5625,"ctimeMs":1562204494109.5625,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:41:34.106Z","mtime":"2019-07-04T01:41:34.110Z","ctime":"2019-07-04T01:41:34.110Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:41:34,317 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":825,"blocks":8,"atimeMs":1562204494306.2485,"mtimeMs":1562204494306.822,"ctimeMs":1562204494306.822,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:41:34.306Z","mtime":"2019-07-04T01:41:34.307Z","ctime":"2019-07-04T01:41:34.307Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:41:34,367 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":825,"blocks":8,"atimeMs":1562204494306.2485,"mtimeMs":1562204494306.822,"ctimeMs":1562204494306.822,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:41:34.306Z","mtime":"2019-07-04T01:41:34.307Z","ctime":"2019-07-04T01:41:34.307Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:41:34,568 WARN 49763 [agent:development] reload worker because /Users/shenyangchun/Documents/github/egg-example/app/model/user.js change
+2019-07-04 09:46:13,261 WARN 49763 [agent:development] reload worker because /Users/shenyangchun/Documents/github/egg-example/app/model/user.js change
+2019-07-04 09:46:13,057 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":892,"blocks":8,"atimeMs":1562204772993.4058,"mtimeMs":1562204772994.0378,"ctimeMs":1562204772994.0378,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:46:12.993Z","mtime":"2019-07-04T01:46:12.994Z","ctime":"2019-07-04T01:46:12.994Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:46:13,298 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":892,"blocks":8,"atimeMs":1562204773286.7986,"mtimeMs":1562204773287.425,"ctimeMs":1562204773287.425,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:46:13.287Z","mtime":"2019-07-04T01:46:13.287Z","ctime":"2019-07-04T01:46:13.287Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:46:13,349 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":892,"blocks":8,"atimeMs":1562204773286.7986,"mtimeMs":1562204773287.425,"ctimeMs":1562204773287.425,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:46:13.287Z","mtime":"2019-07-04T01:46:13.287Z","ctime":"2019-07-04T01:46:13.287Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:46:13,969 WARN 49763 [agent:development] reload worker because /Users/shenyangchun/Documents/github/egg-example/app/model/user.js change
+2019-07-04 09:46:13,513 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":892,"blocks":8,"atimeMs":1562204773502.8213,"mtimeMs":1562204773503.4553,"ctimeMs":1562204773503.4553,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:46:13.503Z","mtime":"2019-07-04T01:46:13.503Z","ctime":"2019-07-04T01:46:13.503Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:46:13,564 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":892,"blocks":8,"atimeMs":1562204773502.8213,"mtimeMs":1562204773503.4553,"ctimeMs":1562204773503.4553,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:46:13.503Z","mtime":"2019-07-04T01:46:13.503Z","ctime":"2019-07-04T01:46:13.503Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:46:13,714 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":892,"blocks":8,"atimeMs":1562204773711.2148,"mtimeMs":1562204773711.8135,"ctimeMs":1562204773711.8135,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:46:13.711Z","mtime":"2019-07-04T01:46:13.712Z","ctime":"2019-07-04T01:46:13.712Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-07-04 09:46:13,765 INFO 49763 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/shenyangchun/Documents/github/egg-example/app/model/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":52430296,"size":892,"blocks":8,"atimeMs":1562204773711.2148,"mtimeMs":1562204773711.8135,"ctimeMs":1562204773711.8135,"birthtimeMs":1561601618976.6926,"atime":"2019-07-04T01:46:13.711Z","mtime":"2019-07-04T01:46:13.712Z","ctime":"2019-07-04T01:46:13.712Z","birthtime":"2019-06-27T02:13:38.977Z"},"remove":false,"isDirectory":false,"isFile":true}

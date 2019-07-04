@@ -12,6 +12,10 @@ module.exports = app => {
     createdAt: {
       type: Date,
     },
+    detail: {
+      type: Array,
+      default: undefined // 设为了undefined后数组就不会有默认值是空数组了
+    },
     removed: {
       type: Number,
       default: 0
@@ -21,9 +25,6 @@ module.exports = app => {
     timestamps: { // 新增数据默认插入createdAt，修改数据默认插入updatedAt更新时间
       createdAt: true,
       updatedAt: true
-    },
-    toObject: {
-      getters: true
     }
   });
 

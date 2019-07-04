@@ -1,0 +1,19 @@
+2019-07-03 16:59:38,587 WARN 46025 [-/127.0.0.1/-/18ms POST /api/user/update] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-07-03 16:59:38,589 WARN 46025 [-/127.0.0.1/-/20ms POST /api/user/update] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:157:17)
+    at csrf (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-bodyparser/index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+message: "invalid csrf token"
+pid: 46025
+hostname: yangchunboy.local
+
