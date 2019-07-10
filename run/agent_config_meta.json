@@ -1,5 +1,5 @@
 {
-  "keys": "/Users/shenyangchun/Documents/github/egg-example/config/config.prod.js",
+  "keys": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
   "mongoose": {
     "client": {
       "url": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
@@ -32,7 +32,7 @@
       "value": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
+      "enable": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.local.js",
       "maxAge": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
       "includeSubdomains": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js"
     },
@@ -65,13 +65,6 @@
       "checkAddress": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js"
     }
   },
-  "cluster": {
-    "listen": {
-      "port": "/Users/shenyangchun/Documents/github/egg-example/config/config.prod.js",
-      "hostname": "/Users/shenyangchun/Documents/github/egg-example/config/config.prod.js",
-      "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
-    }
-  },
   "session": {
     "maxAge": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-session/config/config.default.js",
     "key": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-session/config/config.default.js",
@@ -100,7 +93,7 @@
     "cookieMaxAge": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-watcher/config/config.default.js",
+    "type": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-watcher/config/config.local.js",
     "eventSources": {
       "default": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-watcher/config/config.default.js",
       "development": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-watcher/config/config.default.js"
@@ -131,6 +124,13 @@
       "cron": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js"
     }
   },
+  "development": {
+    "watchDirs": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/config/config.default.js"
+  },
   "logrotator": {
     "filesRotateByHour": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-logrotator/config/config.default.js",
     "hourDelimiter": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-logrotator/config/config.default.js",
@@ -145,13 +145,12 @@
     "dir": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-static/config/config.default.js",
     "dynamic": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-static/config/config.default.js",
     "preload": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-static/config/config.default.js",
-    "buffer": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-static/config/config.prod.js",
-    "maxFiles": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-static/config/config.default.js",
-    "maxAge": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-static/config/config.prod.js"
+    "buffer": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-static/config/config.default.js"
   },
   "view": {
     "root": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-view/config/config.local.js",
     "defaultExtension": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-view/config/config.default.js",
     "defaultViewEngine": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-view/config/config.default.js",
     "mapping": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-view/config/config.default.js"
@@ -238,7 +237,9 @@
     "coreLogName": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
     "agentLogName": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
     "errorLogName": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
-    "coreLogger": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.local.js"
+    },
     "allowDebugAtProd": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
   },
   "httpclient": {
@@ -268,6 +269,13 @@
   "coreMiddleware": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
   "workerStartTimeout": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
   "serverTimeout": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "port": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
   "clusterClient": {
     "maxWaitTime": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
     "responseTimeout": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"

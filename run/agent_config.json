@@ -84,7 +84,7 @@
       "cookieMaxAge": "1y"
     },
     "watcher": {
-      "type": "default",
+      "type": "development",
       "eventSources": {
         "default": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-watcher/lib/event-sources/default",
         "development": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-watcher/lib/event-sources/development"
@@ -115,6 +115,13 @@
         "cron": "0 30 4 * * *"
       }
     },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
     "logrotator": {
       "filesRotateByHour": null,
       "hourDelimiter": "-",
@@ -129,13 +136,12 @@
       "dir": "/Users/shenyangchun/Documents/github/egg-example/app/public",
       "dynamic": true,
       "preload": false,
-      "buffer": true,
-      "maxFiles": 1000,
-      "maxAge": 31536000
+      "buffer": false,
+      "maxFiles": 1000
     },
     "view": {
       "root": "/Users/shenyangchun/Documents/github/egg-example/app/view",
-      "cache": true,
+      "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
@@ -153,9 +159,9 @@
         "plugins": []
       }
     },
-    "env": "prod",
+    "env": "local",
     "name": "egg-example",
-    "keys": "<String len: 18>",
+    "keys": "<String len: 8>",
     "proxy": false,
     "maxProxyCount": 0,
     "protocolHeaders": "x-forwarded-proto",
@@ -226,19 +232,21 @@
       }
     },
     "logger": {
-      "dir": "/Users/shenyangchun/logs/egg-example",
+      "dir": "/Users/shenyangchun/Documents/github/egg-example/logs/egg-example",
       "encoding": "utf8",
-      "env": "prod",
+      "env": "local",
       "level": "INFO",
       "consoleLevel": "INFO",
-      "disableConsoleAfterReady": true,
+      "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
       "appLogName": "egg-example-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {},
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
       "allowDebugAtProd": false,
       "type": "agent"
     },
@@ -278,8 +286,8 @@
     "cluster": {
       "listen": {
         "path": "",
-        "port": 3000,
-        "hostname": "127.0.0.1"
+        "port": 7001,
+        "hostname": ""
       }
     },
     "clusterClient": {
@@ -387,6 +395,21 @@
       "from": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/plugin.js",
       "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart",
       "version": "2.7.1"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development",
+      "version": "2.4.3"
     },
     "logrotator": {
       "enable": true,

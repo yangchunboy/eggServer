@@ -35,6 +35,10 @@ class UserService extends Service {
     // console.log(userList, '$$$$$$$$$$$$$$$$$$$$')
     return res
   }
+
+  async helper() {
+    
+  }
 }
 
 module.exports = UserService;

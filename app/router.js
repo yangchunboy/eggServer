@@ -13,4 +13,5 @@ module.exports = app => {
   router.post('/api/user/insert', controller.user.insert)
   router.get('/api/user/getAll', controller.user.getAll)
   router.post('/api/user/update', controller.user.update)
+  router.get('/api/user/helper', controller.user.helper)
 };
