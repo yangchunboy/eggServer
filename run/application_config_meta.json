@@ -1,17 +1,12 @@
 {
   "keys": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
-  "mongoose": {
-    "client": {
-      "url": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
-      "options": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
-      "plugins": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js"
-    },
-    "url": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/config/config.default.js",
-    "options": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/config/config.default.js",
-    "plugins": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/config/config.default.js",
-    "loadModel": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/config/config.default.js",
-    "app": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/config/config.default.js",
-    "agent": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-mongoose/config/config.default.js"
+  "sequelize": {
+    "dialect": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "database": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "host": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "port": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "username": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "password": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js"
   },
   "security": {
     "csrf": {
@@ -186,8 +181,9 @@
     "homepage": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
     "dependencies": {
       "egg": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
-      "egg-mongoose": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
-      "egg-scripts": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
+      "egg-scripts": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
       "egg-bin": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"

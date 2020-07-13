@@ -31,46 +31,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/api/user/insert",
-    "regexp": "/^\\/api\\/user\\/insert(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/api/user/getAll",
-    "regexp": "/^\\/api\\/user\\/getAll(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/api/user/update",
-    "regexp": "/^\\/api\\/user\\/update(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/api/user/helper",
-    "regexp": "/^\\/api\\/user\\/helper(?:\\/(?=$))?$/",
+    "path": "/api/speech/insert",
+    "regexp": "/^\\/api\\/speech\\/insert(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

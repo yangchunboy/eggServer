@@ -1,16 +1,21 @@
-module.exports = app => {
-  app.once('server', server => {
+module.exports = (app) => {
+  if (app.config.env === 'local' || app.config.env === 'unittest') {
+    app.beforeStart(async () => {
+      await app.model.sync({ force: true })
+    })
+  }
+  app.once('server', (server) => {
     // websocket
-  });
+  })
   app.on('error', (err, ctx) => {
     // report error
-  });
-  app.on('request', ctx => {
+  })
+  app.on('request', (ctx) => {
     // log receive request
-  });
-  app.on('response', ctx => {
+  })
+  app.on('response', (ctx) => {
     // ctx.starttime is set by framework
-    const used = Date.now() - ctx.starttime;
+    const used = Date.now() - ctx.starttime
     // log total cost
-  });
-};
+  })
+}

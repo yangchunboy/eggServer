@@ -1,18 +1,21 @@
 module.exports = {
   keys: 'chuckboy',
-  mongoose: {
-    client: {
-      url: 'mongodb://127.0.0.1:27017/chuck',
-      options: {},
-      // mongoose global plugins, expected a function or an array of function and options
-      plugins: [],
-    },
+  sequelize: {
+    dialect: 'mysql', // support: mysql, mariadb, postgres, mssql
+    database: 'test',
+    host: 'localhost',
+    port: 3306,
+    username: 'root',
+    password: 's121477964',
+    // delegate: 'myModel', // load all models to `app[delegate]` and `ctx[delegate]`, default to `model`
+    // baseDir: 'my_model', // load all files in `app/${baseDir}` as models, default to `model`
+    // exclude: 'index.js', // ignore `app/${baseDir}/index.js` when load models, support glob and array
+    // more sequelize options
   },
   security: {
     csrf: {
       enable: true,
-      headerName: 'x-csrf-token'
+      headerName: 'x-csrf-token',
     },
-  }
+  },
 }
-

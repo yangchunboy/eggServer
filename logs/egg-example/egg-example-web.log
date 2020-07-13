@@ -59,3 +59,113 @@ hostname: yangchunboy.local
 pid: 17181
 hostname: yangchunboy.local
 
+2020-07-13 22:44:48,428 INFO 59658 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:45:24,351 INFO 59690 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:45:38,089 INFO 59725 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:45:51,287 INFO 59759 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:46:02,886 INFO 59780 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:48:30,846 INFO 59850 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:48:32,065 INFO 59851 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:48:45,214 INFO 59882 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:48:46,232 INFO 59883 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:49:30,847 INFO 59925 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:49:30,851 INFO 59925 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:49:30,854 INFO 59925 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:49:30,880 INFO 59925 [egg-sequelize](23ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `contact` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-13 22:49:30,892 INFO 59925 [egg-sequelize](10ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
+2020-07-13 22:49:32,081 INFO 59927 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:49:32,084 INFO 59927 [egg-sequelize](4ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:49:32,088 INFO 59927 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:49:32,107 INFO 59927 [egg-sequelize](17ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `contact` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-13 22:49:32,111 INFO 59927 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
+2020-07-13 22:49:33,339 INFO 59936 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:49:33,348 INFO 59936 [egg-sequelize](5ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:49:33,356 INFO 59936 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:49:33,379 INFO 59936 [egg-sequelize](18ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `contact` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-13 22:49:33,390 INFO 59936 [egg-sequelize](5ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
+2020-07-13 22:55:01,443 INFO 60043 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:55:01,448 INFO 60043 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:55:01,452 INFO 60043 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:55:01,468 INFO 60043 [egg-sequelize](14ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `contact` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-13 22:55:01,472 INFO 60043 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
+2020-07-13 22:57:07,375 INFO 60117 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:57:07,381 INFO 60117 [egg-sequelize](5ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:57:07,386 INFO 60117 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:57:07,403 INFO 60117 [egg-sequelize](14ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `contact` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-13 22:57:07,407 INFO 60117 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
+2020-07-13 22:57:08,416 INFO 60120 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:57:08,423 INFO 60120 [egg-sequelize](4ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:57:08,427 INFO 60120 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:57:08,447 INFO 60120 [egg-sequelize](17ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `contact` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-13 22:57:08,451 INFO 60120 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
+2020-07-13 22:57:41,891 INFO 60138 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:57:41,897 INFO 60138 [egg-sequelize](3ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:57:41,900 INFO 60138 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:57:41,914 INFO 60138 [egg-sequelize](12ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `contact` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-13 22:57:41,918 INFO 60138 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
+2020-07-13 22:57:42,935 INFO 60139 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:57:42,939 INFO 60139 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:57:42,943 INFO 60139 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:57:42,961 INFO 60139 [egg-sequelize](16ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `contact` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-13 22:57:42,966 INFO 60139 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
+2020-07-13 22:57:55,815 INFO 60152 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:57:55,819 INFO 60152 [egg-sequelize](3ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:57:55,824 INFO 60152 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:57:55,841 INFO 60152 [egg-sequelize](14ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `contact` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-13 22:57:55,845 INFO 60152 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
+2020-07-13 22:57:56,893 INFO 60153 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:57:56,897 INFO 60153 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:57:56,900 INFO 60153 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:57:56,922 INFO 60153 [egg-sequelize](19ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `contact` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-13 22:57:56,927 INFO 60153 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
+2020-07-13 22:58:55,327 INFO 60199 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:58:55,330 INFO 60199 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:58:55,334 INFO 60199 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:58:55,353 INFO 60199 [egg-sequelize](16ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-13 22:58:55,358 INFO 60199 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
+2020-07-13 22:58:56,392 INFO 60200 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:58:56,396 INFO 60200 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:58:56,399 INFO 60200 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:58:56,423 INFO 60200 [egg-sequelize](20ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-13 22:58:56,429 INFO 60200 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
+2020-07-13 22:59:14,480 INFO 60237 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:59:14,488 INFO 60237 [egg-sequelize](3ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:59:14,491 INFO 60237 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:59:14,513 INFO 60237 [egg-sequelize](19ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-13 22:59:14,517 INFO 60237 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
+2020-07-13 22:59:15,577 INFO 60240 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 22:59:15,580 INFO 60240 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:59:15,584 INFO 60240 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 22:59:15,602 INFO 60240 [egg-sequelize](16ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-13 22:59:15,606 INFO 60240 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
+2020-07-13 23:00:08,412 INFO 60269 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 23:00:08,416 INFO 60269 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 23:00:08,420 INFO 60269 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 23:00:08,439 INFO 60269 [egg-sequelize](16ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-13 23:00:08,445 INFO 60269 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
+2020-07-13 23:00:09,653 INFO 60271 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 23:00:09,657 INFO 60271 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 23:00:09,660 INFO 60271 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 23:00:09,681 INFO 60271 [egg-sequelize](18ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-13 23:00:09,687 INFO 60271 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
+2020-07-13 23:00:59,878 INFO 60317 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 23:00:59,882 INFO 60317 [egg-sequelize](3ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 23:00:59,886 INFO 60317 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 23:00:59,906 INFO 60317 [egg-sequelize](17ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-13 23:00:59,910 INFO 60317 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
+2020-07-13 23:03:30,206 INFO 60402 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 23:03:30,209 INFO 60402 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 23:03:30,213 INFO 60402 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 23:03:30,243 INFO 60402 [egg-sequelize](28ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-13 23:03:30,248 INFO 60402 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
+2020-07-13 23:03:31,324 INFO 60407 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 23:03:31,326 INFO 60407 [egg-sequelize](3ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 23:03:31,330 INFO 60407 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 23:03:31,348 INFO 60407 [egg-sequelize](15ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-13 23:03:31,352 INFO 60407 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
+2020-07-13 23:03:32,392 INFO 60409 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-13 23:03:32,396 INFO 60409 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 23:03:32,399 INFO 60409 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-13 23:03:32,417 INFO 60409 [egg-sequelize](15ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-13 23:03:32,422 INFO 60409 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
+2020-07-13 23:04:05,419 INFO 60409 [egg-sequelize](7ms) Executed (default): INSERT INTO `speeches` (`id`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?);

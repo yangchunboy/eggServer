@@ -1,4 +1,4 @@
-exports.mongoose = {
+exports.sequelize = {
   enable: true,
-  package: 'egg-mongoose',
-};
+  package: 'egg-sequelize',
+}
