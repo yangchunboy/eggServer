@@ -13,19 +13,20 @@
       "genid": "<Function v4>"
     },
     "security": {
-      "domainWhiteList": [],
+      "domainWhiteList": [
+        "*"
+      ],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
-        "enable": true,
+        "enable": false,
         "useSession": false,
         "ignoreJSON": false,
         "cookieName": "csrfToken",
         "sessionName": "csrfToken",
         "headerName": "x-csrf-token",
         "bodyName": "_csrf",
-        "queryName": "_csrf",
-        "matching": "<Function anonymous>"
+        "queryName": "_csrf"
       },
       "xframe": {
         "enable": true,
@@ -104,6 +105,7 @@
         "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-static/config/locales",
         "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-view/config/locales",
         "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/config/locales",
+        "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-cors/config/locales",
         "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/locales",
         "/Users/shenyangchun/Documents/github/egg-example/config/locales"
       ],
@@ -182,7 +184,17 @@
       "host": "localhost",
       "port": 3306,
       "username": "root",
-      "password": "<String len: 10>"
+      "password": "<String len: 10>",
+      "define": {
+        "charset": "utf8",
+        "dialectOptions": {
+          "collate": "utf8_general_ci"
+        }
+      }
+    },
+    "cors": {
+      "origin": "*",
+      "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH"
     },
     "env": "local",
     "name": "egg-example",
@@ -218,6 +230,7 @@
       "homepage": "https://github.com/yangchunboy/eggServer#readme",
       "dependencies": {
         "egg": "^2.22.2",
+        "egg-cors": "^2.2.3",
         "egg-scripts": "^2.11.0",
         "egg-sequelize": "^5.2.2",
         "mysql2": "^2.1.0"
@@ -302,6 +315,7 @@
       "logging": false
     },
     "coreMiddleware": [
+      "cors",
       "meta",
       "siteFile",
       "notfound",
@@ -327,6 +341,13 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "oss": {
+      "policy": "",
+      "signature": "",
+      "id": "LTAI4FkfRD2CECWX58vwwZxs",
+      "secret": "<String len: 30>",
+      "bucket": "school-admin"
+    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": [],
     "appMiddleware": "~config~appMiddlewares",
@@ -500,6 +521,17 @@
       "from": "/Users/shenyangchun/Documents/github/egg-example/config/plugin.js",
       "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize",
       "version": "5.2.2"
+    },
+    "cors": {
+      "enable": true,
+      "package": "egg-cors",
+      "name": "cors",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/shenyangchun/Documents/github/egg-example/config/plugin.js",
+      "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-cors",
+      "version": "2.2.3"
     }
   }
 }

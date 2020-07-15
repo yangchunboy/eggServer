@@ -1,9 +1,15 @@
+const Oss = require('./app/lib/oss')
+
 module.exports = (app) => {
+  const { oss } = app.config
   if (app.config.env === 'local' || app.config.env === 'unittest') {
     app.beforeStart(async () => {
       await app.model.sync({ force: true })
     })
   }
+
+  // app.oss = new Oss(oss)
+
   app.once('server', (server) => {
     // websocket
   })

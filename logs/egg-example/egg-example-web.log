@@ -1,7 +1,28 @@
-2019-07-03 16:59:38,587 WARN 46025 [-/127.0.0.1/-/18ms POST /api/user/update] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
-2019-07-03 16:59:38,589 WARN 46025 [-/127.0.0.1/-/20ms POST /api/user/update] nodejs.ForbiddenError: invalid csrf token
+2020-07-15 19:58:00,155 INFO 78722 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 19:58:00,179 INFO 78722 [egg-sequelize](25ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-15 19:58:00,184 INFO 78722 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
+2020-07-15 19:58:00,208 INFO 78722 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-15 19:58:00,217 INFO 78722 [egg-sequelize](7ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
+2020-07-15 19:58:11,330 INFO 78751 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 19:58:11,334 INFO 78751 [egg-sequelize](3ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 19:58:11,338 INFO 78751 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 19:58:11,353 INFO 78751 [egg-sequelize](12ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-15 19:58:11,358 INFO 78751 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-07-15 19:58:12,346 INFO 78752 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 19:58:12,352 INFO 78752 [egg-sequelize](5ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 19:58:12,356 INFO 78752 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 19:58:12,379 INFO 78752 [egg-sequelize](21ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-15 19:58:12,384 INFO 78752 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-07-15 19:58:36,088 INFO 78752 [egg-sequelize](4ms) Executed (default): INSERT INTO `speech` (`id`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?);
+2020-07-15 20:22:38,800 INFO 79524 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 20:22:38,802 INFO 79524 [egg-sequelize](4ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:22:38,806 INFO 79524 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:22:38,828 INFO 79524 [egg-sequelize](19ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-15 20:22:38,832 INFO 79524 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-07-15 20:22:47,903 WARN 79524 [-/192.168.43.181/-/17ms POST /api/speech/insert] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-07-15 20:22:47,905 WARN 79524 [-/192.168.43.181/-/19ms POST /api/speech/insert] nodejs.ForbiddenError: missing csrf token
     at Object.throw (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/lib/context.js:97:11)
-    at Object.assertCsrf (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:157:17)
+    at Object.assertCsrf (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/app/extend/context.js:148:17)
     at csrf (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
     at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
     at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
@@ -13,13 +34,43 @@
     at bodyParser (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-bodyparser/index.js:86:11)
     at <anonymous>
     at process._tickCallback (internal/process/next_tick.js:188:7)
-message: "invalid csrf token"
-pid: 46025
-hostname: yangchunboy.local
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 79524
+hostname: yangchunboy
 
-2019-07-10 14:29:59,335 ERROR 17181 [-/::1/-/6ms GET /api/user/helper] nodejs.TypeError: Cannot read property 'model' of undefined
-    at getDate (/Users/shenyangchun/Documents/github/egg-example/app/extend/helper.js:3:26)
-    at UserController.helper (/Users/shenyangchun/Documents/github/egg-example/app/controller/user.js:27:17)
+2020-07-15 20:23:44,149 INFO 79564 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 20:23:44,154 INFO 79564 [egg-sequelize](3ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:23:44,157 INFO 79564 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:23:44,174 INFO 79564 [egg-sequelize](15ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-15 20:23:44,181 INFO 79564 [egg-sequelize](4ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-07-15 20:23:45,286 INFO 79565 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 20:23:45,292 INFO 79565 [egg-sequelize](4ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:23:45,295 INFO 79565 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:23:45,317 INFO 79565 [egg-sequelize](20ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-15 20:23:45,327 INFO 79565 [egg-sequelize](6ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-07-15 20:23:59,023 ERROR 79565 [-/192.168.43.181/-/27ms POST /api/speech/insert] nodejs.SequelizeValidationError: string violation: sign_photo_url cannot be an array or an object,
+string violation: photo_url cannot be an array or an object,
+string violation: audio_url cannot be an array or an object
+string violation: photo_url cannot be an array or an object,
+string violation: audio_url cannot be an array or an object
+    at Promise.all.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/instance-validator.js:74:15)
+From previous event:
+    at InstanceValidator._validate (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/instance-validator.js:72:8)
+    at runHooks.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/instance-validator.js:107:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at InstanceValidator._validateAndRunHooks (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/instance-validator.js:106:8)
+    at InstanceValidator.validate (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/instance-validator.js:90:38)
+    at model.validate (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:4140:49)
+    at Promise.try (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3905:21)
+From previous event:
+    at model.save (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3902:23)
+    at Function.create (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2230:8)
+    at SpeechService.insert (/Users/shenyangchun/Documents/github/egg-example/app/service/speech.js:15:30)
+    at HomeController.insert (/Users/shenyangchun/Documents/github/egg-example/app/controller/speech.js:16:41)
     at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
     at Object.classControllerMiddleware (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
     at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
@@ -34,13 +85,58 @@ hostname: yangchunboy.local
     at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
     at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
     at i18n (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeValidationError"
+errors: [{"message":"sign_photo_url cannot be an array or an object","type":"string violation","path":"sign_photo_url","value":["1"],"origin":"CORE","instance":{"id":null,"name":"2","phone":"18824920361","group":"专业组","address":"2","email":"2@qq.com","sign_photo_url":["1"],"photo_url":["1"],"audio_url":["1"],"create_at":"2020-07-15T12:23:59.009Z","updatedAt":"2020-07-15T12:23:59.011Z","createdAt":"2020-07-15T12:23:59.011Z"},"validatorKey":"not_a_string","validatorName":null,"validatorArgs":[]},{"message":"photo_url cannot be an array or an object","type":"string violation","path":"photo_url","value":["1"],"origin":"CORE","instance":{"id":null,"name":"2","phone":"18824920361","group":"专业组","address":"2","email":"2@qq.com","sign_photo_url":["1"],"photo_url":["1"],"audio_url":["1"],"create_at":"2020-07-15T12:23:59.009Z","updatedAt":"2020-07-15T12:23:59.011Z","createdAt":"2020-07-15T12:23:59.011Z"},"validatorKey":"not_a_string","validatorName":null,"validatorArgs":[]},{"message":"audio_url cannot be an array or an object","type":"string violation","path":"audio_url","value":["1"],"origin":"CORE","instance":{"id":null,"name":"2","phone":"18824920361","group":"专业组","address":"2","email":"2@qq.com","sign_photo_url":["1"],"photo_url":["1"],"audio_url":["1"],"create_at":"2020-07-15T12:23:59.009Z","updatedAt":"2020-07-15T12:23:59.011Z","createdAt":"2020-07-15T12:23:59.011Z"},"validatorKey":"not_a_string","validatorName":null,"validatorArgs":[]}]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 79565
+hostname: yangchunboy
 
-pid: 17181
-hostname: yangchunboy.local
-
-2019-07-10 15:35:08,663 ERROR 17181 [-/::1/-/5ms GET /api/user/helper] nodejs.TypeError: Cannot read property 'model' of undefined
-    at getDate (/Users/shenyangchun/Documents/github/egg-example/app/extend/helper.js:3:26)
-    at UserController.helper (/Users/shenyangchun/Documents/github/egg-example/app/controller/user.js:27:17)
+2020-07-15 20:25:24,867 INFO 79565 [egg-sequelize](3ms) Executed (default): INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);
+2020-07-15 20:25:24,884 ERROR 79565 [-/192.168.43.181/-/24ms POST /api/speech/insert] nodejs.SequelizeDatabaseError: Incorrect string value: '\xE4\xB8\x93\xE4\xB8\x9A...' for column 'group' at row 1
+    at Query.formatError (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Execute.handler [as onResult] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Execute.execute (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:82:25)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+From previous event:
+    at Query.run (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:655:29)
+From previous event:
+    at Promise.try.then.connection (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:655:12)
+From previous event:
+    at Promise.resolve.retry (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:651:10)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/shenyangchun/Documents/github/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:641:30)
+From previous event:
+    at Sequelize.query (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:590:23)
+    at QueryInterface.insert (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/query-interface.js:890:27)
+    at Promise.try.then.then.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3989:52)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at model.save (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3966:8)
+    at Function.create (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2230:8)
+    at SpeechService.insert (/Users/shenyangchun/Documents/github/egg-example/app/service/speech.js:15:30)
+    at HomeController.insert (/Users/shenyangchun/Documents/github/egg-example/app/controller/speech.js:16:41)
     at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
     at Object.classControllerMiddleware (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
     at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
@@ -55,117 +151,374 @@ hostname: yangchunboy.local
     at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
     at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
     at i18n (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlState":"HY000","sqlMessage":"Incorrect string value: '\\xE4\\xB8\\x93\\xE4\\xB8\\x9A...' for column 'group' at row 1","sql":"INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:25:24","2020-07-15 12:25:24","2020-07-15 12:25:24"]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlState":"HY000","sqlMessage":"Incorrect string value: '\\xE4\\xB8\\x93\\xE4\\xB8\\x9A...' for column 'group' at row 1","sql":"INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:25:24","2020-07-15 12:25:24","2020-07-15 12:25:24"]}
+sql: "INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:25:24","2020-07-15 12:25:24","2020-07-15 12:25:24"]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 79565
+hostname: yangchunboy
 
-pid: 17181
-hostname: yangchunboy.local
+2020-07-15 20:38:23,025 INFO 79862 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 20:38:23,031 INFO 79862 [egg-sequelize](4ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:38:23,035 INFO 79862 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:38:23,055 INFO 79862 [egg-sequelize](17ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-15 20:38:23,060 INFO 79862 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-07-15 20:38:24,122 INFO 79867 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 20:38:24,125 INFO 79867 [egg-sequelize](4ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:38:24,128 INFO 79867 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:38:24,146 INFO 79867 [egg-sequelize](14ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-15 20:38:24,151 INFO 79867 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-07-15 20:38:35,342 INFO 79909 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 20:38:35,346 INFO 79909 [egg-sequelize](3ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:38:35,350 INFO 79909 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:38:35,369 INFO 79909 [egg-sequelize](17ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-15 20:38:35,373 INFO 79909 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-07-15 20:38:42,307 INFO 79909 [egg-sequelize](3ms) Executed (default): INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);
+2020-07-15 20:38:42,322 ERROR 79909 [-/192.168.43.181/-/35ms POST /api/speech/insert] nodejs.SequelizeDatabaseError: Incorrect string value: '\xE4\xB8\x93\xE4\xB8\x9A...' for column 'group' at row 1
+    at Query.formatError (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Execute.handler [as onResult] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Execute.execute (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:82:25)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+From previous event:
+    at Query.run (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:655:29)
+From previous event:
+    at Promise.try.then.connection (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:655:12)
+From previous event:
+    at Promise.resolve.retry (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:651:10)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/shenyangchun/Documents/github/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:641:30)
+From previous event:
+    at Sequelize.query (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:590:23)
+    at QueryInterface.insert (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/query-interface.js:890:27)
+    at Promise.try.then.then.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3989:52)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at model.save (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3966:8)
+    at Function.create (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2230:8)
+    at SpeechService.insert (/Users/shenyangchun/Documents/github/egg-example/app/service/speech.js:15:30)
+    at HomeController.insert (/Users/shenyangchun/Documents/github/egg-example/app/controller/speech.js:16:41)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlState":"HY000","sqlMessage":"Incorrect string value: '\\xE4\\xB8\\x93\\xE4\\xB8\\x9A...' for column 'group' at row 1","sql":"INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:38:42","2020-07-15 12:38:42","2020-07-15 12:38:42"]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlState":"HY000","sqlMessage":"Incorrect string value: '\\xE4\\xB8\\x93\\xE4\\xB8\\x9A...' for column 'group' at row 1","sql":"INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:38:42","2020-07-15 12:38:42","2020-07-15 12:38:42"]}
+sql: "INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:38:42","2020-07-15 12:38:42","2020-07-15 12:38:42"]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 79909
+hostname: yangchunboy
 
-2020-07-13 22:44:48,428 INFO 59658 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:45:24,351 INFO 59690 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:45:38,089 INFO 59725 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:45:51,287 INFO 59759 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:46:02,886 INFO 59780 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:48:30,846 INFO 59850 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:48:32,065 INFO 59851 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:48:45,214 INFO 59882 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:48:46,232 INFO 59883 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:49:30,847 INFO 59925 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:49:30,851 INFO 59925 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:49:30,854 INFO 59925 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:49:30,880 INFO 59925 [egg-sequelize](23ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `contact` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
-2020-07-13 22:49:30,892 INFO 59925 [egg-sequelize](10ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
-2020-07-13 22:49:32,081 INFO 59927 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:49:32,084 INFO 59927 [egg-sequelize](4ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:49:32,088 INFO 59927 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:49:32,107 INFO 59927 [egg-sequelize](17ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `contact` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
-2020-07-13 22:49:32,111 INFO 59927 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
-2020-07-13 22:49:33,339 INFO 59936 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:49:33,348 INFO 59936 [egg-sequelize](5ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:49:33,356 INFO 59936 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:49:33,379 INFO 59936 [egg-sequelize](18ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `contact` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
-2020-07-13 22:49:33,390 INFO 59936 [egg-sequelize](5ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
-2020-07-13 22:55:01,443 INFO 60043 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:55:01,448 INFO 60043 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:55:01,452 INFO 60043 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:55:01,468 INFO 60043 [egg-sequelize](14ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `contact` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
-2020-07-13 22:55:01,472 INFO 60043 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
-2020-07-13 22:57:07,375 INFO 60117 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:57:07,381 INFO 60117 [egg-sequelize](5ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:57:07,386 INFO 60117 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:57:07,403 INFO 60117 [egg-sequelize](14ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `contact` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
-2020-07-13 22:57:07,407 INFO 60117 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
-2020-07-13 22:57:08,416 INFO 60120 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:57:08,423 INFO 60120 [egg-sequelize](4ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:57:08,427 INFO 60120 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:57:08,447 INFO 60120 [egg-sequelize](17ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `contact` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
-2020-07-13 22:57:08,451 INFO 60120 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
-2020-07-13 22:57:41,891 INFO 60138 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:57:41,897 INFO 60138 [egg-sequelize](3ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:57:41,900 INFO 60138 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:57:41,914 INFO 60138 [egg-sequelize](12ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `contact` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
-2020-07-13 22:57:41,918 INFO 60138 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
-2020-07-13 22:57:42,935 INFO 60139 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:57:42,939 INFO 60139 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:57:42,943 INFO 60139 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:57:42,961 INFO 60139 [egg-sequelize](16ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `contact` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
-2020-07-13 22:57:42,966 INFO 60139 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
-2020-07-13 22:57:55,815 INFO 60152 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:57:55,819 INFO 60152 [egg-sequelize](3ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:57:55,824 INFO 60152 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:57:55,841 INFO 60152 [egg-sequelize](14ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `contact` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
-2020-07-13 22:57:55,845 INFO 60152 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
-2020-07-13 22:57:56,893 INFO 60153 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:57:56,897 INFO 60153 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:57:56,900 INFO 60153 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:57:56,922 INFO 60153 [egg-sequelize](19ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `contact` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
-2020-07-13 22:57:56,927 INFO 60153 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
-2020-07-13 22:58:55,327 INFO 60199 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:58:55,330 INFO 60199 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:58:55,334 INFO 60199 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:58:55,353 INFO 60199 [egg-sequelize](16ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
-2020-07-13 22:58:55,358 INFO 60199 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
-2020-07-13 22:58:56,392 INFO 60200 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:58:56,396 INFO 60200 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:58:56,399 INFO 60200 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:58:56,423 INFO 60200 [egg-sequelize](20ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
-2020-07-13 22:58:56,429 INFO 60200 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
-2020-07-13 22:59:14,480 INFO 60237 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:59:14,488 INFO 60237 [egg-sequelize](3ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:59:14,491 INFO 60237 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:59:14,513 INFO 60237 [egg-sequelize](19ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
-2020-07-13 22:59:14,517 INFO 60237 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
-2020-07-13 22:59:15,577 INFO 60240 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 22:59:15,580 INFO 60240 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:59:15,584 INFO 60240 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 22:59:15,602 INFO 60240 [egg-sequelize](16ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
-2020-07-13 22:59:15,606 INFO 60240 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
-2020-07-13 23:00:08,412 INFO 60269 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 23:00:08,416 INFO 60269 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 23:00:08,420 INFO 60269 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 23:00:08,439 INFO 60269 [egg-sequelize](16ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
-2020-07-13 23:00:08,445 INFO 60269 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
-2020-07-13 23:00:09,653 INFO 60271 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 23:00:09,657 INFO 60271 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 23:00:09,660 INFO 60271 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 23:00:09,681 INFO 60271 [egg-sequelize](18ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
-2020-07-13 23:00:09,687 INFO 60271 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
-2020-07-13 23:00:59,878 INFO 60317 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 23:00:59,882 INFO 60317 [egg-sequelize](3ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 23:00:59,886 INFO 60317 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 23:00:59,906 INFO 60317 [egg-sequelize](17ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
-2020-07-13 23:00:59,910 INFO 60317 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
-2020-07-13 23:03:30,206 INFO 60402 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 23:03:30,209 INFO 60402 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 23:03:30,213 INFO 60402 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 23:03:30,243 INFO 60402 [egg-sequelize](28ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
-2020-07-13 23:03:30,248 INFO 60402 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
-2020-07-13 23:03:31,324 INFO 60407 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 23:03:31,326 INFO 60407 [egg-sequelize](3ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 23:03:31,330 INFO 60407 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 23:03:31,348 INFO 60407 [egg-sequelize](15ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
-2020-07-13 23:03:31,352 INFO 60407 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
-2020-07-13 23:03:32,392 INFO 60409 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2020-07-13 23:03:32,396 INFO 60409 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 23:03:32,399 INFO 60409 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speeches`;
-2020-07-13 23:03:32,417 INFO 60409 [egg-sequelize](15ms) Executed (default): CREATE TABLE IF NOT EXISTS `speeches` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
-2020-07-13 23:03:32,422 INFO 60409 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speeches` FROM `test`
-2020-07-13 23:04:05,419 INFO 60409 [egg-sequelize](7ms) Executed (default): INSERT INTO `speeches` (`id`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?);
+2020-07-15 20:39:02,195 INFO 79909 [egg-sequelize](2ms) Executed (default): INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);
+2020-07-15 20:39:02,203 ERROR 79909 [-/192.168.43.181/-/12ms POST /api/speech/insert] nodejs.SequelizeDatabaseError: Incorrect string value: '\xE4\xB8\x93\xE4\xB8\x9A...' for column 'group' at row 1
+    at Query.formatError (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Execute.handler [as onResult] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Execute.execute (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:82:25)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+From previous event:
+    at Query.run (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:655:29)
+From previous event:
+    at Promise.try.then.connection (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:655:12)
+From previous event:
+    at Promise.resolve.retry (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:651:10)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/shenyangchun/Documents/github/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:641:30)
+From previous event:
+    at Sequelize.query (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:590:23)
+    at QueryInterface.insert (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/query-interface.js:890:27)
+    at Promise.try.then.then.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3989:52)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at model.save (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3966:8)
+    at Function.create (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2230:8)
+    at SpeechService.insert (/Users/shenyangchun/Documents/github/egg-example/app/service/speech.js:15:30)
+    at HomeController.insert (/Users/shenyangchun/Documents/github/egg-example/app/controller/speech.js:16:41)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlState":"HY000","sqlMessage":"Incorrect string value: '\\xE4\\xB8\\x93\\xE4\\xB8\\x9A...' for column 'group' at row 1","sql":"INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:39:02","2020-07-15 12:39:02","2020-07-15 12:39:02"]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlState":"HY000","sqlMessage":"Incorrect string value: '\\xE4\\xB8\\x93\\xE4\\xB8\\x9A...' for column 'group' at row 1","sql":"INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:39:02","2020-07-15 12:39:02","2020-07-15 12:39:02"]}
+sql: "INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:39:02","2020-07-15 12:39:02","2020-07-15 12:39:02"]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 79909
+hostname: yangchunboy
+
+2020-07-15 20:39:21,365 INFO 79953 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 20:39:21,368 INFO 79953 [egg-sequelize](4ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:39:21,371 INFO 79953 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:39:21,393 INFO 79953 [egg-sequelize](19ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-15 20:39:21,397 INFO 79953 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-07-15 20:39:56,732 INFO 79953 [egg-sequelize](3ms) Executed (default): INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);
+2020-07-15 20:39:56,740 ERROR 79953 [-/192.168.43.181/-/42ms POST /api/speech/insert] nodejs.SequelizeDatabaseError: Incorrect string value: '\xE4\xB8\x93\xE4\xB8\x9A...' for column 'group' at row 1
+    at Query.formatError (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Execute.handler [as onResult] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Execute.execute (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:82:25)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+From previous event:
+    at Query.run (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:655:29)
+From previous event:
+    at Promise.try.then.connection (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:655:12)
+From previous event:
+    at Promise.resolve.retry (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:651:10)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/shenyangchun/Documents/github/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:641:30)
+From previous event:
+    at Sequelize.query (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:590:23)
+    at QueryInterface.insert (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/query-interface.js:890:27)
+    at Promise.try.then.then.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3989:52)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at model.save (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3966:8)
+    at Function.create (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2230:8)
+    at SpeechService.insert (/Users/shenyangchun/Documents/github/egg-example/app/service/speech.js:15:30)
+    at HomeController.insert (/Users/shenyangchun/Documents/github/egg-example/app/controller/speech.js:16:41)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlState":"HY000","sqlMessage":"Incorrect string value: '\\xE4\\xB8\\x93\\xE4\\xB8\\x9A...' for column 'group' at row 1","sql":"INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:39:56","2020-07-15 12:39:56","2020-07-15 12:39:56"]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlState":"HY000","sqlMessage":"Incorrect string value: '\\xE4\\xB8\\x93\\xE4\\xB8\\x9A...' for column 'group' at row 1","sql":"INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:39:56","2020-07-15 12:39:56","2020-07-15 12:39:56"]}
+sql: "INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:39:56","2020-07-15 12:39:56","2020-07-15 12:39:56"]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 79953
+hostname: yangchunboy
+
+2020-07-15 20:40:16,378 INFO 79985 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 20:40:16,383 INFO 79985 [egg-sequelize](3ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:40:16,387 INFO 79985 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:40:16,414 INFO 79985 [egg-sequelize](24ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-15 20:40:16,420 INFO 79985 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-07-15 20:40:17,470 INFO 79986 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 20:40:17,476 INFO 79986 [egg-sequelize](3ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:40:17,480 INFO 79986 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:40:17,504 INFO 79986 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-07-15 20:40:17,509 INFO 79986 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-07-15 20:41:51,660 INFO 80031 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 20:41:51,665 INFO 80031 [egg-sequelize](3ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:41:51,668 INFO 80031 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:41:51,689 INFO 80031 [egg-sequelize](18ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-07-15 20:41:51,693 INFO 80031 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-07-15 20:41:52,766 INFO 80032 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 20:41:52,772 INFO 80032 [egg-sequelize](4ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:41:52,776 INFO 80032 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:41:52,795 INFO 80032 [egg-sequelize](17ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-07-15 20:41:52,799 INFO 80032 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-07-15 20:42:02,539 INFO 80063 [egg-sequelize](6ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 20:42:02,546 INFO 80063 [egg-sequelize](3ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:42:02,550 INFO 80063 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 20:42:02,571 INFO 80063 [egg-sequelize](17ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-07-15 20:42:02,575 INFO 80063 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-07-15 20:42:55,584 INFO 80063 [egg-sequelize](3ms) Executed (default): INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);
+2020-07-15 21:00:37,020 INFO 80302 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 21:00:37,027 INFO 80302 [egg-sequelize](5ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 21:00:37,031 INFO 80302 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 21:00:37,052 INFO 80302 [egg-sequelize](18ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-07-15 21:00:37,058 INFO 80302 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-07-15 21:02:43,478 INFO 80302 [egg-sequelize](3ms) Executed (default): INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);
+2020-07-15 21:18:50,355 INFO 80890 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 21:18:50,366 INFO 80890 [egg-sequelize](9ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 21:18:50,373 INFO 80890 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 21:18:50,394 INFO 80890 [egg-sequelize](17ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-07-15 21:18:50,401 INFO 80890 [egg-sequelize](4ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-07-15 21:18:52,959 INFO 80908 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 21:18:52,963 INFO 80908 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 21:18:52,968 INFO 80908 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 21:18:52,993 INFO 80908 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-07-15 21:18:53,002 INFO 80908 [egg-sequelize](4ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-07-15 21:18:54,116 INFO 80910 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 21:18:54,123 INFO 80910 [egg-sequelize](5ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 21:18:54,126 INFO 80910 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 21:18:54,144 INFO 80910 [egg-sequelize](16ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-07-15 21:18:54,149 INFO 80910 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-07-15 21:26:24,115 INFO 81054 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 21:26:25,957 INFO 81057 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 21:39:36,463 INFO 81370 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 21:39:56,769 INFO 81370 [egg-sequelize](2ms) Executed (default): INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);
+2020-07-15 21:39:56,778 ERROR 81370 [-/192.168.43.181/-/43ms POST /api/speech/insert] nodejs.SequelizeDatabaseError: Table 'test.speech' doesn't exist
+    at Query.formatError (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at handler (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Prepare.Commands.Prepare [as onResult] (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:604:11)
+    at Prepare.execute (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:82:25)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+From previous event:
+    at Query.run (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:655:29)
+From previous event:
+    at Promise.try.then.connection (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:655:12)
+From previous event:
+    at Promise.resolve.retry (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:651:10)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/shenyangchun/Documents/github/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:641:30)
+From previous event:
+    at Sequelize.query (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:590:23)
+    at QueryInterface.insert (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/query-interface.js:890:27)
+    at Promise.try.then.then.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3989:52)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at model.save (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3966:8)
+    at Function.create (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2230:8)
+    at SpeechService.insert (/Users/shenyangchun/Documents/github/egg-example/app/service/speech.js:15:30)
+    at HomeController.insert (/Users/shenyangchun/Documents/github/egg-example/app/controller/speech.js:16:41)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'test.speech' doesn't exist","sql":"INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 13:39:56","2020-07-15 13:39:56","2020-07-15 13:39:56"]}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'test.speech' doesn't exist","sql":"INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 13:39:56","2020-07-15 13:39:56","2020-07-15 13:39:56"]}
+sql: "INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 13:39:56","2020-07-15 13:39:56","2020-07-15 13:39:56"]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 81370
+hostname: yangchunboy
+
+2020-07-15 21:48:17,630 INFO 81553 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 21:48:18,935 INFO 81568 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 21:48:30,541 INFO 81589 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 21:48:30,544 INFO 81589 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 21:48:30,547 INFO 81589 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 21:48:30,568 INFO 81589 [egg-sequelize](18ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-07-15 21:48:30,574 INFO 81589 [egg-sequelize](4ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-07-15 21:48:32,890 INFO 81591 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-07-15 21:48:32,894 INFO 81591 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 21:48:32,897 INFO 81591 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS `speech`;
+2020-07-15 21:48:32,921 INFO 81591 [egg-sequelize](20ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audio_url` VARCHAR(255), `create_at` DATETIME, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-07-15 21:48:32,926 INFO 81591 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`

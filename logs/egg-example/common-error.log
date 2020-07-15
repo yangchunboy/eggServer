@@ -1,114 +1,196 @@
-2019-07-03 18:03:41,006 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 2889978ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-07-14 08:32:02,713 ERROR 60313 nodejs.ClusterClientNoResponseError: client no response in 3214827ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:498:11)
     at tryOnTimeout (timers.js:323:5)
     at Timer.listOnTimeout (timers.js:290:5)
 name: "ClusterClientNoResponseError"
-pid: 46024
-hostname: yangchunboy.local
+pid: 60313
+hostname: yangchunboy
 
-2019-07-03 19:19:48,147 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 1537658ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-07-14 08:52:39,843 ERROR 60313 nodejs.ClusterClientNoResponseError: client no response in 1217116ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:498:11)
     at tryOnTimeout (timers.js:323:5)
     at Timer.listOnTimeout (timers.js:290:5)
 name: "ClusterClientNoResponseError"
-pid: 46024
-hostname: yangchunboy.local
+pid: 60313
+hostname: yangchunboy
 
-2019-07-03 20:21:25,477 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 2497235ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-07-14 09:28:09,406 ERROR 60313 nodejs.ClusterClientNoResponseError: client no response in 2089545ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:498:11)
     at tryOnTimeout (timers.js:323:5)
     at Timer.listOnTimeout (timers.js:290:5)
 name: "ClusterClientNoResponseError"
-pid: 46024
-hostname: yangchunboy.local
+pid: 60313
+hostname: yangchunboy
 
-2019-07-03 23:23:03,066 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 1076198ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-07-14 10:22:22,136 ERROR 60313 nodejs.ClusterClientNoResponseError: client no response in 3212709ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:498:11)
     at tryOnTimeout (timers.js:323:5)
     at Timer.listOnTimeout (timers.js:290:5)
 name: "ClusterClientNoResponseError"
-pid: 46024
-hostname: yangchunboy.local
+pid: 60313
+hostname: yangchunboy
 
-2019-07-03 23:56:48,221 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 2005142ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-07-14 10:42:59,416 ERROR 60313 nodejs.ClusterClientNoResponseError: client no response in 1217254ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:498:11)
     at tryOnTimeout (timers.js:323:5)
     at Timer.listOnTimeout (timers.js:290:5)
 name: "ClusterClientNoResponseError"
-pid: 46024
-hostname: yangchunboy.local
+pid: 60313
+hostname: yangchunboy
 
-2019-07-04 00:12:59,373 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 931133ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-07-14 11:18:28,809 ERROR 60313 nodejs.ClusterClientNoResponseError: client no response in 2089377ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:498:11)
     at tryOnTimeout (timers.js:323:5)
     at Timer.listOnTimeout (timers.js:290:5)
 name: "ClusterClientNoResponseError"
-pid: 46024
-hostname: yangchunboy.local
+pid: 60313
+hostname: yangchunboy
 
-2019-07-04 02:13:58,060 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 7218673ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-07-14 12:12:42,625 ERROR 60313 nodejs.ClusterClientNoResponseError: client no response in 3213792ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:498:11)
     at tryOnTimeout (timers.js:323:5)
     at Timer.listOnTimeout (timers.js:290:5)
 name: "ClusterClientNoResponseError"
-pid: 46024
-hostname: yangchunboy.local
+pid: 60313
+hostname: yangchunboy
 
-2019-07-04 04:14:26,882 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 7208817ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-07-14 12:33:21,608 ERROR 60313 nodejs.ClusterClientNoResponseError: client no response in 1218971ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:498:11)
     at tryOnTimeout (timers.js:323:5)
     at Timer.listOnTimeout (timers.js:290:5)
 name: "ClusterClientNoResponseError"
-pid: 46024
-hostname: yangchunboy.local
+pid: 60313
+hostname: yangchunboy
 
-2019-07-04 06:15:34,164 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 7218477ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-07-14 13:08:49,438 ERROR 60313 nodejs.ClusterClientNoResponseError: client no response in 2087006ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:498:11)
     at tryOnTimeout (timers.js:323:5)
     at Timer.listOnTimeout (timers.js:290:5)
 name: "ClusterClientNoResponseError"
-pid: 46024
-hostname: yangchunboy.local
+pid: 60313
+hostname: yangchunboy
 
-2019-07-04 08:16:32,768 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 7218592ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-07-14 14:03:03,195 ERROR 60313 nodejs.ClusterClientNoResponseError: client no response in 3213742ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:498:11)
     at tryOnTimeout (timers.js:323:5)
     at Timer.listOnTimeout (timers.js:290:5)
 name: "ClusterClientNoResponseError"
-pid: 46024
-hostname: yangchunboy.local
+pid: 60313
+hostname: yangchunboy
 
-2019-07-04 09:01:40,845 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 2708073ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-07-14 14:23:40,100 ERROR 60313 nodejs.ClusterClientNoResponseError: client no response in 1216895ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:498:11)
     at tryOnTimeout (timers.js:323:5)
     at Timer.listOnTimeout (timers.js:290:5)
 name: "ClusterClientNoResponseError"
-pid: 46024
-hostname: yangchunboy.local
+pid: 60313
+hostname: yangchunboy
 
-2019-07-04 09:04:07,484 ERROR 46024 nodejs.ClusterClientNoResponseError: client no response in 106733ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-07-14 14:59:08,855 ERROR 60313 nodejs.ClusterClientNoResponseError: client no response in 2088743ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:498:11)
     at tryOnTimeout (timers.js:323:5)
     at Timer.listOnTimeout (timers.js:290:5)
 name: "ClusterClientNoResponseError"
-pid: 46024
-hostname: yangchunboy.local
+pid: 60313
+hostname: yangchunboy
 
-2019-07-10 14:29:59,335 ERROR 17181 [-/::1/-/6ms GET /api/user/helper] nodejs.TypeError: Cannot read property 'model' of undefined
-    at getDate (/Users/shenyangchun/Documents/github/egg-example/app/extend/helper.js:3:26)
-    at UserController.helper (/Users/shenyangchun/Documents/github/egg-example/app/controller/user.js:27:17)
+2020-07-14 15:53:41,372 ERROR 60313 nodejs.ClusterClientNoResponseError: client no response in 2912384ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 60313
+hostname: yangchunboy
+
+2020-07-14 16:14:36,998 ERROR 60313 nodejs.ClusterClientNoResponseError: client no response in 1216261ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 60313
+hostname: yangchunboy
+
+2020-07-14 16:50:24,280 ERROR 60313 nodejs.ClusterClientNoResponseError: client no response in 1847183ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 60313
+hostname: yangchunboy
+
+2020-07-14 17:44:39,156 ERROR 60313 nodejs.ClusterClientNoResponseError: client no response in 3214865ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 60313
+hostname: yangchunboy
+
+2020-07-14 18:05:15,973 ERROR 60313 nodejs.ClusterClientNoResponseError: client no response in 1216801ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 60313
+hostname: yangchunboy
+
+2020-07-14 18:21:40,970 ERROR 60313 nodejs.ClusterClientNoResponseError: client no response in 944979ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 60313
+hostname: yangchunboy
+
+2020-07-14 18:58:33,667 ERROR 60313 nodejs.ClusterClientNoResponseError: client no response in 2212507ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 60313
+hostname: yangchunboy
+
+2020-07-15 20:23:59,021 ERROR 79565 [-/192.168.43.181/-/27ms POST /api/speech/insert] nodejs.SequelizeValidationError: string violation: sign_photo_url cannot be an array or an object,
+string violation: photo_url cannot be an array or an object,
+string violation: audio_url cannot be an array or an object
+string violation: photo_url cannot be an array or an object,
+string violation: audio_url cannot be an array or an object
+    at Promise.all.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/instance-validator.js:74:15)
+From previous event:
+    at InstanceValidator._validate (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/instance-validator.js:72:8)
+    at runHooks.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/instance-validator.js:107:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at InstanceValidator._validateAndRunHooks (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/instance-validator.js:106:8)
+    at InstanceValidator.validate (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/instance-validator.js:90:38)
+    at model.validate (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:4140:49)
+    at Promise.try (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3905:21)
+From previous event:
+    at model.save (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3902:23)
+    at Function.create (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2230:8)
+    at SpeechService.insert (/Users/shenyangchun/Documents/github/egg-example/app/service/speech.js:15:30)
+    at HomeController.insert (/Users/shenyangchun/Documents/github/egg-example/app/controller/speech.js:16:41)
     at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
     at Object.classControllerMiddleware (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
     at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
@@ -123,13 +205,57 @@ hostname: yangchunboy.local
     at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
     at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
     at i18n (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeValidationError"
+errors: [{"message":"sign_photo_url cannot be an array or an object","type":"string violation","path":"sign_photo_url","value":["1"],"origin":"CORE","instance":{"id":null,"name":"2","phone":"18824920361","group":"专业组","address":"2","email":"2@qq.com","sign_photo_url":["1"],"photo_url":["1"],"audio_url":["1"],"create_at":"2020-07-15T12:23:59.009Z","updatedAt":"2020-07-15T12:23:59.011Z","createdAt":"2020-07-15T12:23:59.011Z"},"validatorKey":"not_a_string","validatorName":null,"validatorArgs":[]},{"message":"photo_url cannot be an array or an object","type":"string violation","path":"photo_url","value":["1"],"origin":"CORE","instance":{"id":null,"name":"2","phone":"18824920361","group":"专业组","address":"2","email":"2@qq.com","sign_photo_url":["1"],"photo_url":["1"],"audio_url":["1"],"create_at":"2020-07-15T12:23:59.009Z","updatedAt":"2020-07-15T12:23:59.011Z","createdAt":"2020-07-15T12:23:59.011Z"},"validatorKey":"not_a_string","validatorName":null,"validatorArgs":[]},{"message":"audio_url cannot be an array or an object","type":"string violation","path":"audio_url","value":["1"],"origin":"CORE","instance":{"id":null,"name":"2","phone":"18824920361","group":"专业组","address":"2","email":"2@qq.com","sign_photo_url":["1"],"photo_url":["1"],"audio_url":["1"],"create_at":"2020-07-15T12:23:59.009Z","updatedAt":"2020-07-15T12:23:59.011Z","createdAt":"2020-07-15T12:23:59.011Z"},"validatorKey":"not_a_string","validatorName":null,"validatorArgs":[]}]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 79565
+hostname: yangchunboy
 
-pid: 17181
-hostname: yangchunboy.local
-
-2019-07-10 15:35:08,662 ERROR 17181 [-/::1/-/5ms GET /api/user/helper] nodejs.TypeError: Cannot read property 'model' of undefined
-    at getDate (/Users/shenyangchun/Documents/github/egg-example/app/extend/helper.js:3:26)
-    at UserController.helper (/Users/shenyangchun/Documents/github/egg-example/app/controller/user.js:27:17)
+2020-07-15 20:25:24,871 ERROR 79565 [-/192.168.43.181/-/24ms POST /api/speech/insert] nodejs.SequelizeDatabaseError: Incorrect string value: '\xE4\xB8\x93\xE4\xB8\x9A...' for column 'group' at row 1
+    at Query.formatError (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Execute.handler [as onResult] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Execute.execute (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:82:25)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+From previous event:
+    at Query.run (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:655:29)
+From previous event:
+    at Promise.try.then.connection (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:655:12)
+From previous event:
+    at Promise.resolve.retry (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:651:10)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/shenyangchun/Documents/github/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:641:30)
+From previous event:
+    at Sequelize.query (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:590:23)
+    at QueryInterface.insert (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/query-interface.js:890:27)
+    at Promise.try.then.then.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3989:52)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at model.save (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3966:8)
+    at Function.create (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2230:8)
+    at SpeechService.insert (/Users/shenyangchun/Documents/github/egg-example/app/service/speech.js:15:30)
+    at HomeController.insert (/Users/shenyangchun/Documents/github/egg-example/app/controller/speech.js:16:41)
     at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
     at Object.classControllerMiddleware (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
     at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
@@ -144,7 +270,306 @@ hostname: yangchunboy.local
     at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
     at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
     at i18n (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlState":"HY000","sqlMessage":"Incorrect string value: '\\xE4\\xB8\\x93\\xE4\\xB8\\x9A...' for column 'group' at row 1","sql":"INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:25:24","2020-07-15 12:25:24","2020-07-15 12:25:24"]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlState":"HY000","sqlMessage":"Incorrect string value: '\\xE4\\xB8\\x93\\xE4\\xB8\\x9A...' for column 'group' at row 1","sql":"INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:25:24","2020-07-15 12:25:24","2020-07-15 12:25:24"]}
+sql: "INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:25:24","2020-07-15 12:25:24","2020-07-15 12:25:24"]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 79565
+hostname: yangchunboy
 
-pid: 17181
-hostname: yangchunboy.local
+2020-07-15 20:38:42,313 ERROR 79909 [-/192.168.43.181/-/35ms POST /api/speech/insert] nodejs.SequelizeDatabaseError: Incorrect string value: '\xE4\xB8\x93\xE4\xB8\x9A...' for column 'group' at row 1
+    at Query.formatError (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Execute.handler [as onResult] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Execute.execute (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:82:25)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+From previous event:
+    at Query.run (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:655:29)
+From previous event:
+    at Promise.try.then.connection (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:655:12)
+From previous event:
+    at Promise.resolve.retry (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:651:10)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/shenyangchun/Documents/github/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:641:30)
+From previous event:
+    at Sequelize.query (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:590:23)
+    at QueryInterface.insert (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/query-interface.js:890:27)
+    at Promise.try.then.then.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3989:52)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at model.save (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3966:8)
+    at Function.create (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2230:8)
+    at SpeechService.insert (/Users/shenyangchun/Documents/github/egg-example/app/service/speech.js:15:30)
+    at HomeController.insert (/Users/shenyangchun/Documents/github/egg-example/app/controller/speech.js:16:41)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlState":"HY000","sqlMessage":"Incorrect string value: '\\xE4\\xB8\\x93\\xE4\\xB8\\x9A...' for column 'group' at row 1","sql":"INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:38:42","2020-07-15 12:38:42","2020-07-15 12:38:42"]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlState":"HY000","sqlMessage":"Incorrect string value: '\\xE4\\xB8\\x93\\xE4\\xB8\\x9A...' for column 'group' at row 1","sql":"INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:38:42","2020-07-15 12:38:42","2020-07-15 12:38:42"]}
+sql: "INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:38:42","2020-07-15 12:38:42","2020-07-15 12:38:42"]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 79909
+hostname: yangchunboy
+
+2020-07-15 20:39:02,197 ERROR 79909 [-/192.168.43.181/-/12ms POST /api/speech/insert] nodejs.SequelizeDatabaseError: Incorrect string value: '\xE4\xB8\x93\xE4\xB8\x9A...' for column 'group' at row 1
+    at Query.formatError (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Execute.handler [as onResult] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Execute.execute (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:82:25)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+From previous event:
+    at Query.run (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:655:29)
+From previous event:
+    at Promise.try.then.connection (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:655:12)
+From previous event:
+    at Promise.resolve.retry (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:651:10)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/shenyangchun/Documents/github/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:641:30)
+From previous event:
+    at Sequelize.query (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:590:23)
+    at QueryInterface.insert (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/query-interface.js:890:27)
+    at Promise.try.then.then.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3989:52)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at model.save (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3966:8)
+    at Function.create (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2230:8)
+    at SpeechService.insert (/Users/shenyangchun/Documents/github/egg-example/app/service/speech.js:15:30)
+    at HomeController.insert (/Users/shenyangchun/Documents/github/egg-example/app/controller/speech.js:16:41)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlState":"HY000","sqlMessage":"Incorrect string value: '\\xE4\\xB8\\x93\\xE4\\xB8\\x9A...' for column 'group' at row 1","sql":"INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:39:02","2020-07-15 12:39:02","2020-07-15 12:39:02"]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlState":"HY000","sqlMessage":"Incorrect string value: '\\xE4\\xB8\\x93\\xE4\\xB8\\x9A...' for column 'group' at row 1","sql":"INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:39:02","2020-07-15 12:39:02","2020-07-15 12:39:02"]}
+sql: "INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:39:02","2020-07-15 12:39:02","2020-07-15 12:39:02"]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 79909
+hostname: yangchunboy
+
+2020-07-15 20:39:56,739 ERROR 79953 [-/192.168.43.181/-/42ms POST /api/speech/insert] nodejs.SequelizeDatabaseError: Incorrect string value: '\xE4\xB8\x93\xE4\xB8\x9A...' for column 'group' at row 1
+    at Query.formatError (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Execute.handler [as onResult] (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Execute.execute (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:82:25)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+From previous event:
+    at Query.run (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:655:29)
+From previous event:
+    at Promise.try.then.connection (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:655:12)
+From previous event:
+    at Promise.resolve.retry (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:651:10)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/shenyangchun/Documents/github/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:641:30)
+From previous event:
+    at Sequelize.query (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:590:23)
+    at QueryInterface.insert (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/query-interface.js:890:27)
+    at Promise.try.then.then.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3989:52)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at model.save (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3966:8)
+    at Function.create (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2230:8)
+    at SpeechService.insert (/Users/shenyangchun/Documents/github/egg-example/app/service/speech.js:15:30)
+    at HomeController.insert (/Users/shenyangchun/Documents/github/egg-example/app/controller/speech.js:16:41)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlState":"HY000","sqlMessage":"Incorrect string value: '\\xE4\\xB8\\x93\\xE4\\xB8\\x9A...' for column 'group' at row 1","sql":"INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:39:56","2020-07-15 12:39:56","2020-07-15 12:39:56"]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlState":"HY000","sqlMessage":"Incorrect string value: '\\xE4\\xB8\\x93\\xE4\\xB8\\x9A...' for column 'group' at row 1","sql":"INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:39:56","2020-07-15 12:39:56","2020-07-15 12:39:56"]}
+sql: "INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 12:39:56","2020-07-15 12:39:56","2020-07-15 12:39:56"]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 79953
+hostname: yangchunboy
+
+2020-07-15 20:49:38,377 ERROR 80059 nodejs.ClusterClientNoResponseError: client no response in 75788ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 80059
+hostname: yangchunboy
+
+2020-07-15 21:00:09,587 ERROR 80059 nodejs.ClusterClientNoResponseError: client no response in 590690ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shenyangchun/Documents/github/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 80059
+hostname: yangchunboy
+
+2020-07-15 21:39:56,777 ERROR 81370 [-/192.168.43.181/-/43ms POST /api/speech/insert] nodejs.SequelizeDatabaseError: Table 'test.speech' doesn't exist
+    at Query.formatError (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at handler (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Prepare.Commands.Prepare [as onResult] (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:604:11)
+    at Prepare.execute (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/shenyangchun/Documents/github/egg-example/node_modules/mysql2/lib/connection.js:82:25)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+From previous event:
+    at Query.run (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at runHooks.then.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:655:29)
+From previous event:
+    at Promise.try.then.connection (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:655:12)
+From previous event:
+    at Promise.resolve.retry (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:651:10)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/shenyangchun/Documents/github/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:641:30)
+From previous event:
+    at Sequelize.query (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:590:23)
+    at QueryInterface.insert (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/query-interface.js:890:27)
+    at Promise.try.then.then.then (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3989:52)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at model.save (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3966:8)
+    at Function.create (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2230:8)
+    at SpeechService.insert (/Users/shenyangchun/Documents/github/egg-example/app/service/speech.js:15:30)
+    at HomeController.insert (/Users/shenyangchun/Documents/github/egg-example/app/controller/speech.js:16:41)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'test.speech' doesn't exist","sql":"INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 13:39:56","2020-07-15 13:39:56","2020-07-15 13:39:56"]}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'test.speech' doesn't exist","sql":"INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 13:39:56","2020-07-15 13:39:56","2020-07-15 13:39:56"]}
+sql: "INSERT INTO `speech` (`id`,`name`,`group`,`phone`,`address`,`email`,`sign_photo_url`,`photo_url`,`audio_url`,`create_at`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["2","专业组","18824920361","2","2@qq.com","1","1","1","2020-07-15 13:39:56","2020-07-15 13:39:56","2020-07-15 13:39:56"]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 81370
+hostname: yangchunboy
 

@@ -24,6 +24,7 @@
   "homepage": "https://github.com/yangchunboy/eggServer#readme",
   "dependencies": {
     "egg": "^2.22.2",
+    "egg-cors": "^2.2.3",
     "egg-scripts": "^2.11.0",
     "egg-sequelize": "^5.2.2",
     "mysql2": "^2.1.0"

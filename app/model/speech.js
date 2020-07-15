@@ -15,7 +15,7 @@ module.exports = (app) => {
       create_at: DATE,
     },
     {
-      modelName: 'speech',
+      tableName: 'speech',
     }
   )
 

@@ -6,7 +6,13 @@
     "host": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
     "port": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
     "username": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
-    "password": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js"
+    "password": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "define": {
+      "charset": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+      "dialectOptions": {
+        "collate": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js"
+      }
+    }
   },
   "security": {
     "csrf": {
@@ -19,7 +25,7 @@
       "bodyName": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
       "queryName": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js"
     },
-    "domainWhiteList": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
+    "domainWhiteList": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
     "protocolWhiteList": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
     "defaultMiddleware": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
     "xframe": {
@@ -59,6 +65,10 @@
       "ipBlackList": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
       "checkAddress": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js"
     }
+  },
+  "cors": {
+    "origin": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "allowMethods": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js"
   },
   "session": {
     "maxAge": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-session/config/config.default.js",
@@ -181,6 +191,7 @@
     "homepage": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
     "dependencies": {
       "egg": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
       "egg-scripts": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
       "egg-sequelize": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
       "mysql2": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
