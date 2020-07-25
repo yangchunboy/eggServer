@@ -11,4 +11,8 @@ module.exports = (app) => {
 
   // speech
   router.post('/api/speech/insert', controller.speech.insert)
+
+  router.get('/api/map/search', controller.speech.search)
+
+  router.post('/api/oss/upload', controller.speech.upload)
 }

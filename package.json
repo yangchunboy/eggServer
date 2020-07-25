@@ -23,8 +23,11 @@
   },
   "homepage": "https://github.com/yangchunboy/eggServer#readme",
   "dependencies": {
+    "ali-oss": "^6.10.0",
+    "axios": "^0.19.2",
     "egg": "^2.22.2",
     "egg-cors": "^2.2.3",
+    "egg-multipart": "^2.10.3",
     "egg-scripts": "^2.11.0",
     "egg-sequelize": "^5.2.2",
     "mysql2": "^2.1.0"

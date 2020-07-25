@@ -70,6 +70,29 @@
     "origin": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
     "allowMethods": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js"
   },
+  "multipart": {
+    "fileSize": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "whitelist": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "mode": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "oss": {
+    "policy": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "signature": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "id": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "secret": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "bucket": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js"
+  },
   "session": {
     "maxAge": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-session/config/config.default.js",
     "key": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-session/config/config.default.js",
@@ -112,22 +135,6 @@
   },
   "schedule": {
     "directory": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-schedule/config/config.default.js"
-  },
-  "multipart": {
-    "mode": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
-    "autoFields": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
-    "fields": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
-    "fileSize": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
-    "files": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
-    "fileExtensions": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
-    "whitelist": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
-    "tmpdir": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
-    "cleanSchedule": {
-      "cron": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js"
-    }
   },
   "development": {
     "watchDirs": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/config/config.default.js",
@@ -190,8 +197,11 @@
     },
     "homepage": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
     "dependencies": {
+      "ali-oss": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "axios": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
       "egg": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
       "egg-cors": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "egg-multipart": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
       "egg-scripts": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
       "egg-sequelize": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
       "mysql2": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"

@@ -108,10 +108,36 @@
       "fieldNameSize": 100,
       "fieldSize": "100kb",
       "fields": 10,
-      "fileSize": "10mb",
+      "fileSize": "1024000mb",
       "files": 10,
       "fileExtensions": [],
-      "whitelist": null,
+      "whitelist": [
+        ".jpg",
+        ".jpeg",
+        ".png",
+        ".gif",
+        ".bmp",
+        ".wbmp",
+        ".webp",
+        ".tif",
+        ".psd",
+        ".svg",
+        ".js",
+        ".jsx",
+        ".json",
+        ".css",
+        ".less",
+        ".html",
+        ".htm",
+        ".xml",
+        ".zip",
+        ".gz",
+        ".tgz",
+        ".gzip",
+        ".mp3",
+        ".mp4",
+        ".avi"
+      ],
       "tmpdir": "/var/folders/n2/cj082z5555g21m86gph9wjd80000gn/T/egg-multipart-tmp/egg-example",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
@@ -199,8 +225,11 @@
       },
       "homepage": "https://github.com/yangchunboy/eggServer#readme",
       "dependencies": {
+        "ali-oss": "^6.10.0",
+        "axios": "^0.19.2",
         "egg": "^2.22.2",
         "egg-cors": "^2.2.3",
+        "egg-multipart": "^2.10.3",
         "egg-scripts": "^2.11.0",
         "egg-sequelize": "^5.2.2",
         "mysql2": "^2.1.0"
@@ -304,6 +333,13 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "oss": {
+      "policy": "",
+      "signature": "",
+      "id": "LTAI4FkfRD2CECWX58vwwZxs",
+      "secret": "<String len: 30>",
+      "bucket": "school-admin"
+    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": [],
     "appMiddleware": "~config~appMiddlewares"
@@ -403,7 +439,7 @@
       "env": [],
       "from": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/plugin.js",
       "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart",
-      "version": "2.7.1"
+      "version": "2.10.3"
     },
     "development": {
       "enable": true,
