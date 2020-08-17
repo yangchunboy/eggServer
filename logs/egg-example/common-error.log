@@ -766,3 +766,30 @@ code: "RequestError"
 pid: 75911
 hostname: yangchunboy.local
 
+2020-08-17 15:36:21,506 ERROR 67691 [-/127.0.0.1/-/24ms POST /post?a=1&b=2] nodejs.ReferenceError: partnerKey is not defined
+    at generateSign (/Users/shenyangchun/Documents/study/eggServer/app/middleware/validateSign.js:19:44)
+    at validateeSign (/Users/shenyangchun/Documents/study/eggServer/app/middleware/validateSign.js:24:18)
+    at dispatch (/Users/shenyangchun/Documents/study/eggServer/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/study/eggServer/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/shenyangchun/Documents/study/eggServer/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/shenyangchun/Documents/study/eggServer/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+    at dispatch (/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at noopen (/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/lib/middlewares/noopen.js:8:11)
+    at dispatch (/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at notAllow (/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/lib/middlewares/methodnoallow.js:21:12)
+    at dispatch (/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shenyangchun/Documents/study/eggServer/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 67691
+hostname: yangchunboy.local
+

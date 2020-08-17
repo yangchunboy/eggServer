@@ -18,6 +18,8 @@ module.exports = {
     // exclude: 'index.js', // ignore `app/${baseDir}/index.js` when load models, support glob and array
     // more sequelize options
   },
+  middleware: [ 'validateSign' ],
+  signSecret: 'testSecret',
   security: {
     csrf: {
       enable: false,
