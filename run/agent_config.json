@@ -236,6 +236,7 @@
         "egg-multipart": "^2.10.3",
         "egg-scripts": "^2.11.0",
         "egg-sequelize": "^5.2.2",
+        "md5": "^2.3.0",
         "mysql2": "^2.1.0"
       },
       "devDependencies": {
@@ -339,6 +340,10 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "middleware": [
+      "validateSign"
+    ],
+    "signSecret": "<String len: 10>",
     "oss": {
       "policy": "",
       "signature": "",
@@ -347,8 +352,8 @@
       "bucket": "school-admin"
     },
     "coreMiddlewares": "~config~coreMiddleware",
-    "appMiddlewares": [],
-    "appMiddleware": "~config~appMiddlewares"
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware"
   },
   "plugins": {
     "session": {

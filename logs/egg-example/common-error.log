@@ -793,3 +793,53 @@ hostname: yangchunboy.local
 pid: 67691
 hostname: yangchunboy.local
 
+2020-08-17 16:02:50,364 ERROR 70102 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL DEFAULT '', `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT N' at line 1
+    at Query.formatError (/Users/shenyangchun/Documents/study/eggServer/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/shenyangchun/Documents/study/eggServer/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/shenyangchun/Documents/study/eggServer/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/shenyangchun/Documents/study/eggServer/node_modules/mysql2/lib/connection.js:417:32)
+    at PacketParser.onPacket (/Users/shenyangchun/Documents/study/eggServer/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/Users/shenyangchun/Documents/study/eggServer/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/shenyangchun/Documents/study/eggServer/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+From previous event:
+    at Query.run (/Users/shenyangchun/Documents/study/eggServer/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at /Users/shenyangchun/Documents/study/eggServer/node_modules/sequelize/lib/sequelize.js:655:29
+From previous event:
+    at /Users/shenyangchun/Documents/study/eggServer/node_modules/sequelize/lib/sequelize.js:655:12
+From previous event:
+    at /Users/shenyangchun/Documents/study/eggServer/node_modules/sequelize/lib/sequelize.js:651:10
+    at /Users/shenyangchun/Documents/study/eggServer/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/shenyangchun/Documents/study/eggServer/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/shenyangchun/Documents/study/eggServer/node_modules/sequelize/lib/sequelize.js:641:30
+From previous event:
+    at Sequelize.query (/Users/shenyangchun/Documents/study/eggServer/node_modules/sequelize/lib/sequelize.js:590:23)
+    at /Users/shenyangchun/Documents/study/eggServer/node_modules/sequelize/lib/query-interface.js:236:46
+From previous event:
+    at QueryInterface.createTable (/Users/shenyangchun/Documents/study/eggServer/node_modules/sequelize/lib/query-interface.js:236:20)
+    at /Users/shenyangchun/Documents/study/eggServer/node_modules/sequelize/lib/model.js:1294:39
+From previous event:
+    at Function.sync (/Users/shenyangchun/Documents/study/eggServer/node_modules/sequelize/lib/model.js:1294:8)
+    at /Users/shenyangchun/Documents/study/eggServer/node_modules/sequelize/lib/sequelize.js:828:50
+From previous event:
+    at /Users/shenyangchun/Documents/study/eggServer/node_modules/sequelize/lib/sequelize.js:828:22
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at Sequelize.sync (/Users/shenyangchun/Documents/study/eggServer/node_modules/sequelize/lib/sequelize.js:812:8)
+    at /Users/shenyangchun/Documents/study/eggServer/app.js:6:21
+    at Object.callFn (/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/shenyangchun/Documents/study/eggServer/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL DEFAULT '', `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT N' at line 1","sql":"CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audioUrl`  NOT NULL DEFAULT '', `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL DEFAULT '', `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT N' at line 1","sql":"CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audioUrl`  NOT NULL DEFAULT '', `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;"}
+sql: "CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audioUrl`  NOT NULL DEFAULT '', `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;"
+parameters: undefined
+pid: 70102
+hostname: yangchunboy.local
+

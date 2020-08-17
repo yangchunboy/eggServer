@@ -1,4 +1,11 @@
-var MD5 = require('md5');
+/**
+ * @author chuck
+ * @date 2020/08/17
+ * 
+ * 用于请求前验证签名
+ */
+
+const MD5 = require('md5');
 
 
 module.exports = (options) => {

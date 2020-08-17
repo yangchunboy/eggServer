@@ -18,10 +18,9 @@ class SpeechService extends Service {
       group,
       address,
       email,
-      sign_photo_url: signPhoto,
-      photo_url: photo,
-      audio_url: audio,
-      create_at: new Date(),
+      signPhotoUrl: signPhoto,
+      photoUrl: photo,
+      audioUrl: audio
     })
     return res
   }

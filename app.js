@@ -1,4 +1,4 @@
-const Oss = require('./app/lib/oss')
+
 
 module.exports = (app) => {
   const { oss } = app.config
