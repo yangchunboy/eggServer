@@ -20,13 +20,15 @@
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
         "enable": false,
-        "useSession": false,
+        "type": "ctoken",
         "ignoreJSON": false,
+        "useSession": false,
         "cookieName": "csrfToken",
         "sessionName": "csrfToken",
         "headerName": "x-csrf-token",
         "bodyName": "_csrf",
-        "queryName": "_csrf"
+        "queryName": "_csrf",
+        "refererWhiteList": []
       },
       "xframe": {
         "enable": true,
@@ -87,27 +89,27 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-session/config/locales",
-        "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/locales",
-        "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-jsonp/config/locales",
-        "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-onerror/config/locales",
-        "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n/config/locales",
-        "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-watcher/config/locales",
-        "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-schedule/config/locales",
-        "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/locales",
-        "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/config/locales",
-        "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-logrotator/config/locales",
-        "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-static/config/locales",
-        "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-view/config/locales",
-        "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize/config/locales",
-        "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-cors/config/locales",
-        "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/locales",
-        "/Users/shenyangchun/Documents/github/egg-example/config/locales"
+        "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-session/config/locales",
+        "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/locales",
+        "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-jsonp/config/locales",
+        "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-onerror/config/locales",
+        "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-i18n/config/locales",
+        "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-watcher/config/locales",
+        "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-schedule/config/locales",
+        "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-multipart/config/locales",
+        "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-development/config/locales",
+        "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-logrotator/config/locales",
+        "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-static/config/locales",
+        "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-view/config/locales",
+        "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-sequelize/config/locales",
+        "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-cors/config/locales",
+        "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/locales",
+        "/Users/shenyangchun/Documents/study/eggServer/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -118,8 +120,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -191,14 +193,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/shenyangchun/Documents/github/egg-example/app/public",
+      "dir": "/Users/shenyangchun/Documents/study/eggServer/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/shenyangchun/Documents/github/egg-example/app/view",
+      "root": "/Users/shenyangchun/Documents/study/eggServer/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -225,7 +227,9 @@
     "env": "local",
     "name": "egg-example",
     "keys": "<String len: 8>",
+    "cookies": {},
     "proxy": false,
+    "maxIpsCount": 0,
     "maxProxyCount": 0,
     "protocolHeaders": "x-forwarded-proto",
     "ipHeaders": "x-forwarded-for",
@@ -268,9 +272,9 @@
         "egg-bin": "^4.13.0"
       }
     },
-    "baseDir": "/Users/shenyangchun/Documents/github/egg-example",
+    "baseDir": "/Users/shenyangchun/Documents/study/eggServer",
     "HOME": "/Users/shenyangchun",
-    "rundir": "/Users/shenyangchun/Documents/github/egg-example/run",
+    "rundir": "/Users/shenyangchun/Documents/study/eggServer/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -290,8 +294,9 @@
     "bodyParser": {
       "enable": true,
       "encoding": "utf8",
-      "formLimit": "100kb",
-      "jsonLimit": "100kb",
+      "formLimit": "1mb",
+      "jsonLimit": "1mb",
+      "textLimit": "1mb",
       "strict": true,
       "queryString": {
         "arrayLimit": 100,
@@ -301,7 +306,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/shenyangchun/Documents/github/egg-example/logs/egg-example",
+      "dir": "/Users/shenyangchun/Documents/study/eggServer/logs/egg-example",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -401,9 +406,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-session",
-      "version": "3.1.0"
+      "from": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-session",
+      "version": "3.2.0"
     },
     "security": {
       "enable": true,
@@ -414,9 +419,9 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security",
-      "version": "2.5.0"
+      "from": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security",
+      "version": "2.8.0"
     },
     "jsonp": {
       "enable": true,
@@ -427,8 +432,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-jsonp",
+      "from": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -440,8 +445,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-onerror",
+      "from": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -451,8 +456,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n",
+      "from": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -462,9 +467,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-watcher",
-      "version": "3.1.0"
+      "from": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-watcher",
+      "version": "3.1.1"
     },
     "schedule": {
       "enable": true,
@@ -473,8 +478,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-schedule",
+      "from": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -486,8 +491,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart",
+      "from": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-multipart",
       "version": "2.10.3"
     },
     "development": {
@@ -501,9 +506,9 @@
       "env": [
         "local"
       ],
-      "from": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development",
-      "version": "2.4.3"
+      "from": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-development",
+      "version": "2.5.0"
     },
     "logrotator": {
       "enable": true,
@@ -514,8 +519,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-logrotator",
+      "from": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -525,8 +530,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-static",
+      "from": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -536,8 +541,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-view",
+      "from": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-view",
       "version": "2.1.2"
     },
     "sequelize": {
@@ -547,8 +552,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/shenyangchun/Documents/github/egg-example/config/plugin.js",
-      "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-sequelize",
+      "from": "/Users/shenyangchun/Documents/study/eggServer/config/plugin.js",
+      "path": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-sequelize",
       "version": "5.2.2"
     },
     "cors": {
@@ -558,8 +563,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/shenyangchun/Documents/github/egg-example/config/plugin.js",
-      "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-cors",
+      "from": "/Users/shenyangchun/Documents/study/eggServer/config/plugin.js",
+      "path": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-cors",
       "version": "2.2.3"
     }
   }

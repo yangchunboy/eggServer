@@ -66,7 +66,7 @@ module.exports = {
   oss: {
     policy: '',
     signature: '',
-    id: 'LTAI4FkfRD2CECWX58vwwZxs',
+    id: 'LTAI4FkfRD2CECWX58vwwZxs', 
     secret: 'zPEgeFA5dusnHkJ8CfBma85X9f14YY',
     bucket: 'school-admin',
   },
