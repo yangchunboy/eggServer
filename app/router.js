@@ -5,15 +5,18 @@
  */
 
 module.exports = (app) => {
-  const { router, controller } = app
-  router.get('/', controller.home.index)
-  router.post('/post', controller.home.post)
-  router.get('/api/a/b', controller.home.index)
+  const { router, controller } = app;
+  const { get, post } = router;
+  const { home, user } = controller;
 
-  // speech
-  router.post('/api/speech/insert', controller.speech.insert)
 
-  router.get('/api/map/search', controller.speech.search)
 
-  router.post('/api/oss/upload', controller.speech.upload)
+  get('/', home.index);
+
+  post('/api/user/insert', user.insert);
+  get('/api/user/find', user.find);
+  get('/api/user/findAll', user.findAll);
+  post('/api/user/update', user.update);
+  post('/api/user/delete', user.delete);
+
 }

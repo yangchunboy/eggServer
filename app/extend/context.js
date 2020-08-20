@@ -6,12 +6,17 @@
 const errorCode = require('../lib/errorCode');
 
 module.exports = {
-  success({ code, data }) {
+  success({ code = 1000, data = "success" }) {
     const ctx = this
+    let success = true;
+    if (code !== 1000) {
+      data = 'fail';
+      success = false;
+    }
     ctx.response.body = {
-      code,
+      code ,
       data,
-      success: true,
+      success,
       message: errorCode[code]
     }
   },

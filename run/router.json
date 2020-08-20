@@ -18,8 +18,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/post",
-    "regexp": "/^\\/post(?:\\/(?=$))?$/",
+    "path": "/api/user/insert",
+    "regexp": "/^\\/api\\/user\\/insert(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -31,20 +31,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/api/a/b",
-    "regexp": "/^\\/api\\/a\\/b(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/api/speech/insert",
-    "regexp": "/^\\/api\\/speech\\/insert(?:\\/(?=$))?$/",
+    "path": "/api/user/find",
+    "regexp": "/^\\/api\\/user\\/find(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -56,8 +44,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/api/map/search",
-    "regexp": "/^\\/api\\/map\\/search(?:\\/(?=$))?$/",
+    "path": "/api/user/findAll",
+    "regexp": "/^\\/api\\/user\\/findAll(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -68,8 +56,20 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/api/oss/upload",
-    "regexp": "/^\\/api\\/oss\\/upload(?:\\/(?=$))?$/",
+    "path": "/api/user/update",
+    "regexp": "/^\\/api\\/user\\/update(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/user/delete",
+    "regexp": "/^\\/api\\/user\\/delete(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

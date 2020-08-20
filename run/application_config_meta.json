@@ -1,310 +1,303 @@
 {
-  "keys": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js",
+  "keys": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
   "sequelize": {
-    "dialect": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js",
-    "database": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js",
-    "host": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js",
-    "port": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js",
-    "username": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js",
-    "password": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js",
+    "dialect": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "database": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "host": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "port": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "username": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "password": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
     "define": {
-      "charset": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js",
+      "charset": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
       "dialectOptions": {
-        "collate": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js"
+        "collate": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js"
       }
     }
   },
-  "middleware": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js",
-  "signSecret": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js",
+  "signSecret": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
   "security": {
     "csrf": {
-      "enable": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js",
-      "headerName": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js",
-      "type": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js",
-      "ignoreJSON": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js",
-      "useSession": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js",
-      "cookieName": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js",
-      "sessionName": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js",
-      "bodyName": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js",
-      "queryName": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js",
-      "refererWhiteList": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+      "headerName": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+      "useSession": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js"
     },
-    "domainWhiteList": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js",
-    "protocolWhiteList": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js",
+    "domainWhiteList": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "protocolWhiteList": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
     "xframe": {
-      "enable": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.local.js",
-      "maxAge": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js",
-      "includeSubdomains": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js"
     },
     "dta": {
-      "enable": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js"
     },
     "methodnoallow": {
-      "enable": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js"
     },
     "noopen": {
-      "enable": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js"
     },
     "nosniff": {
-      "enable": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js"
     },
     "referrerPolicy": {
-      "enable": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js"
     },
     "xssProtection": {
-      "enable": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js"
     },
     "csp": {
-      "enable": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js",
-      "policy": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js",
-      "checkAddress": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js"
+      "ipBlackList": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js"
     }
   },
   "cors": {
-    "origin": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js",
-    "allowMethods": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js"
+    "origin": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "allowMethods": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js"
   },
   "multipart": {
-    "fileSize": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js",
-    "whitelist": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js",
-    "mode": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-multipart/config/config.default.js",
-    "autoFields": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-multipart/config/config.default.js",
-    "fields": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-multipart/config/config.default.js",
-    "files": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-multipart/config/config.default.js",
-    "fileExtensions": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-multipart/config/config.default.js",
-    "tmpdir": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "whitelist": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "mode": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js",
     "cleanSchedule": {
-      "cron": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-multipart/config/config.default.js"
+      "cron": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-multipart/config/config.default.js"
     }
   },
   "oss": {
-    "policy": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js",
-    "signature": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js",
-    "id": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js",
-    "secret": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js",
-    "bucket": "/Users/shenyangchun/Documents/study/eggServer/config/config.default.js"
+    "policy": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "signature": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "id": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "secret": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js",
+    "bucket": "/Users/shenyangchun/Documents/github/egg-example/config/config.default.js"
   },
   "session": {
-    "maxAge": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-session/config/config.default.js",
-    "key": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-session/config/config.default.js"
+    "maxAge": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-session/config/config.default.js"
   },
   "helper": {
-    "shtml": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-security/config/config.default.js"
+    "shtml": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-security/config/config.default.js"
   },
   "jsonp": {
-    "limit": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-jsonp/config/config.default.js",
-    "callback": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-jsonp/config/config.default.js",
-    "csrf": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-jsonp/config/config.default.js"
+    "limit": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-jsonp/config/config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-onerror/config/config.default.js",
-    "appErrorFilter": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-onerror/config/config.default.js",
-    "templatePath": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-onerror/config/config.default.js"
+    "errorPageUrl": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-onerror/config/config.default.js"
   },
   "i18n": {
-    "defaultLocale": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-i18n/config/config.default.js",
-    "dirs": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-i18n/config/config.default.js",
-    "queryField": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-i18n/config/config.default.js",
-    "cookieField": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-i18n/config/config.default.js",
-    "cookieDomain": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-i18n/config/config.default.js",
-    "cookieMaxAge": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-i18n/config/config.default.js"
+    "defaultLocale": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-watcher/config/config.local.js",
+    "type": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-watcher/config/config.local.js",
     "eventSources": {
-      "default": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-watcher/config/config.default.js",
-      "development": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-watcher/config/config.default.js"
+      "default": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-watcher/config/config.default.js"
     }
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-schedule/config/config.default.js",
-      "file": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-schedule/config/config.default.js"
+      "consoleLevel": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-schedule/config/config.default.js"
     }
   },
   "schedule": {
-    "directory": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-schedule/config/config.default.js"
+    "directory": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-schedule/config/config.default.js"
   },
   "development": {
-    "watchDirs": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-development/config/config.default.js",
-    "ignoreDirs": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-development/config/config.default.js",
-    "fastReady": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-development/config/config.default.js",
-    "reloadOnDebug": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-development/config/config.default.js",
-    "overrideDefault": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-development/config/config.default.js"
+    "watchDirs": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-development/config/config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-logrotator/config/config.default.js",
-    "hourDelimiter": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-logrotator/config/config.default.js",
-    "filesRotateBySize": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-logrotator/config/config.default.js",
-    "maxFileSize": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-logrotator/config/config.default.js",
-    "maxFiles": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-logrotator/config/config.default.js",
-    "rotateDuration": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-logrotator/config/config.default.js",
-    "maxDays": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-logrotator/config/config.default.js"
+    "filesRotateByHour": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-logrotator/config/config.default.js"
   },
   "static": {
-    "prefix": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-static/config/config.default.js",
-    "dir": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-static/config/config.default.js",
-    "dynamic": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-static/config/config.default.js",
-    "preload": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-static/config/config.default.js",
-    "buffer": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-static/config/config.default.js",
-    "maxFiles": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-static/config/config.default.js"
+    "prefix": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-static/config/config.default.js"
   },
   "view": {
-    "root": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-view/config/config.local.js",
-    "defaultExtension": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-view/config/config.default.js",
-    "defaultViewEngine": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-view/config/config.default.js",
-    "mapping": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg-view/config/config.default.js"
+    "root": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg-view/config/config.default.js"
   },
-  "env": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-  "name": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-  "cookies": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-  "proxy": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-  "maxIpsCount": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-  "maxProxyCount": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-  "protocolHeaders": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-  "ipHeaders": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-  "hostHeaders": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
+  "env": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+  "name": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
   "pkg": {
-    "name": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "version": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "description": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "main": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
+    "name": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "version": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "description": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "main": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
     "scripts": {
-      "test": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-      "dev": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-      "start": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-      "stop": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js"
+      "test": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "dev": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "start": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "stop": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
     },
     "repository": {
-      "type": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-      "url": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js"
+      "type": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "url": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
     },
-    "keywords": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "author": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "license": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
+    "keywords": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "author": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "license": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
     "bugs": {
-      "url": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js"
+      "url": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
     },
-    "homepage": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
+    "homepage": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
     "dependencies": {
-      "ali-oss": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-      "axios": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-      "egg": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-      "egg-cors": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-      "egg-multipart": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-      "egg-scripts": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-      "egg-sequelize": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-      "md5": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-      "mysql2": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js"
+      "ali-oss": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "axios": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "egg": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "egg-multipart": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "md5": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
-      "egg-bin": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js"
+      "egg-bin": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
     }
   },
-  "baseDir": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-  "HOME": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-  "rundir": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
+  "baseDir": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
   "dump": {
-    "ignore": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js"
+    "ignore": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "notFound": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "sitefile": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "middlewares": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "httpClient": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js"
+    "bodyparser": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
   },
   "notfound": {
-    "pageUrl": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js"
+    "pageUrl": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js"
+    "/favicon.ico": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
   },
   "bodyParser": {
-    "enable": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "formLimit": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "jsonLimit": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "textLimit": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "strict": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
+    "enable": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "strict": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
     "queryString": {
-      "arrayLimit": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-      "depth": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-      "parameterLimit": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js"
-    },
-    "onerror": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js"
+      "arrayLimit": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "depth": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
+    }
   },
   "logger": {
-    "dir": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "env": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "level": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "consoleLevel": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "disableConsoleAfterReady": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "outputJSON": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "buffer": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "appLogName": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "coreLogName": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "agentLogName": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "errorLogName": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
+    "dir": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "env": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "level": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
     "coreLogger": {
-      "consoleLevel": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.local.js"
+      "consoleLevel": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.local.js"
     },
-    "allowDebugAtProd": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js"
+    "allowDebugAtProd": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "dnsCacheLookupInterval": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxLength": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
+    "enableDNSCache": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
     "request": {
-      "timeout": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js"
+      "timeout": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-      "freeSocketTimeout": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js"
+      "keepAlive": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-      "freeSocketTimeout": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js"
+      "keepAlive": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
     }
   },
   "meta": {
-    "enable": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "logging": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js"
+    "enable": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "logging": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
   },
-  "coreMiddleware": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-  "workerStartTimeout": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-  "serverTimeout": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
+  "coreMiddleware": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
   "cluster": {
     "listen": {
-      "path": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-      "port": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-      "hostname": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js"
+      "path": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "port": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js",
-    "responseTimeout": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js"
+    "maxWaitTime": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
   },
-  "onClientError": "/Users/shenyangchun/Documents/study/eggServer/node_modules/egg/config/config.default.js"
+  "onClientError": "/Users/shenyangchun/Documents/github/egg-example/node_modules/egg/config/config.default.js"
 }

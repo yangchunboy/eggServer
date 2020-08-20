@@ -1208,3 +1208,61 @@ hostname: yangchunboy.local
 2020-08-17 16:12:25,763 INFO 71153 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
 2020-08-17 16:12:25,766 INFO 71153 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audioUrl` VARCHAR(255) NOT NULL DEFAULT '', `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 2020-08-17 16:12:25,770 INFO 71153 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-08-20 16:56:30,838 INFO 37760 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 16:56:30,845 INFO 37760 [egg-sequelize](6ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audioUrl` VARCHAR(255) NOT NULL DEFAULT '', `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-08-20 16:56:30,852 INFO 37760 [egg-sequelize](4ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-08-20 17:07:04,876 INFO 37994 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:07:04,883 INFO 37994 [egg-sequelize](5ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audioUrl` VARCHAR(255) NOT NULL DEFAULT '', `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-08-20 17:07:04,887 INFO 37994 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-08-20 17:08:05,515 INFO 38089 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:08:05,529 INFO 38089 [egg-sequelize](13ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audioUrl` VARCHAR(255) NOT NULL DEFAULT '', `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-08-20 17:08:05,534 INFO 38089 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-08-20 17:08:23,813 INFO 38098 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:08:23,815 INFO 38098 [egg-sequelize](3ms) Executed (default): CREATE TABLE IF NOT EXISTS `speech` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `group` VARCHAR(255), `phone` VARCHAR(255), `address` VARCHAR(255), `email` VARCHAR(255), `sign_photo_url` VARCHAR(255), `photo_url` VARCHAR(255), `audioUrl` VARCHAR(255) NOT NULL DEFAULT '', `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-08-20 17:08:23,819 INFO 38098 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `speech` FROM `test`
+2020-08-20 17:11:39,345 INFO 38183 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:11:39,347 INFO 38183 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:11:48,407 INFO 38210 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:11:48,409 INFO 38210 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:12:11,666 INFO 38253 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:12:11,668 INFO 38253 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:12:12,609 INFO 38254 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:12:12,611 INFO 38254 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:14:32,364 INFO 38302 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:14:32,366 INFO 38302 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:14:33,333 INFO 38303 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:14:33,338 INFO 38303 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:14:55,597 INFO 38331 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:14:55,599 INFO 38331 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:14:58,442 INFO 38344 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:14:58,446 INFO 38344 [egg-sequelize](3ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(50), `age` INTEGER, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-08-20 17:14:58,450 INFO 38344 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user` FROM `test`
+2020-08-20 17:14:59,709 INFO 38346 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:14:59,713 INFO 38346 [egg-sequelize](2ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(50), `age` INTEGER, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-08-20 17:14:59,717 INFO 38346 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user` FROM `test`
+2020-08-20 17:17:07,651 INFO 38395 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:17:07,652 INFO 38395 [egg-sequelize](2ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(50), `age` INTEGER, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-08-20 17:17:07,656 INFO 38395 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user` FROM `test`
+2020-08-20 17:17:08,573 INFO 38397 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:17:08,575 INFO 38397 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(50), `age` INTEGER, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-08-20 17:17:08,579 INFO 38397 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user` FROM `test`
+2020-08-20 17:18:05,366 INFO 38425 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:18:05,368 INFO 38425 [egg-sequelize](4ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(50), `age` INTEGER, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-08-20 17:18:05,372 INFO 38425 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user` FROM `test`
+2020-08-20 17:18:06,453 INFO 38427 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:18:06,455 INFO 38427 [egg-sequelize](2ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(50), `age` INTEGER, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-08-20 17:18:06,459 INFO 38427 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user` FROM `test`
+2020-08-20 17:18:10,389 INFO 38427 [egg-sequelize](11ms) Executed (default): SELECT `id`, `name`, `age`, `createdAt`, `updatedAt` FROM `user` AS `User` WHERE `User`.`name` = '张三' LIMIT 1;
+2020-08-20 17:18:25,622 INFO 38454 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:18:25,623 INFO 38454 [egg-sequelize](2ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(50), `age` INTEGER, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-08-20 17:18:25,627 INFO 38454 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user` FROM `test`
+2020-08-20 17:18:26,555 INFO 38455 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:18:26,557 INFO 38455 [egg-sequelize](3ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(50), `age` INTEGER, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-08-20 17:18:26,561 INFO 38455 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user` FROM `test`
+2020-08-20 17:18:31,930 INFO 38465 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:18:31,932 INFO 38465 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(50), `age` INTEGER, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-08-20 17:18:31,935 INFO 38465 [egg-sequelize](1ms) Executed (default): SHOW INDEX FROM `user` FROM `test`
+2020-08-20 17:18:32,912 INFO 38466 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-08-20 17:18:32,914 INFO 38466 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(50), `age` INTEGER, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+2020-08-20 17:18:32,917 INFO 38466 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user` FROM `test`
+2020-08-20 17:18:40,075 INFO 38466 [egg-sequelize](5ms) Executed (default): SELECT `id`, `name`, `age`, `createdAt`, `updatedAt` FROM `user` AS `User` WHERE `User`.`name` = '张三';
